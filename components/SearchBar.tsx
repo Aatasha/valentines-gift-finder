@@ -21,26 +21,19 @@ export function SearchBar() {
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Try: 'something for my boyfriend who loves cooking'"
-          className="w-full rounded-full border-2 border-gray-200 bg-white py-4 pl-5 pr-14 text-gray-900 placeholder-gray-400 shadow-sm transition-all focus:border-rose-400 focus:outline-none focus:ring-2 focus:ring-rose-100"
+          placeholder="Describe who you're shopping for..."
+          className="w-full rounded-lg border border-[var(--gold)]/30 bg-[var(--cream)] py-4 pl-5 pr-14 text-[var(--charcoal)] placeholder-[var(--charcoal-light)] shadow-lg transition-all focus:border-[var(--gold)] focus:outline-none focus:ring-2 focus:ring-[var(--gold)]/20"
         />
         <button
           type="submit"
-          className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-rose-600 p-3 text-white transition-colors hover:bg-rose-700"
+          className="absolute right-2 top-1/2 -translate-y-1/2 rounded-lg bg-[var(--gold)] p-3 text-[var(--burgundy-dark)] transition-colors hover:bg-[var(--gold-light)]"
           aria-label="Search"
         >
-          <svg
-            className="h-5 w-5"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-            />
+          <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none">
+            <circle cx="10" cy="10" r="6" stroke="currentColor" strokeWidth="1.5"/>
+            <circle cx="10" cy="10" r="3" stroke="currentColor" strokeWidth="1" strokeDasharray="2 2"/>
+            <path d="M14.5 14.5 L20 20" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+            <path d="M18 18 C19 17, 21 17, 21 19" stroke="currentColor" strokeWidth="1"/>
           </svg>
         </button>
       </div>

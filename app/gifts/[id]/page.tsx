@@ -40,12 +40,12 @@ export async function generateMetadata({ params }: GiftPageProps): Promise<Metad
   };
 }
 
-// Map vibes to emoji
-const vibeEmoji: Record<string, string> = {
-  romantic: '💕',
-  practical: '🎁',
-  experiential: '🎭',
-  funny: '😄',
+// Map vibes to accent colors
+const vibeColors: Record<string, string> = {
+  romantic: 'bg-[var(--burgundy)]',
+  practical: 'bg-[var(--gold)]',
+  experiential: 'bg-[var(--burgundy-light)]',
+  funny: 'bg-[var(--gold-light)]',
 };
 
 export default async function GiftPage({ params }: GiftPageProps) {
@@ -61,45 +61,50 @@ export default async function GiftPage({ params }: GiftPageProps) {
     .filter((g) => g.id !== gift.id)
     .slice(0, 3);
 
-  const primaryEmoji = vibeEmoji[gift.vibe[0]] || '💝';
+  const accentColor = vibeColors[gift.vibe[0]] || 'bg-[var(--burgundy)]';
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-rose-50 to-white">
+    <div className="min-h-screen bg-[var(--background)]">
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
         <nav className="mb-6 text-sm">
           <ol className="flex items-center space-x-2">
             <li>
-              <Link href="/" className="text-gray-500 hover:text-rose-600">
+              <Link href="/" className="flex items-center gap-2 text-[var(--cream)]/70 hover:text-[var(--gold)]">
+                <svg className="h-3 w-4" viewBox="0 0 16 12" fill="none">
+                  <path d="M14 6 H4 M4 6 C6 4, 6 2, 4 2 M4 6 C6 8, 6 10, 4 10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                </svg>
                 Home
               </Link>
             </li>
-            <li className="text-gray-400">/</li>
-            <li className="text-gray-900 font-medium">{gift.name}</li>
+            <li className="text-[var(--cream)]/50">/</li>
+            <li className="text-[var(--gold)] font-medium line-clamp-1">{gift.name}</li>
           </ol>
         </nav>
 
         {/* Gift Details */}
-        <article className="rounded-2xl bg-white p-8 shadow-sm">
+        <article className="rounded-lg border border-gray-200 bg-white p-8">
           <div className="flex flex-col sm:flex-row gap-8">
-            {/* Image Placeholder */}
+            {/* Accent Color Block with ornate design */}
             <div className="flex-shrink-0">
-              <div className="flex h-48 w-48 items-center justify-center rounded-xl bg-gradient-to-br from-rose-100 to-pink-100">
-                <span className="text-7xl" role="img" aria-hidden="true">
-                  {primaryEmoji}
-                </span>
+              <div className={`h-48 w-48 rounded-lg ${accentColor} flex items-center justify-center relative`}>
+                {/* Ornate inner decoration */}
+                <svg className="h-20 w-20 text-white/30" viewBox="0 0 80 80" fill="none">
+                  <path d="M40 60 C30 50, 15 50, 15 35 C15 20, 25 20, 40 35 C55 20, 65 20, 65 35 C65 50, 50 50, 40 60" stroke="currentColor" strokeWidth="2" fill="none"/>
+                  <circle cx="40" cy="40" r="30" stroke="currentColor" strokeWidth="1" strokeDasharray="4 4"/>
+                </svg>
               </div>
             </div>
 
             {/* Details */}
             <div className="flex-1">
-              <h1 className="text-3xl font-bold text-gray-900">{gift.name}</h1>
+              <h1 className="font-serif text-3xl font-semibold text-[var(--charcoal)]">{gift.name}</h1>
 
-              <p className="mt-4 text-lg text-gray-600">{gift.description}</p>
+              <p className="mt-4 text-lg text-[var(--charcoal-light)]">{gift.description}</p>
 
               {/* Price Badge */}
               <div className="mt-4">
-                <span className="inline-flex items-center rounded-full bg-rose-100 px-4 py-2 text-lg font-semibold text-rose-700">
+                <span className="inline-flex items-center rounded-lg bg-[var(--cream-dark)] px-4 py-2 text-lg font-medium text-[var(--burgundy)]">
                   {getPriceLabel(gift.priceRange)}
                 </span>
               </div>
@@ -109,7 +114,7 @@ export default async function GiftPage({ params }: GiftPageProps) {
                 {gift.vibe.map((v) => (
                   <span
                     key={v}
-                    className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-700 capitalize"
+                    className="rounded-lg bg-[var(--cream-dark)] px-3 py-1 text-sm text-[var(--charcoal-light)] capitalize"
                   >
                     {v}
                   </span>
@@ -117,7 +122,7 @@ export default async function GiftPage({ params }: GiftPageProps) {
                 {gift.recipientType.slice(0, 3).map((r) => (
                   <span
                     key={r}
-                    className="rounded-full bg-blue-50 px-3 py-1 text-sm text-blue-700 capitalize"
+                    className="rounded-lg bg-[var(--burgundy)]/10 px-3 py-1 text-sm text-[var(--burgundy)] capitalize"
                   >
                     For {r}
                   </span>
@@ -126,8 +131,8 @@ export default async function GiftPage({ params }: GiftPageProps) {
 
               {/* Notes */}
               {gift.notes && (
-                <p className="mt-6 text-sm text-gray-500 italic">
-                  💡 {gift.notes}
+                <p className="mt-6 text-sm text-[var(--charcoal-light)] italic border-l-2 border-[var(--gold)] pl-3">
+                  {gift.notes}
                 </p>
               )}
 
@@ -137,12 +142,16 @@ export default async function GiftPage({ params }: GiftPageProps) {
                   href={getAmazonSearchUrl(gift.name)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 rounded-lg bg-[#FF9900] px-6 py-3 text-lg font-semibold text-white transition-colors hover:bg-[#E88B00]"
+                  className="inline-flex items-center gap-2 rounded-lg bg-[var(--burgundy)] px-6 py-3 text-lg font-medium text-white transition-colors hover:bg-[var(--burgundy-dark)]"
                 >
-                  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                  <svg className="h-4 w-4" viewBox="0 0 20 20" fill="none">
+                    <path d="M10 18 C6 14, 2 12, 2 7 C2 3, 5 1, 10 6 C15 1, 18 3, 18 7 C18 12, 14 14, 10 18" stroke="currentColor" strokeWidth="1.5" fill="none"/>
                   </svg>
                   Find on Amazon
+                  <svg className="h-4 w-6" viewBox="0 0 24 16" fill="none">
+                    <path d="M4 8 H16 M16 8 C14 6, 14 4, 16 4 M16 8 C14 10, 14 12, 16 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                    <circle cx="20" cy="8" r="2" stroke="currentColor" strokeWidth="1" fill="none"/>
+                  </svg>
                 </a>
               </div>
             </div>
@@ -152,9 +161,15 @@ export default async function GiftPage({ params }: GiftPageProps) {
         {/* Similar Gifts */}
         {similarGifts.length > 0 && (
           <section className="mt-12">
-            <h2 className="text-xl font-bold text-gray-900 mb-6">
-              Similar Gifts You Might Like
-            </h2>
+            <div className="mb-6 flex items-center gap-3">
+              <svg className="h-4 w-8 text-[var(--gold)]" viewBox="0 0 32 16" fill="none">
+                <path d="M2 8 H28" stroke="currentColor" strokeWidth="1"/>
+                <circle cx="16" cy="8" r="3" stroke="currentColor" strokeWidth="1" fill="none"/>
+              </svg>
+              <h2 className="font-serif text-xl font-semibold text-[var(--cream)]">
+                Similar Gifts You Might Like
+              </h2>
+            </div>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {similarGifts.map((g) => (
                 <BrowseGiftCard key={g.id} gift={g} />
@@ -164,18 +179,32 @@ export default async function GiftPage({ params }: GiftPageProps) {
         )}
 
         {/* Quiz CTA */}
-        <div className="mt-12 rounded-xl bg-rose-100 p-8 text-center">
-          <h2 className="text-xl font-semibold text-gray-900">
+        <div className="mt-12 rounded-lg bg-[var(--cream)] p-8 text-center">
+          <div className="mb-4 flex justify-center">
+            <svg className="h-8 w-16 text-[var(--burgundy)]" viewBox="0 0 64 32" fill="none">
+              <path d="M32 28 C24 20, 12 20, 12 12 C12 4, 20 4, 32 14 C44 4, 52 4, 52 12 C52 20, 40 20, 32 28" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+              <path d="M4 16 C12 16, 16 16, 20 14" stroke="currentColor" strokeWidth="1"/>
+              <path d="M60 16 C52 16, 48 16, 44 14" stroke="currentColor" strokeWidth="1"/>
+            </svg>
+          </div>
+          <h2 className="font-serif text-xl font-semibold text-[var(--burgundy-dark)]">
             Want more personalised suggestions?
           </h2>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-[var(--charcoal-light)]">
             Take our quick quiz to find gifts tailored to your partner
           </p>
           <Link
             href="/quiz"
-            className="mt-4 inline-block rounded-full bg-rose-600 px-8 py-3 font-semibold text-white transition-colors hover:bg-rose-700"
+            className="mt-4 inline-flex items-center gap-2 rounded-lg bg-[var(--burgundy)] px-8 py-3 font-medium text-white transition-colors hover:bg-[var(--burgundy-dark)]"
           >
+            <svg className="h-4 w-4" viewBox="0 0 16 16" fill="none">
+              <path d="M8 14 C5 11, 2 9, 2 5 C2 2, 4 1, 8 5 C12 1, 14 2, 14 5 C14 9, 11 11, 8 14" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+            </svg>
             Take the Quiz
+            <svg className="h-4 w-6" viewBox="0 0 24 16" fill="none">
+              <path d="M4 8 H16 M16 8 C14 6, 14 4, 16 4 M16 8 C14 10, 14 12, 16 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+              <circle cx="20" cy="8" r="2" stroke="currentColor" strokeWidth="1" fill="none"/>
+            </svg>
           </Link>
         </div>
       </div>
