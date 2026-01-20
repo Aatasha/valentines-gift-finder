@@ -1,13 +1,7 @@
 import Link from 'next/link';
 import type { Gift } from '@/lib/types';
 import { getPriceLabel } from '@/lib/gifts';
-
-const AMAZON_AFFILIATE_TAG = 'aanthony08-21';
-
-function getAmazonSearchUrl(productName: string): string {
-  const searchTerm = encodeURIComponent(productName);
-  return `https://www.amazon.co.uk/s?k=${searchTerm}&tag=${AMAZON_AFFILIATE_TAG}`;
-}
+import { getRetailerSearchUrl } from '@/lib/retailers';
 
 interface BrowseGiftCardProps {
   gift: Gift;
@@ -33,6 +27,8 @@ export function BrowseGiftCard({ gift }: BrowseGiftCardProps) {
   const primaryVibe = gift.vibe[0];
   const accentClass = vibeAccents[primaryVibe] || 'border-l-[var(--burgundy)]';
   const bgClass = vibeBackgrounds[primaryVibe] || 'bg-[var(--burgundy)]/10';
+
+  const searchUrl = getRetailerSearchUrl('amazon', gift.name);
 
   return (
     <div className={`group bg-white rounded-lg border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-[var(--gold)] border-l-4 ${accentClass}`}>
@@ -78,7 +74,7 @@ export function BrowseGiftCard({ gift }: BrowseGiftCardProps) {
       {/* Buy on Amazon button */}
       <div className="px-5 pb-5">
         <a
-          href={getAmazonSearchUrl(gift.name)}
+          href={searchUrl || '#'}
           target="_blank"
           rel="noopener noreferrer"
           className="flex w-full items-center justify-center gap-2 rounded bg-[var(--burgundy)] px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[var(--burgundy-dark)]"

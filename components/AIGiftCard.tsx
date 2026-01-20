@@ -1,10 +1,9 @@
 'use client';
 
-const AMAZON_AFFILIATE_TAG = 'aanthony08-21';
+import { getRetailerSearchUrl } from '@/lib/retailers';
 
 function getAmazonSearchUrl(productName: string): string {
-  const searchTerm = encodeURIComponent(productName);
-  return `https://www.amazon.co.uk/s?k=${searchTerm}&tag=${AMAZON_AFFILIATE_TAG}`;
+  return getRetailerSearchUrl('amazon', productName) || '#';
 }
 
 interface AIGiftCardProps {
