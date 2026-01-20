@@ -1,0 +1,254 @@
+{
+  "metadata": {
+    "lastUpdated": "2025-01-18",
+    "totalGifts": 15,
+    "targetGifts": 70
+  },
+  "gifts": [
+    {
+      "id": "1",
+      "name": "Personalised Star Map",
+      "description": "Custom print of the night sky from a special date - first date, anniversary, etc.",
+      "priceRange": "25to50",
+      "recipientType": ["girlfriend", "boyfriend", "wife", "husband", "partner"],
+      "interests": ["romantic", "astrology", "home-decor", "sentimental"],
+      "vibe": ["romantic"],
+      "relationshipStage": ["established", "longterm"],
+      "imageUrl": "",
+      "affiliateLinks": {
+        "noths": "",
+        "etsy": ""
+      },
+      "notes": "Great for meaningful milestones"
+    },
+    {
+      "id": "2",
+      "name": "Kindle Paperwhite",
+      "description": "For the partner who loves reading but hasn't gone digital yet",
+      "priceRange": "over100",
+      "recipientType": ["girlfriend", "boyfriend", "wife", "husband", "partner"],
+      "interests": ["reading", "books", "tech"],
+      "vibe": ["practical"],
+      "relationshipStage": ["established", "longterm"],
+      "imageUrl": "",
+      "affiliateLinks": {
+        "amazon": ""
+      },
+      "notes": "Practical but thoughtful"
+    },
+    {
+      "id": "3",
+      "name": "Spa Day Experience Voucher",
+      "description": "Day spa experience for one or two people",
+      "priceRange": "50to100",
+      "recipientType": ["girlfriend", "wife", "partner"],
+      "interests": ["self-care", "relaxation", "experiences"],
+      "vibe": ["experiential", "romantic"],
+      "relationshipStage": ["established", "longterm"],
+      "imageUrl": "",
+      "affiliateLinks": {
+        "other": ""
+      },
+      "notes": "Check Virgin Experience Days or Buyagift"
+    },
+    {
+      "id": "4",
+      "name": "Personalised Song Lyrics Print",
+      "description": "Your song's lyrics as wall art - first dance, 'our song', etc.",
+      "priceRange": "25to50",
+      "recipientType": ["girlfriend", "boyfriend", "wife", "husband", "partner"],
+      "interests": ["music", "home-decor", "sentimental"],
+      "vibe": ["romantic"],
+      "relationshipStage": ["established", "longterm"],
+      "imageUrl": "",
+      "affiliateLinks": {
+        "etsy": "",
+        "noths": ""
+      },
+      "notes": "Works if they have 'a song'"
+    },
+    {
+      "id": "5",
+      "name": "Weighted Blanket",
+      "description": "Cosy, anxiety-reducing blanket for better sleep",
+      "priceRange": "50to100",
+      "recipientType": ["girlfriend", "boyfriend", "wife", "husband", "partner"],
+      "interests": ["self-care", "sleep", "cosy", "anxiety"],
+      "vibe": ["practical"],
+      "relationshipStage": ["new", "established", "longterm"],
+      "imageUrl": "",
+      "affiliateLinks": {
+        "amazon": ""
+      },
+      "notes": "Surprisingly good gift"
+    },
+    {
+      "id": "6",
+      "name": "Cocktail Making Kit",
+      "description": "Everything needed to make cocktails at home - shaker, jigger, recipes",
+      "priceRange": "25to50",
+      "recipientType": ["girlfriend", "boyfriend", "wife", "husband", "partner"],
+      "interests": ["cocktails", "drinks", "hosting", "cooking"],
+      "vibe": ["experiential", "funny"],
+      "relationshipStage": ["new", "established", "longterm"],
+      "imageUrl": "",
+      "affiliateLinks": {
+        "amazon": ""
+      },
+      "notes": "Good for couples who like going out"
+    },
+    {
+      "id": "7",
+      "name": "Instax Mini Camera",
+      "description": "Instant camera for capturing memories together",
+      "priceRange": "50to100",
+      "recipientType": ["girlfriend", "boyfriend", "partner"],
+      "interests": ["photography", "memories", "creative", "experiences"],
+      "vibe": ["romantic", "experiential"],
+      "relationshipStage": ["new", "established"],
+      "imageUrl": "",
+      "affiliateLinks": {
+        "amazon": ""
+      },
+      "notes": "Great for newer relationships building memories"
+    },
+    {
+      "id": "8",
+      "name": "Luxury Scented Candle (Jo Malone/Diptyque)",
+      "description": "High-end candle that feels indulgent",
+      "priceRange": "50to100",
+      "recipientType": ["girlfriend", "wife", "partner"],
+      "interests": ["home-decor", "self-care", "luxury"],
+      "vibe": ["romantic", "practical"],
+      "relationshipStage": ["new", "established", "longterm"],
+      "imageUrl": "",
+      "affiliateLinks": {
+        "amazon": ""
+      },
+      "notes": "Safe choice, universally liked"
+    },
+    {
+      "id": "9",
+      "name": "Custom Illustration of You Two",
+      "description": "Artist draws a cute illustration of the couple",
+      "priceRange": "25to50",
+      "recipientType": ["girlfriend", "boyfriend", "wife", "husband", "partner"],
+      "interests": ["art", "sentimental", "home-decor"],
+      "vibe": ["romantic", "funny"],
+      "relationshipStage": ["established", "longterm"],
+      "imageUrl": "",
+      "affiliateLinks": {
+        "etsy": ""
+      },
+      "notes": "Can be romantic or funny depending on style"
+    },
+    {
+      "id": "10",
+      "name": "Subscription Box (Book/Wine/Cheese/Coffee)",
+      "description": "Monthly subscription tailored to their interest",
+      "priceRange": "25to50",
+      "recipientType": ["girlfriend", "boyfriend", "wife", "husband", "partner"],
+      "interests": ["reading", "wine", "cheese", "coffee", "food"],
+      "vibe": ["practical", "experiential"],
+      "relationshipStage": ["established", "longterm"],
+      "imageUrl": "",
+      "affiliateLinks": {
+        "other": ""
+      },
+      "notes": "Gift that keeps giving"
+    },
+    {
+      "id": "11",
+      "name": "Love Letter Writing Set",
+      "description": "Beautiful stationery for writing heartfelt letters",
+      "priceRange": "under25",
+      "recipientType": ["girlfriend", "wife", "partner"],
+      "interests": ["writing", "romantic", "sentimental", "stationery"],
+      "vibe": ["romantic"],
+      "relationshipStage": ["new", "established", "longterm"],
+      "imageUrl": "",
+      "affiliateLinks": {
+        "etsy": "",
+        "amazon": ""
+      },
+      "notes": "Pair with actually writing a letter"
+    },
+    {
+      "id": "12",
+      "name": "Funny Couples Card Game",
+      "description": "Games like 'We're Not Really Strangers' or 'Talk Flirt Dare'",
+      "priceRange": "under25",
+      "recipientType": ["girlfriend", "boyfriend", "wife", "husband", "partner"],
+      "interests": ["games", "quality-time", "conversation"],
+      "vibe": ["funny", "experiential"],
+      "relationshipStage": ["new", "established"],
+      "imageUrl": "",
+      "affiliateLinks": {
+        "amazon": ""
+      },
+      "notes": "Great for date nights"
+    },
+    {
+      "id": "13",
+      "name": "Nice Watch",
+      "description": "Classic timepiece - Daniel Wellington, Olivia Burton, Seiko",
+      "priceRange": "over100",
+      "recipientType": ["girlfriend", "boyfriend", "wife", "husband", "partner"],
+      "interests": ["fashion", "accessories", "classic"],
+      "vibe": ["practical", "romantic"],
+      "relationshipStage": ["longterm"],
+      "imageUrl": "",
+      "affiliateLinks": {
+        "amazon": ""
+      },
+      "notes": "Significant gift for serious relationships"
+    },
+    {
+      "id": "14",
+      "name": "Personalised Coordinates Jewellery",
+      "description": "Necklace or bracelet with coordinates of where you met/first date",
+      "priceRange": "25to50",
+      "recipientType": ["girlfriend", "wife", "partner"],
+      "interests": ["jewellery", "sentimental", "romantic"],
+      "vibe": ["romantic"],
+      "relationshipStage": ["established", "longterm"],
+      "imageUrl": "",
+      "affiliateLinks": {
+        "etsy": "",
+        "noths": ""
+      },
+      "notes": "Subtle but meaningful"
+    },
+    {
+      "id": "15",
+      "name": "Massage Gun",
+      "description": "For the gym-goer or someone with desk job tension",
+      "priceRange": "50to100",
+      "recipientType": ["boyfriend", "husband", "partner"],
+      "interests": ["fitness", "gym", "sports", "self-care"],
+      "vibe": ["practical"],
+      "relationshipStage": ["established", "longterm"],
+      "imageUrl": "",
+      "affiliateLinks": {
+        "amazon": ""
+      },
+      "notes": "Practical but shows you pay attention"
+    }
+  ],
+  "interestOptions": [
+    "reading", "books", "cooking", "food", "fitness", "gym", "sports",
+    "music", "art", "photography", "tech", "gaming", "travel", "experiences",
+    "fashion", "accessories", "jewellery", "home-decor", "plants", "gardening",
+    "wine", "cocktails", "coffee", "tea", "cheese", "chocolate",
+    "self-care", "spa", "relaxation", "sleep", "cosy",
+    "writing", "stationery", "sentimental", "romantic", "funny",
+    "quality-time", "games", "outdoors", "nature", "luxury", "classic",
+    "creative", "memories", "hosting", "astrology", "anxiety"
+  ],
+  "budgetTiers": {
+    "under25": "Under £25",
+    "25to50": "£25-50",
+    "50to100": "£50-100",
+    "over100": "£100+"
+  }
+}
