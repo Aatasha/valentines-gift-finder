@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { SearchBar } from '@/components/SearchBar';
 import { CategoryGrid } from '@/components/CategoryGrid';
+import { ValentineCountdown } from '@/components/ValentineCountdown';
 
 export default function Home() {
   return (
@@ -17,6 +18,11 @@ export default function Home() {
               <path d="M60 15 C70 15, 75 25, 90 25 C105 25, 110 15, 115 15" stroke="currentColor" strokeWidth="1.5" fill="none"/>
               <circle cx="60" cy="15" r="3" fill="currentColor"/>
             </svg>
+          </div>
+
+          {/* Countdown badge */}
+          <div className="mb-8 flex justify-center">
+            <ValentineCountdown />
           </div>
 
           {/* Headline */}

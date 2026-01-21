@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { SearchBar } from '@/components/SearchBar';
 import { AIGiftCard } from '@/components/AIGiftCard';
 import { BrowseGiftCard } from '@/components/BrowseGiftCard';
+import { ValentineCountdown } from '@/components/ValentineCountdown';
 import { getAllGifts } from '@/lib/gifts';
 import type { Gift } from '@/lib/types';
 
@@ -111,6 +112,10 @@ export default function SearchPage() {
           <h1 className="font-serif text-3xl font-semibold text-[var(--cream)] mb-4">
             Find the Perfect Gift
           </h1>
+
+          <div className="mb-6">
+            <ValentineCountdown />
+          </div>
 
           <form onSubmit={handleSubmit} className="max-w-xl">
             <div className="relative">

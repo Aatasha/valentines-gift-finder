@@ -3,6 +3,7 @@
 import { useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import { AIGiftCard } from '@/components/AIGiftCard';
+import { ValentineCountdown } from '@/components/ValentineCountdown';
 
 interface QuizAnswer {
   recipient: string;
@@ -213,7 +214,7 @@ const optionIcons: Record<string, ReactNode> = {
     </svg>
   ),
   // Budget
-  under25: (
+  'budget-under25': (
     <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
       <circle cx="12" cy="12" r="8" stroke="currentColor" strokeWidth="1.5"/>
       <path d="M12 6 L12 18 M9 9 L15 9 M9 15 L15 15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
@@ -529,6 +530,9 @@ export default function QuizPage() {
             <p className="mt-2 text-[var(--cream)]/70">
               Based on your answers, here are our top picks
             </p>
+            <div className="mt-4 flex justify-center">
+              <ValentineCountdown />
+            </div>
           </header>
 
           {results.length > 0 ? (
@@ -612,7 +616,9 @@ export default function QuizPage() {
             const isSelected = isMultiple
               ? selectedInterests.includes(option.value)
               : answers[step as keyof QuizAnswer] === option.value;
-            const icon = optionIcons[option.value];
+            // Budget 'under25' needs special key to avoid collision with age 'under25'
+            const iconKey = step === 'budget' && option.value === 'under25' ? 'budget-under25' : option.value;
+            const icon = optionIcons[iconKey];
 
             return (
               <button
