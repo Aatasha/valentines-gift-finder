@@ -7,6 +7,7 @@ import { AIGiftCard } from '@/components/AIGiftCard';
 interface QuizAnswer {
   recipient: string;
   relationship: string;
+  age: string;
   interests: string[];
   budget: string;
   personality: string;
@@ -22,7 +23,7 @@ interface AIGift {
   tags: string[];
 }
 
-type Step = 'recipient' | 'relationship' | 'interests' | 'budget' | 'personality' | 'loading' | 'results';
+type Step = 'recipient' | 'relationship' | 'age' | 'interests' | 'budget' | 'personality' | 'loading' | 'results';
 
 // Ornate icons for each option
 const optionIcons: Record<string, ReactNode> = {
@@ -89,6 +90,50 @@ const optionIcons: Record<string, ReactNode> = {
       <path d="M12 20 C7 15, 2 12, 2 7 C2 3, 6 2, 12 8 C18 2, 22 3, 22 7 C22 12, 17 15, 12 20" stroke="currentColor" strokeWidth="1.5" fill="none"/>
       <path d="M8 8 C9 6, 11 5, 12 5 C13 5, 15 6, 16 8" stroke="currentColor" strokeWidth="1"/>
       <circle cx="12" cy="11" r="1.5" fill="currentColor"/>
+    </svg>
+  ),
+  // Age ranges
+  under25: (
+    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
+      {/* Young person - single candle on cake */}
+      <path d="M6 14 L18 14 L17 20 L7 20 Z" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+      <path d="M8 14 L8 12 C8 10, 16 10, 16 12 L16 14" stroke="currentColor" strokeWidth="1.5"/>
+      <path d="M12 10 L12 7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M12 7 C11 6, 11 5, 12 4 C13 5, 13 6, 12 7" fill="currentColor"/>
+    </svg>
+  ),
+  '26to35': (
+    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
+      {/* Two candles on cake */}
+      <path d="M6 14 L18 14 L17 20 L7 20 Z" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+      <path d="M8 14 L8 12 C8 10, 16 10, 16 12 L16 14" stroke="currentColor" strokeWidth="1.5"/>
+      <path d="M10 10 L10 7 M14 10 L14 7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M10 7 C9 6, 9 5, 10 4 C11 5, 11 6, 10 7" fill="currentColor"/>
+      <path d="M14 7 C13 6, 13 5, 14 4 C15 5, 15 6, 14 7" fill="currentColor"/>
+    </svg>
+  ),
+  '36to50': (
+    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
+      {/* Three candles on cake */}
+      <path d="M6 14 L18 14 L17 20 L7 20 Z" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+      <path d="M8 14 L8 12 C8 10, 16 10, 16 12 L16 14" stroke="currentColor" strokeWidth="1.5"/>
+      <path d="M8 10 L8 7 M12 10 L12 7 M16 10 L16 7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M8 7 C7 6, 7 5, 8 4 C9 5, 9 6, 8 7" fill="currentColor"/>
+      <path d="M12 7 C11 6, 11 5, 12 4 C13 5, 13 6, 12 7" fill="currentColor"/>
+      <path d="M16 7 C15 6, 15 5, 16 4 C17 5, 17 6, 16 7" fill="currentColor"/>
+    </svg>
+  ),
+  over50: (
+    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
+      {/* Many candles - fuller cake */}
+      <path d="M5 14 L19 14 L18 20 L6 20 Z" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+      <path d="M7 14 L7 11 C7 9, 17 9, 17 11 L17 14" stroke="currentColor" strokeWidth="1.5"/>
+      <path d="M9 11 C9 9, 15 9, 15 11" stroke="currentColor" strokeWidth="1"/>
+      <path d="M8 9 L8 6 M10.5 9 L10.5 6 M13.5 9 L13.5 6 M16 9 L16 6" stroke="currentColor" strokeWidth="1" strokeLinecap="round"/>
+      <circle cx="8" cy="5" r="1" fill="currentColor"/>
+      <circle cx="10.5" cy="5" r="1" fill="currentColor"/>
+      <circle cx="13.5" cy="5" r="1" fill="currentColor"/>
+      <circle cx="16" cy="5" r="1" fill="currentColor"/>
     </svg>
   ),
   // Interests
@@ -262,6 +307,16 @@ const questions: Record<Exclude<Step, 'loading' | 'results'>, {
       { value: 'longterm', label: '2+ years' },
     ],
   },
+  age: {
+    title: "How old are they?",
+    subtitle: "Gift preferences often vary by age",
+    options: [
+      { value: 'under25', label: 'Under 25' },
+      { value: '26to35', label: '26-35' },
+      { value: '36to50', label: '36-50' },
+      { value: 'over50', label: '50+' },
+    ],
+  },
   interests: {
     title: "What are they into?",
     subtitle: "Select all that apply",
@@ -303,7 +358,7 @@ const questions: Record<Exclude<Step, 'loading' | 'results'>, {
   },
 };
 
-const stepOrder: Exclude<Step, 'loading' | 'results'>[] = ['recipient', 'relationship', 'interests', 'budget', 'personality'];
+const stepOrder: Exclude<Step, 'loading' | 'results'>[] = ['recipient', 'relationship', 'age', 'interests', 'budget', 'personality'];
 
 export default function QuizPage() {
   const [step, setStep] = useState<Step>('recipient');
@@ -383,6 +438,16 @@ export default function QuizPage() {
       parts.push("we're in a new relationship");
     } else if (a.relationship === 'longterm') {
       parts.push("we've been together for years");
+    }
+
+    if (a.age) {
+      const ageMap: Record<string, string> = {
+        under25: 'in their early 20s',
+        '26to35': 'in their late 20s to mid 30s',
+        '36to50': 'in their late 30s to 40s',
+        over50: 'over 50',
+      };
+      parts.push(`they're ${ageMap[a.age]}`);
     }
 
     if (a.interests?.length > 0) {

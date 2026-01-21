@@ -4,6 +4,7 @@ import { NextRequest, NextResponse } from 'next/server';
 export interface AIGiftSuggestion {
   id: string;
   name: string;
+  searchQuery: string; // Generic version for retailer searches (no brand names)
   description: string;
   priceEstimate: string;
   whyItWorks: string;
@@ -48,20 +49,37 @@ async function searchGiftsWithAI(query: string): Promise<AIGiftSuggestion[]> {
 
 When given a search query, suggest 5-8 specific, purchasable gift ideas. For each gift:
 - Be specific (brand names, product types) not generic
-- Consider UK availability and pricing in GBP
+- Consider UK availability
 - Mix price ranges unless budget is specified
-- Include both physical products and experiences
+- Include both physical products and experience vouchers
+
+For priceEstimate, use ONLY one of these exact tiers (no specific amounts):
+- "Under £25"
+- "£25-50"
+- "£50-100"
+- "£100+"
+
+IMPORTANT tag rules:
+- "experience" = ONLY for experience vouchers/gift cards (spa days, driving experiences, cooking classes you BOOK). NOT for physical products.
+- "personalised" = custom/engraved items, made-to-order gifts
+- "practical" = useful everyday items
+- "romantic" = sentimental, relationship-focused
+- "tech" = electronics, gadgets
+- "luxury" = high-end, premium items
+- "handmade" = artisan, crafted items
+- "budget-friendly" = affordable options
 
 Respond in JSON format only, no other text:
 {
   "gifts": [
     {
-      "name": "Product name",
+      "name": "Specific product name (can include brand)",
+      "searchQuery": "Generic search term WITHOUT brand names (e.g. 'instant film camera' not 'Fujifilm Instax')",
       "description": "One sentence description",
-      "priceEstimate": "£XX-XX or Under £XX",
+      "priceEstimate": "Under £25" or "£25-50" or "£50-100" or "£100+",
       "whyItWorks": "Why this matches the query",
       "whereToBuy": ["Amazon UK", "John Lewis", etc],
-      "tags": ["romantic", "practical", "experience", "luxury", "budget-friendly"]
+      "tags": ["romantic", "practical", "experience", "luxury", "budget-friendly", "personalised", "tech", "handmade"]
     }
   ]
 }`;

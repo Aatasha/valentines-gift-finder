@@ -1,15 +1,12 @@
 'use client';
 
-import { getRetailerSearchUrl } from '@/lib/retailers';
-
-function getAmazonSearchUrl(productName: string): string {
-  return getRetailerSearchUrl('amazon', productName) || '#';
-}
+import { getRetailerSearchUrl, getBestRetailerForGift, RETAILER_NAMES, type RetailerKey } from '@/lib/retailers';
 
 interface AIGiftCardProps {
   gift: {
     id: string;
     name: string;
+    searchQuery?: string; // Generic search term (no brands)
     description: string;
     priceEstimate: string;
     whyItWorks: string;
@@ -40,6 +37,17 @@ export function AIGiftCard({ gift }: AIGiftCardProps) {
   const primaryTag = gift.tags[0] || 'romantic';
   const accentClass = tagAccents[primaryTag] || 'border-l-[var(--burgundy)]';
   const bgClass = tagBackgrounds[primaryTag] || 'bg-[var(--burgundy)]/10';
+
+  // Determine best retailer based on gift tags
+  const bestRetailer = getBestRetailerForGift(gift.tags);
+  // Use searchQuery for URLs (generic, no brands), fall back to name if not provided
+  const searchTerm = gift.searchQuery || gift.name;
+  const primaryUrl = getRetailerSearchUrl(bestRetailer, searchTerm) || '#';
+  const primaryRetailerName = RETAILER_NAMES[bestRetailer];
+
+  // Amazon as fallback (only show if not already the primary)
+  const showFallback = bestRetailer !== 'amazon';
+  const fallbackUrl = showFallback ? getRetailerSearchUrl('amazon', searchTerm) : null;
 
   return (
     <div className={`group bg-white rounded-lg border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-[var(--gold)] border-l-4 ${accentClass}`}>
@@ -101,10 +109,10 @@ export function AIGiftCard({ gift }: AIGiftCardProps) {
         </div>
       </div>
 
-      {/* Buy on Amazon button */}
-      <div className="px-5 pb-5">
+      {/* Primary buy button */}
+      <div className="px-5 pb-5 space-y-2">
         <a
-          href={getAmazonSearchUrl(gift.name)}
+          href={primaryUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="flex w-full items-center justify-center gap-2 rounded bg-[var(--burgundy)] px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[var(--burgundy-dark)]"
@@ -112,12 +120,24 @@ export function AIGiftCard({ gift }: AIGiftCardProps) {
           <svg className="h-4 w-4" viewBox="0 0 20 20" fill="none">
             <path d="M10 18 C6 14, 2 12, 2 7 C2 3, 5 1, 10 6 C15 1, 18 3, 18 7 C18 12, 14 14, 10 18" stroke="currentColor" strokeWidth="1.5" fill="none"/>
           </svg>
-          Find on Amazon
+          Find on {primaryRetailerName}
           <svg className="h-4 w-6" viewBox="0 0 24 16" fill="none">
             <path d="M4 8 H16 M16 8 C14 6, 14 4, 16 4 M16 8 C14 10, 14 12, 16 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
             <circle cx="20" cy="8" r="2" stroke="currentColor" strokeWidth="1" fill="none"/>
           </svg>
         </a>
+
+        {/* Fallback link to Amazon */}
+        {showFallback && fallbackUrl && (
+          <a
+            href={fallbackUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full text-center text-xs text-[var(--charcoal-light)] hover:text-[var(--burgundy)] transition-colors"
+          >
+            See more options on Amazon →
+          </a>
+        )}
       </div>
     </div>
   );
