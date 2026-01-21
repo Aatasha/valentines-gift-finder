@@ -7,6 +7,7 @@ import { AIGiftCard } from '@/components/AIGiftCard';
 import { BrowseGiftCard } from '@/components/BrowseGiftCard';
 import { ValentineCountdown } from '@/components/ValentineCountdown';
 import { getAllGifts } from '@/lib/gifts';
+import { trackSearch } from '@/lib/analytics';
 import type { Gift } from '@/lib/types';
 
 interface AIGift {
@@ -55,6 +56,7 @@ export default function SearchPage() {
     setCuratedResults(localResults);
 
     // Then fetch AI suggestions
+    let aiSuggestions: AIGift[] = [];
     try {
       const response = await fetch('/api/search', {
         method: 'POST',
@@ -64,12 +66,15 @@ export default function SearchPage() {
 
       if (response.ok) {
         const data = await response.json();
-        setAiResults(data.suggestions || []);
+        aiSuggestions = data.suggestions || [];
+        setAiResults(aiSuggestions);
       }
     } catch (error) {
       console.error('AI search failed:', error);
     } finally {
       setLoading(false);
+      // Track search after results are loaded
+      trackSearch(searchQuery, localResults.length + aiSuggestions.length);
     }
   };
 

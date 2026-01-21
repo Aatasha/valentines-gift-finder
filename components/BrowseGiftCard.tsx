@@ -1,8 +1,11 @@
+'use client';
+
 import { type ReactNode } from 'react';
 import Link from 'next/link';
 import type { Gift } from '@/lib/types';
 import { getPriceLabel } from '@/lib/gifts';
 import { getRetailerSearchUrl } from '@/lib/retailers';
+import { trackAffiliateClick } from '@/lib/analytics';
 
 interface BrowseGiftCardProps {
   gift: Gift;
@@ -148,6 +151,11 @@ export function BrowseGiftCard({ gift }: BrowseGiftCardProps) {
           href={searchUrl || '#'}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => trackAffiliateClick({
+            retailer: 'Amazon',
+            giftName: gift.name,
+            source: 'browse',
+          })}
           className="flex w-full items-center justify-center gap-2 rounded bg-[var(--burgundy)] px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[var(--burgundy-dark)]"
         >
           Shop on Amazon

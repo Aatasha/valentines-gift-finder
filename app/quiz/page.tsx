@@ -4,6 +4,7 @@ import { useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import { AIGiftCard } from '@/components/AIGiftCard';
 import { ValentineCountdown } from '@/components/ValentineCountdown';
+import { trackQuizComplete } from '@/lib/analytics';
 
 interface QuizAnswer {
   recipient: string;
@@ -411,6 +412,7 @@ export default function QuizPage() {
 
     // Build search query from answers
     const query = buildSearchQuery(finalAnswers);
+    let suggestions: AIGift[] = [];
 
     try {
       const response = await fetch('/api/search', {
@@ -421,11 +423,20 @@ export default function QuizPage() {
 
       if (response.ok) {
         const data = await response.json();
-        setResults(data.suggestions || []);
+        suggestions = data.suggestions || [];
+        setResults(suggestions);
       }
     } catch (error) {
       console.error('Quiz search failed:', error);
     }
+
+    // Track quiz completion
+    trackQuizComplete({
+      recipient: finalAnswers.recipient,
+      budget: finalAnswers.budget,
+      personality: finalAnswers.personality,
+      resultsCount: suggestions.length,
+    });
 
     setStep('results');
   };

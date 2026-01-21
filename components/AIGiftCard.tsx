@@ -2,6 +2,7 @@
 
 import { type ReactNode } from 'react';
 import { getRetailerSearchUrl, getBestRetailerForGift, RETAILER_NAMES, type RetailerKey } from '@/lib/retailers';
+import { trackAffiliateClick } from '@/lib/analytics';
 
 interface AIGiftCardProps {
   gift: {
@@ -256,6 +257,11 @@ export function AIGiftCard({ gift }: AIGiftCardProps) {
           href={primaryUrl}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => trackAffiliateClick({
+            retailer: primaryRetailerName,
+            giftName: gift.name,
+            source: 'quiz',
+          })}
           className="flex w-full items-center justify-center gap-2 rounded bg-[var(--burgundy)] px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[var(--burgundy-dark)]"
         >
           Shop on {primaryRetailerName}
@@ -270,6 +276,11 @@ export function AIGiftCard({ gift }: AIGiftCardProps) {
             href={fallbackUrl}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackAffiliateClick({
+              retailer: 'Amazon',
+              giftName: gift.name,
+              source: 'quiz',
+            })}
             className="block w-full text-center text-xs text-[var(--charcoal-light)] hover:text-[var(--burgundy)] transition-colors"
           >
             See more options on Amazon →
