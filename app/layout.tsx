@@ -35,6 +35,9 @@ export const metadata: Metadata = {
       "Discover thoughtful Valentine's gifts curated for every personality, budget, and relationship.",
     type: "website",
   },
+  other: {
+    "impact-site-verification": "e286691d-26ff-4215-acc6-b8e2337cb7eb",
+  },
 };
 
 export default function RootLayout({
