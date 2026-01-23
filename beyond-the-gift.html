@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beyond the Gift - Valentine's Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --burgundy: #722F37;
+      --burgundy-light: #8B3A44;
+      --gold: #D4AF37;
+      --gold-light: #E4C567;
+      --cream: #FDF8F3;
+      --cream-dark: #F5EDE3;
+      --charcoal: #333333;
+      --charcoal-light: #555555;
+    }
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    html, body {
+      font-family: 'Lato', sans-serif;
+      font-size: 10pt;
+      line-height: 1.5;
+      color: var(--charcoal);
+      background: var(--cream);
+    }
+
+    .page {
+      width: 210mm;
+      height: 297mm;
+      padding: 18mm 22mm;
+      background: var(--cream);
+      position: relative;
+      page-break-after: always;
+      page-break-inside: avoid;
+      overflow: hidden;
+    }
+
+    .page:last-child {
+      page-break-after: auto;
+    }
+
+    /* Decorative elements */
+    .flourish {
+      text-align: center;
+      color: var(--gold);
+      font-size: 22px;
+      letter-spacing: 8px;
+      margin: 12px 0;
+    }
+
+    .flourish-small {
+      text-align: center;
+      color: var(--gold);
+      font-size: 14px;
+      letter-spacing: 6px;
+      margin: 8px 0;
+    }
+
+    .divider {
+      width: 60%;
+      max-width: 180px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      margin: 16px auto;
+    }
+
+    .divider-short {
+      width: 60px;
+      height: 1px;
+      background: var(--gold);
+      margin: 10px auto;
+    }
+
+    /* Typography */
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+      color: var(--burgundy);
+      font-weight: 500;
+    }
+
+    h1 {
+      font-size: 44pt;
+      letter-spacing: 2px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-size: 20pt;
+      margin-bottom: 6px;
+      letter-spacing: 1px;
+    }
+
+    h3 {
+      font-size: 12pt;
+      margin-bottom: 5px;
+      color: var(--burgundy);
+    }
+
+    h4 {
+      font-size: 10pt;
+      font-weight: 600;
+      margin-bottom: 3px;
+      color: var(--charcoal);
+    }
+
+    p {
+      margin-bottom: 6px;
+      color: var(--charcoal);
+    }
+
+    .subtitle {
+      font-family: 'Lato', sans-serif;
+      font-size: 11pt;
+      font-weight: 300;
+      color: var(--charcoal-light);
+      letter-spacing: 0.5px;
+      line-height: 1.7;
+    }
+
+    .tagline {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 13pt;
+      color: var(--burgundy-light);
+      margin-top: 25px;
+    }
+
+    .intro-text {
+      font-size: 10pt;
+      font-style: italic;
+      color: var(--charcoal-light);
+      margin-bottom: 14px;
+      text-align: center;
+      max-width: 420px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Cover page */
+    .cover {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 297mm;
+      padding: 35mm 28mm;
+      background: linear-gradient(180deg, var(--cream) 0%, var(--cream-dark) 100%);
+    }
+
+    .cover::before {
+      content: '';
+      position: absolute;
+      top: 28mm;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 100px;
+      background: radial-gradient(circle, var(--gold-light) 0%, transparent 70%);
+      opacity: 0.25;
+    }
+
+    .cover h1 {
+      margin-bottom: 12px;
+    }
+
+    .corner-decoration {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      opacity: 0.12;
+    }
+
+    .corner-tl { top: 12mm; left: 12mm; border-top: 2px solid var(--gold); border-left: 2px solid var(--gold); }
+    .corner-tr { top: 12mm; right: 12mm; border-top: 2px solid var(--gold); border-right: 2px solid var(--gold); }
+    .corner-bl { bottom: 12mm; left: 12mm; border-bottom: 2px solid var(--gold); border-left: 2px solid var(--gold); }
+    .corner-br { bottom: 12mm; right: 12mm; border-bottom: 2px solid var(--gold); border-right: 2px solid var(--gold); }
+
+    /* Budget sections */
+    .budget-section {
+      margin-bottom: 12px;
+    }
+
+    .budget-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid var(--cream-dark);
+    }
+
+    .budget-icon {
+      font-size: 15px;
+    }
+
+    .budget-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 11pt;
+      color: var(--burgundy);
+      font-weight: 600;
+    }
+
+    .budget-range {
+      font-family: 'Lato', sans-serif;
+      font-size: 8pt;
+      color: var(--charcoal-light);
+      font-weight: 300;
+    }
+
+    .date-idea {
+      margin-bottom: 8px;
+      padding-left: 10px;
+      border-left: 2px solid var(--gold-light);
+    }
+
+    .date-idea h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 9.5pt;
+      color: var(--burgundy);
+      margin-bottom: 2px;
+    }
+
+    .date-idea p {
+      font-size: 8.5pt;
+      line-height: 1.45;
+      margin-bottom: 2px;
+    }
+
+    .quick-tip {
+      font-size: 7.5pt;
+      color: var(--charcoal-light);
+      font-style: italic;
+      padding-left: 12px;
+      position: relative;
+    }
+
+    .quick-tip::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 6px;
+      height: 6px;
+      background: var(--gold);
+      border-radius: 50%;
+      opacity: 0.6;
+    }
+
+    /* Wrapping page */
+    .section-block {
+      margin-bottom: 16px;
+    }
+
+    .tips-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px 18px;
+    }
+
+    .tip-item {
+      padding: 10px 12px;
+      background: white;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(114, 47, 55, 0.05);
+    }
+
+    .tip-item h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 9.5pt;
+      color: var(--burgundy);
+      margin-bottom: 4px;
+    }
+
+    .tip-item p {
+      font-size: 8pt;
+      line-height: 1.45;
+      margin-bottom: 0;
+    }
+
+    .tip-full {
+      grid-column: span 2;
+    }
+
+    /* CTA page */
+    .cta-page {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 297mm;
+      padding: 45mm 32mm;
+      background: linear-gradient(180deg, var(--cream) 0%, var(--cream-dark) 50%, var(--cream) 100%);
+    }
+
+    .cta-content {
+      max-width: 360px;
+    }
+
+    .cta-page h2 {
+      font-size: 26pt;
+      margin-bottom: 16px;
+    }
+
+    .cta-text {
+      font-size: 11pt;
+      line-height: 1.7;
+      margin-bottom: 22px;
+      color: var(--charcoal-light);
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: var(--burgundy);
+      color: white;
+      font-family: 'Lato', sans-serif;
+      font-size: 10pt;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 16px 40px;
+      border-radius: 4px;
+      text-decoration: none;
+      margin-bottom: 12px;
+      box-shadow: 0 4px 12px rgba(114, 47, 55, 0.2);
+    }
+
+    .cta-url {
+      font-size: 9pt;
+      color: var(--burgundy);
+      font-weight: 400;
+    }
+
+    .cta-footer {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--gold-light);
+    }
+
+    .cta-footer p {
+      font-size: 8pt;
+      color: var(--charcoal-light);
+      font-style: italic;
+      margin-bottom: 4px;
+    }
+
+    /* Footer */
+    .page-footer {
+      position: absolute;
+      bottom: 10mm;
+      left: 22mm;
+      right: 22mm;
+      text-align: center;
+      font-size: 7.5pt;
+      color: var(--charcoal-light);
+      opacity: 0.7;
+    }
+
+    .page-number {
+      font-family: 'Playfair Display', serif;
+      color: var(--burgundy);
+      font-size: 8pt;
+    }
+
+    /* Heart decoration */
+    .heart-decoration {
+      position: absolute;
+      color: var(--gold);
+      opacity: 0.08;
+      font-size: 120px;
+    }
+
+    .heart-right {
+      right: -25px;
+      bottom: 80px;
+    }
+
+    .heart-left {
+      left: -25px;
+      top: 80px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- PAGE 1: COVER -->
+  <div class="page cover">
+    <div class="corner-decoration corner-tl"></div>
+    <div class="corner-decoration corner-tr"></div>
+    <div class="corner-decoration corner-bl"></div>
+    <div class="corner-decoration corner-br"></div>
+
+    <div class="flourish">&#10045;</div>
+
+    <h1>Beyond the Gift</h1>
+
+    <div class="divider"></div>
+
+    <p class="subtitle">
+      Date ideas, presentation tips, and the little touches<br>
+      that make Valentine's Day truly special
+    </p>
+
+    <div class="divider"></div>
+
+    <p class="tagline">The best gifts are experienced, not opened.</p>
+
+    <div class="flourish" style="margin-top: 35px;">&#10084;</div>
+  </div>
+
+  <!-- PAGE 2: DATE IDEAS -->
+  <div class="page">
+    <div class="heart-decoration heart-right">&#9825;</div>
+
+    <h2 style="text-align: center;">Romantic Dates for Every Budget</h2>
+    <div class="divider-short"></div>
+    <p class="intro-text">
+      The gift matters. The experience matters more. Here are our favourite ways to make February 14th memorable, no matter what you spend.
+    </p>
+
+    <!-- Budget-Friendly -->
+    <div class="budget-section">
+      <div class="budget-header">
+        <span class="budget-icon">&#128176;</span>
+        <span class="budget-title">Budget-Friendly</span>
+        <span class="budget-range">&mdash; Under &pound;30</span>
+      </div>
+
+      <div class="date-idea">
+        <h4>Sunset Picnic in Your Living Room</h4>
+        <p>Clear the coffee table. Lay out a blanket. Fill it with their favourite snacks and light a few candles. Put on a playlist you made for them. The most romantic moments often happen when you stop trying so hard.</p>
+        <p class="quick-tip">Prepare everything while they're in another room so it's a surprise when they walk in.</p>
+      </div>
+
+      <div class="date-idea">
+        <h4>Memory Lane Movie Night</h4>
+        <p>Dig out photos and videos from your relationship. First trips, silly moments, that terrible haircut phase. Watch them together with popcorn and running commentary. Free, but priceless.</p>
+        <p class="quick-tip">Create a simple slideshow if you want to feel fancy. Canva makes it easy.</p>
+      </div>
+
+      <div class="date-idea">
+        <h4>Cook Their Favourite Meal Together</h4>
+        <p>Not <em>for</em> them. <em>With</em> them. Pick a recipe that feels slightly ambitious. Pour wine. Embrace the chaos. The burnt bits become the story you'll laugh about for years.</p>
+        <p class="quick-tip">Prep ingredients beforehand so you're not frantically chopping while the pasta boils over.</p>
+      </div>
+    </div>
+
+    <!-- Mid-Range -->
+    <div class="budget-section">
+      <div class="budget-header">
+        <span class="budget-icon">&#128142;</span>
+        <span class="budget-title">Mid-Range</span>
+        <span class="budget-range">&mdash; &pound;30&ndash;&pound;100</span>
+      </div>
+
+      <div class="date-idea">
+        <h4>Surprise Day Trip</h4>
+        <p>Pick somewhere within an hour's drive that you've never explored together. A coastal town with a fish and chip shop. A village with a good pub. Pack the car without telling them where you're going.</p>
+        <p class="quick-tip">Check opening times and book any reservations secretly in advance.</p>
+      </div>
+
+      <div class="date-idea">
+        <h4>At-Home Spa Evening</h4>
+        <p>Transform your bathroom into a retreat. Face masks, bath bombs, fluffy robes, soft music. Take turns giving massages. Order fancy takeaway so neither of you has to cook.</p>
+        <p class="quick-tip">Warm the towels in the dryer right before you need them. Trust us.</p>
+      </div>
+
+      <div class="date-idea">
+        <h4>Private Stargazing</h4>
+        <p>Find a dark spot away from city lights. A hill, a beach, a quiet field. Bring blankets, hot chocolate in a flask, and a stargazing app on your phone.</p>
+        <p class="quick-tip">Check the weather obsessively. Have a backup plan involving blankets and a window.</p>
+      </div>
+    </div>
+
+    <!-- Splurge -->
+    <div class="budget-section">
+      <div class="budget-header">
+        <span class="budget-icon">&#10024;</span>
+        <span class="budget-title">Splurge</span>
+        <span class="budget-range">&mdash; &pound;100+</span>
+      </div>
+
+      <div class="date-idea">
+        <h4>Overnight Stay Somewhere New</h4>
+        <p>Book a boutique hotel or cosy Airbnb within driving distance. Somewhere with a good restaurant nearby, a fireplace, maybe a bathtub for two. A change of scenery does something magical.</p>
+        <p class="quick-tip">Tell them to pack a bag but keep the destination secret until you arrive.</p>
+      </div>
+
+      <div class="date-idea">
+        <h4>Experience Something You've Never Done</h4>
+        <p>A cooking class. Pottery workshop. Wine tasting. Tandem skydive if you're feeling bold. Shared new experiences create stronger memories than yet another dinner out.</p>
+        <p class="quick-tip">Choose something they've mentioned wanting to try, even in passing.</p>
+      </div>
+
+      <div class="date-idea">
+        <h4>Private Dining Experience</h4>
+        <p>Some restaurants offer private chef experiences or intimate tasting menus. Courses designed around your preferences. No rushing. Someone else doing the washing up.</p>
+        <p class="quick-tip">Book well in advance. Valentine's tables disappear fast.</p>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      More gift ideas at <strong>valentines-gift-finder.vercel.app</strong>
+      <span style="margin-left: 15px;" class="page-number">2</span>
+    </div>
+  </div>
+
+  <!-- PAGE 3: WRAPPING & PRESENTATION -->
+  <div class="page">
+    <div class="heart-decoration heart-left">&#9825;</div>
+
+    <h2 style="text-align: center;">The Art of Giving</h2>
+    <div class="divider-short"></div>
+    <p class="intro-text">
+      A thoughtfully presented gift shows you care before they've even opened it. Here's how to make your wrapping look beautiful without needing a craft degree.
+    </p>
+
+    <div class="section-block">
+      <h3 style="margin-bottom: 12px;">Quick Visual Upgrades</h3>
+      <div class="tips-grid">
+        <div class="tip-item">
+          <h4>Ditch the Shiny Paper</h4>
+          <p>Kraft paper (brown parcel paper) looks more expensive than it costs. Pair it with ribbon, twine, or a sprig of dried eucalyptus. Suddenly you're Pinterest-worthy.</p>
+        </div>
+        <div class="tip-item">
+          <h4>The Ribbon Trick</h4>
+          <p>Skip the bow. Try a simple knot with long trailing ends. Curl them with scissors for an effortless, elegant look.</p>
+        </div>
+        <div class="tip-item">
+          <h4>Handwritten Notes Win</h4>
+          <p>A small card or tag with a genuine message beats any printed greeting. Even something as simple as "I love you because..." followed by something specific.</p>
+        </div>
+        <div class="tip-item">
+          <h4>Layer Your Textures</h4>
+          <p>Tissue paper inside. Structured paper outside. Add a wax seal if you're feeling extra. Multiple textures make even small gifts feel substantial.</p>
+        </div>
+        <div class="tip-item tip-full">
+          <h4>Fresh Greenery</h4>
+          <p>Tuck a small sprig of rosemary, eucalyptus, or a single flower stem under the ribbon. It adds scent and visual interest. Embrace the rustic look.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flourish-small" style="margin: 18px 0;">&#10045; &#10045; &#10045;</div>
+
+    <div class="section-block">
+      <h3 style="margin-bottom: 12px;">Creating the Unboxing Experience</h3>
+      <div class="tips-grid">
+        <div class="tip-item">
+          <h4>Think About the Reveal</h4>
+          <p>If you're giving multiple small items, don't dump them in together. Wrap each one individually. Create a treasure hunt in a box.</p>
+        </div>
+        <div class="tip-item">
+          <h4>Order Matters</h4>
+          <p>Put the most meaningful item at the bottom. Build anticipation with smaller things first.</p>
+        </div>
+        <div class="tip-item">
+          <h4>Add Scent</h4>
+          <p>A single drop of their favourite perfume on tissue paper. Or a scented sachet tucked in. When they open the box, it smells like you thought about this.</p>
+        </div>
+        <div class="tip-item">
+          <h4>Include a "First" and "Last" Item</h4>
+          <p>Something to open first (maybe a note, maybe a small treat) and something that clearly signals "this is the main event."</p>
+        </div>
+        <div class="tip-item tip-full">
+          <h4>Hide a Secret</h4>
+          <p>Tuck a tiny note somewhere unexpected. Inside a book's pages. In a jacket pocket. Under the tissue paper lining. Finding it later extends the joy.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      More gift ideas at <strong>valentines-gift-finder.vercel.app</strong>
+      <span style="margin-left: 15px;" class="page-number">3</span>
+    </div>
+  </div>
+
+  <!-- PAGE 4: CTA -->
+  <div class="page cta-page">
+    <div class="corner-decoration corner-tl"></div>
+    <div class="corner-decoration corner-tr"></div>
+    <div class="corner-decoration corner-bl"></div>
+    <div class="corner-decoration corner-br"></div>
+
+    <div class="cta-content">
+      <div class="flourish">&#10084;</div>
+
+      <h2>Now, Find Their<br>Perfect Gift</h2>
+
+      <div class="divider"></div>
+
+      <p class="cta-text">
+        You've got the date planned. The presentation sorted.<br>
+        The only thing left? <em>The gift itself.</em>
+      </p>
+
+      <p class="cta-text" style="font-weight: 400; color: var(--charcoal);">
+        Take our <strong>60-second quiz</strong> and get personalised suggestions based on who you're shopping for. Experiences, luxury treats, or heartfelt keepsakes.
+      </p>
+
+      <div class="cta-button">Find Their Gift</div>
+      <p class="cta-url">valentines-gift-finder.vercel.app/quiz</p>
+
+      <div class="cta-footer">
+        <p>Made with love by Valentine's Gift Finder</p>
+        <p>Need more ideas? Visit <strong>valentines-gift-finder.vercel.app</strong></p>
+      </div>
+    </div>
+
+    <div class="flourish" style="margin-top: 25px;">&#10045;</div>
+  </div>
+
+</body>
+</html>

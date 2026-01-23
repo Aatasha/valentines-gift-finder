@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Cinzel } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Analytics } from "@/components/Analytics";
+import { CookieConsent } from "@/components/CookieConsent";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -56,6 +57,7 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <Footer />
         </div>
+        <CookieConsent />
       </body>
     </html>
   );

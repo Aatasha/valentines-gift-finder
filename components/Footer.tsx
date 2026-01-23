@@ -36,6 +36,16 @@ export function Footer() {
             </Link>
           </div>
 
+          {/* Legal links */}
+          <div className="mt-4 flex justify-center gap-6">
+            <Link href="/privacy" className="text-xs text-[var(--cream)]/50 hover:text-[var(--gold)] transition-colors">
+              Privacy Policy
+            </Link>
+            <Link href="/terms" className="text-xs text-[var(--cream)]/50 hover:text-[var(--gold)] transition-colors">
+              Terms of Service
+            </Link>
+          </div>
+
           {/* Affiliate Disclosure - REQUIRED FOR COMPLIANCE */}
           <div className="mt-8 rounded-lg bg-[var(--burgundy)]/50 p-4 max-w-2xl mx-auto">
             <p className="text-xs text-[var(--cream)]/60">

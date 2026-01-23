@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beyond the Gift - Valentine's Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --valentine-red: #C41E3A;
+      --valentine-red-dark: #A31830;
+      --gold: #D4AF37;
+      --gold-light: #F5E6C8;
+      --cream: #FDF8F3;
+      --cream-dark: #F5EDE3;
+      --charcoal: #333333;
+      --charcoal-light: #555555;
+      --soft-red: #E8D5D5;
+    }
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    html, body {
+      font-family: 'Lato', sans-serif;
+      font-size: 11pt;
+      line-height: 1.6;
+      color: var(--charcoal);
+      background: var(--cream);
+    }
+
+    .page {
+      width: 210mm;
+      height: 297mm;
+      background: var(--cream);
+      position: relative;
+      page-break-after: always;
+      page-break-inside: avoid;
+      overflow: hidden;
+    }
+
+    .page:last-child {
+      page-break-after: auto;
+    }
+
+    /* Typography */
+    h1, h2, h3, h4 {
+      font-family: 'Cormorant Garamond', serif;
+      color: var(--valentine-red);
+      font-weight: 600;
+    }
+
+    h1 {
+      font-size: 52pt;
+      letter-spacing: 1px;
+      line-height: 1.1;
+    }
+
+    h2 {
+      font-size: 32pt;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    h3 {
+      font-size: 24pt;
+      font-weight: 500;
+      color: var(--gold);
+    }
+
+    h4 {
+      font-size: 14pt;
+      font-weight: 600;
+    }
+
+    p {
+      margin-bottom: 8px;
+      color: var(--charcoal);
+    }
+
+    /* Decorative elements */
+    .flourish {
+      text-align: center;
+      color: var(--gold);
+      font-size: 18px;
+      letter-spacing: 6px;
+      margin: 12px 0;
+    }
+
+    .divider-gold {
+      width: 80px;
+      height: 1px;
+      background: var(--gold);
+      margin: 12px auto;
+    }
+
+    .divider-gold-wide {
+      width: 120px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      margin: 16px auto;
+    }
+
+    /* ==================== */
+    /* PAGE 1: COVER        */
+    /* ==================== */
+    .cover {
+      display: flex;
+      height: 297mm;
+    }
+
+    .cover-left {
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(135deg, var(--valentine-red) 0%, var(--valentine-red-dark) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Abstract heart pattern */
+    .heart-pattern {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+
+    .heart-pattern .heart {
+      position: absolute;
+      opacity: 0.15;
+    }
+
+    .heart-pattern .heart svg {
+      fill: currentColor;
+    }
+
+    .heart-pattern .heart-1 { top: 8%; left: 15%; color: #fff; transform: rotate(-15deg); }
+    .heart-pattern .heart-2 { top: 22%; left: 55%; color: var(--gold); transform: rotate(10deg); }
+    .heart-pattern .heart-3 { top: 38%; left: 25%; color: var(--gold); transform: rotate(-5deg); opacity: 0.12; }
+    .heart-pattern .heart-4 { top: 52%; left: 60%; color: #fff; transform: rotate(20deg); }
+    .heart-pattern .heart-5 { top: 68%; left: 20%; color: #fff; transform: rotate(-20deg); opacity: 0.1; }
+    .heart-pattern .heart-6 { top: 75%; left: 50%; color: var(--gold); transform: rotate(5deg); }
+    .heart-pattern .heart-7 { top: 15%; left: 70%; color: #fff; transform: rotate(-10deg); opacity: 0.08; }
+    .heart-pattern .heart-8 { top: 85%; left: 35%; color: #fff; transform: rotate(15deg); opacity: 0.12; }
+    .heart-pattern .heart-9 { top: 45%; left: 8%; color: var(--gold); transform: rotate(-25deg); opacity: 0.18; }
+
+
+    .cover-right {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 35mm 28mm 35mm 22mm;
+      background: var(--cream);
+    }
+
+    .cover-right h1 {
+      margin-bottom: 10px;
+    }
+
+    .cover-subtitle {
+      font-family: 'Lato', sans-serif;
+      font-size: 14pt;
+      font-weight: 400;
+      color: var(--charcoal);
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .cover-tagline {
+      font-family: 'Lato', sans-serif;
+      font-style: italic;
+      font-size: 12pt;
+      color: var(--gold);
+      margin-top: 12px;
+    }
+
+    /* Small heart accent */
+    .small-heart-accent {
+      display: inline-block;
+      color: var(--valentine-red);
+      margin-left: 8px;
+    }
+
+    /* ==================== */
+    /* PAGE 2: DATE IDEAS   */
+    /* ==================== */
+    .content-page {
+      padding: 12mm 20mm 20mm 20mm;
+      position: relative;
+    }
+
+    .page-title {
+      text-align: center;
+      margin-bottom: 2px;
+    }
+
+    .page-title-small {
+      font-size: 26pt;
+    }
+
+    .intro-text {
+      font-size: 9pt;
+      font-style: italic;
+      color: var(--charcoal-light);
+      text-align: center;
+      max-width: 400px;
+      margin: 0 auto 8px auto;
+      line-height: 1.35;
+    }
+
+    /* Budget sections */
+    .budget-section {
+      margin-bottom: 4px;
+    }
+
+    .budget-header {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 3px;
+      padding-bottom: 2px;
+      border-bottom: 1px solid var(--gold-light);
+    }
+
+    .budget-icon {
+      width: 20px;
+      height: 20px;
+      color: var(--gold);
+    }
+
+    .budget-icon svg {
+      width: 100%;
+      height: 100%;
+      color: var(--gold);
+      fill: var(--gold);
+    }
+
+    .budget-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 14pt;
+      color: var(--valentine-red);
+      font-weight: 600;
+    }
+
+    .budget-range {
+      font-family: 'Lato', sans-serif;
+      font-size: 8pt;
+      color: var(--charcoal-light);
+      font-weight: 400;
+    }
+
+    /* Date ideas */
+    .date-idea {
+      margin-bottom: 3px;
+      padding-left: 0;
+    }
+
+    .date-idea-title {
+      font-family: 'Lato', sans-serif;
+      font-size: 9pt;
+      font-weight: 700;
+      color: var(--charcoal);
+      margin-bottom: 0;
+    }
+
+    .date-idea-title span {
+      color: var(--valentine-red);
+      margin-right: 3px;
+    }
+
+    .date-idea p {
+      font-size: 8pt;
+      line-height: 1.28;
+      margin-bottom: 1px;
+    }
+
+    /* Quick tip gold box */
+    .quick-tip-box {
+      background: var(--gold-light);
+      border-left: 2px solid var(--gold);
+      padding: 2px 6px 2px 18px;
+      border-radius: 0 3px 3px 0;
+      margin-top: 1px;
+      position: relative;
+    }
+
+    .quick-tip-box::before {
+      content: '';
+      position: absolute;
+      left: 6px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 9px;
+      height: 9px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23D4AF37' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2L15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2z'/%3E%3C/svg%3E");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .quick-tip-box p {
+      font-size: 7pt;
+      font-style: italic;
+      color: var(--charcoal);
+      margin-bottom: 0;
+      line-height: 1.25;
+    }
+
+    /* Heart divider between sections */
+    .section-heart-divider {
+      text-align: center;
+      margin: 2px 0;
+      color: var(--valentine-red);
+      opacity: 0.3;
+    }
+
+    /* ==================== */
+    /* PAGE 3: WRAPPING     */
+    /* ==================== */
+    .section-block {
+      margin-bottom: 18px;
+    }
+
+    .section-header {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20pt;
+      font-weight: 500;
+      color: var(--gold);
+      margin-bottom: 12px;
+    }
+
+    .tip-item {
+      margin-bottom: 10px;
+    }
+
+    .tip-item-title {
+      font-family: 'Lato', sans-serif;
+      font-size: 11pt;
+      font-weight: 700;
+      color: var(--charcoal);
+      display: inline;
+    }
+
+    .tip-item p {
+      display: inline;
+      font-size: 10pt;
+      line-height: 1.5;
+    }
+
+    .tip-bullet {
+      display: inline-block;
+      color: var(--gold);
+      margin-right: 6px;
+    }
+
+    /* Decorative flourish between sections */
+    .section-flourish {
+      text-align: center;
+      margin: 16px 0;
+      color: var(--gold);
+      font-size: 14px;
+      letter-spacing: 10px;
+    }
+
+    /* ==================== */
+    /* PAGE 4: CTA          */
+    /* ==================== */
+    .cta-page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 25mm 30mm;
+      text-align: center;
+      background: var(--cream);
+    }
+
+
+    .cta-content {
+      max-width: 380px;
+    }
+
+    .cta-page h2 {
+      font-size: 36pt;
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+
+    .cta-text {
+      font-size: 12pt;
+      line-height: 1.7;
+      margin-bottom: 8px;
+      color: var(--charcoal);
+    }
+
+    .cta-text-emphasis {
+      font-size: 12pt;
+      line-height: 1.7;
+      margin-bottom: 20px;
+      color: var(--charcoal);
+    }
+
+    .cta-text-emphasis strong {
+      color: var(--valentine-red);
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: var(--valentine-red);
+      color: white;
+      font-family: 'Lato', sans-serif;
+      font-size: 12pt;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 16px 48px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-bottom: 10px;
+      box-shadow: 0 4px 16px rgba(196, 30, 58, 0.25);
+      transition: background 0.2s;
+    }
+
+    .cta-button:hover {
+      background: var(--valentine-red-dark);
+    }
+
+    .cta-url {
+      font-size: 10pt;
+      color: var(--valentine-red);
+      font-weight: 400;
+      margin-bottom: 30px;
+    }
+
+    .cta-made-with-love {
+      font-size: 10pt;
+      color: var(--charcoal-light);
+      font-style: italic;
+    }
+
+    /* ==================== */
+    /* FOOTER BAR           */
+    /* ==================== */
+    .footer-bar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 18mm;
+      background: var(--valentine-red);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .footer-bar p {
+      font-family: 'Lato', sans-serif;
+      font-size: 9pt;
+      color: var(--cream);
+      margin: 0;
+    }
+
+    .footer-bar a {
+      color: var(--cream);
+      text-decoration: none;
+    }
+
+    /* Page number in footer */
+    .page-number {
+      position: absolute;
+      right: 22mm;
+      font-size: 9pt;
+      color: rgba(255,255,255,0.7);
+    }
+
+    /* ==================== */
+    /* DECORATIVE HEARTS    */
+    /* ==================== */
+    .bg-heart {
+      position: absolute;
+      opacity: 0.04;
+      color: var(--valentine-red);
+      pointer-events: none;
+    }
+
+    .bg-heart-right {
+      right: -30px;
+      bottom: 60mm;
+    }
+
+    .bg-heart-left {
+      left: -30px;
+      top: 60mm;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- PAGE 1: COVER -->
+  <div class="page cover">
+    <!-- Left half: decorative with heart pattern -->
+    <div class="cover-left">
+      <div class="heart-pattern">
+        <!-- Heart 1 - Large -->
+        <div class="heart heart-1">
+          <svg width="80" height="80" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" fill="currentColor"/></svg>
+        </div>
+        <!-- Heart 2 - Medium -->
+        <div class="heart heart-2">
+          <svg width="55" height="55" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" fill="currentColor"/></svg>
+        </div>
+        <!-- Heart 3 - Large -->
+        <div class="heart heart-3">
+          <svg width="100" height="100" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" fill="currentColor"/></svg>
+        </div>
+        <!-- Heart 4 - Small -->
+        <div class="heart heart-4">
+          <svg width="40" height="40" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" fill="currentColor"/></svg>
+        </div>
+        <!-- Heart 5 - Large -->
+        <div class="heart heart-5">
+          <svg width="120" height="120" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" fill="currentColor"/></svg>
+        </div>
+        <!-- Heart 6 - Medium -->
+        <div class="heart heart-6">
+          <svg width="50" height="50" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" fill="currentColor"/></svg>
+        </div>
+        <!-- Heart 7 - Extra Large -->
+        <div class="heart heart-7">
+          <svg width="140" height="140" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" fill="currentColor"/></svg>
+        </div>
+        <!-- Heart 8 - Small -->
+        <div class="heart heart-8">
+          <svg width="35" height="35" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" fill="currentColor"/></svg>
+        </div>
+        <!-- Heart 9 - Medium -->
+        <div class="heart heart-9">
+          <svg width="65" height="65" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" fill="currentColor"/></svg>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Right half: title area -->
+    <div class="cover-right">
+      <h1>Beyond<br>the Gift</h1>
+
+      <div class="divider-gold" style="margin: 16px 0;"></div>
+
+      <p class="cover-subtitle">
+        The Valentine's Guide to<br>Making It Unforgettable
+      </p>
+
+      <p class="cover-tagline">
+        The best gifts are experienced, not opened.
+        <span class="small-heart-accent">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </span>
+      </p>
+    </div>
+  </div>
+
+  <!-- PAGE 2: DATE IDEAS -->
+  <div class="page content-page">
+    <!-- Background decorative heart -->
+    <div class="bg-heart bg-heart-right">
+      <svg width="180" height="180" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+    </div>
+
+    <h2 class="page-title page-title-small">Romantic Dates for Every Budget</h2>
+    <div class="divider-gold" style="margin-bottom: 6px;"></div>
+    <p class="intro-text">
+      The gift matters. The experience matters more. Here are our favourite ways to make February 14th memorable, no matter what you spend.
+    </p>
+
+    <!-- Budget-Friendly -->
+    <div class="budget-section">
+      <div class="budget-header">
+        <div class="budget-icon">
+          <!-- Coin/piggy bank icon - simple filled circle with inner circle -->
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <circle cx="12" cy="12" r="10"/>
+            <circle cx="12" cy="12" r="6" fill="#FDF8F3"/>
+            <circle cx="12" cy="12" r="4" fill="currentColor"/>
+          </svg>
+        </div>
+        <span class="budget-title">Budget-Friendly</span>
+        <span class="budget-range">&mdash; Under &pound;30</span>
+      </div>
+
+      <div class="date-idea">
+        <p class="date-idea-title"><span>1.</span> Sunset Picnic in Your Living Room</p>
+        <p>Clear the coffee table. Lay out a blanket. Fill it with their favourite snacks and light a few candles. Put on a playlist you made for them. The most romantic moments often happen when you stop trying so hard.</p>
+        <div class="quick-tip-box">
+          <p>Prepare everything while they're in another room so it's a surprise when they walk in.</p>
+        </div>
+      </div>
+
+      <div class="date-idea">
+        <p class="date-idea-title"><span>2.</span> Memory Lane Movie Night</p>
+        <p>Dig out photos and videos from your relationship. First trips, silly moments, that terrible haircut phase. Watch them together with popcorn and running commentary. Free, but priceless.</p>
+        <div class="quick-tip-box">
+          <p>Create a simple slideshow if you want to feel fancy. Canva makes it easy.</p>
+        </div>
+      </div>
+
+      <div class="date-idea">
+        <p class="date-idea-title"><span>3.</span> Cook Their Favourite Meal Together</p>
+        <p>Not <em>for</em> them. <em>With</em> them. Pick a recipe that feels slightly ambitious. Pour wine. Embrace the chaos. The burnt bits become the story you'll laugh about for years.</p>
+        <div class="quick-tip-box">
+          <p>Prep ingredients beforehand so you're not frantically chopping while the pasta boils over.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Heart divider -->
+    <div class="section-heart-divider">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+    </div>
+
+    <!-- Mid-Range -->
+    <div class="budget-section">
+      <div class="budget-header">
+        <div class="budget-icon">
+          <!-- Gem/Diamond icon - classic cut gem -->
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6 3L2 9h20l-4-6H6z"/>
+            <path d="M2 9l10 13L22 9H2z" fill-opacity="0.7"/>
+          </svg>
+        </div>
+        <span class="budget-title">Mid-Range</span>
+        <span class="budget-range">&mdash; &pound;30&ndash;&pound;100</span>
+      </div>
+
+      <div class="date-idea">
+        <p class="date-idea-title"><span>1.</span> Surprise Day Trip</p>
+        <p>Pick somewhere within an hour's drive that you've never explored together. A coastal town with a fish and chip shop. A village with a good pub. Pack the car without telling them where you're going.</p>
+        <div class="quick-tip-box">
+          <p>Check opening times and book any reservations secretly in advance.</p>
+        </div>
+      </div>
+
+      <div class="date-idea">
+        <p class="date-idea-title"><span>2.</span> At-Home Spa Evening</p>
+        <p>Transform your bathroom into a retreat. Face masks, bath bombs, fluffy robes, soft music. Take turns giving massages. Order fancy takeaway so neither of you has to cook.</p>
+        <div class="quick-tip-box">
+          <p>Warm the towels in the dryer right before you need them. Trust us.</p>
+        </div>
+      </div>
+
+      <div class="date-idea">
+        <p class="date-idea-title"><span>3.</span> Private Stargazing</p>
+        <p>Find a dark spot away from city lights. A hill, a beach, a quiet field. Bring blankets, hot chocolate in a flask, and a stargazing app on your phone.</p>
+        <div class="quick-tip-box">
+          <p>Check the weather obsessively. Have a backup plan involving blankets and a window.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Heart divider -->
+    <div class="section-heart-divider">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+    </div>
+
+    <!-- Splurge -->
+    <div class="budget-section">
+      <div class="budget-header">
+        <div class="budget-icon">
+          <!-- Sparkle/Star icon -->
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2L15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2z"/>
+          </svg>
+        </div>
+        <span class="budget-title">Splurge</span>
+        <span class="budget-range">&mdash; &pound;100+</span>
+      </div>
+
+      <div class="date-idea">
+        <p class="date-idea-title"><span>1.</span> Overnight Stay Somewhere New</p>
+        <p>Book a boutique hotel or cosy Airbnb within driving distance. Somewhere with a good restaurant nearby, a fireplace, maybe a bathtub for two. A change of scenery does something magical.</p>
+        <div class="quick-tip-box">
+          <p>Tell them to pack a bag but keep the destination secret until you arrive.</p>
+        </div>
+      </div>
+
+      <div class="date-idea">
+        <p class="date-idea-title"><span>2.</span> Experience Something You've Never Done</p>
+        <p>A cooking class. Pottery workshop. Wine tasting. Tandem skydive if you're feeling bold. Shared new experiences create stronger memories than yet another dinner out.</p>
+        <div class="quick-tip-box">
+          <p>Choose something they've mentioned wanting to try, even in passing.</p>
+        </div>
+      </div>
+
+      <div class="date-idea">
+        <p class="date-idea-title"><span>3.</span> Private Dining Experience</p>
+        <p>Some restaurants offer private chef experiences or intimate tasting menus. Courses designed around your preferences. No rushing. Someone else doing the washing up.</p>
+        <div class="quick-tip-box">
+          <p>Book well in advance. Valentine's tables disappear fast.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer bar -->
+    <div class="footer-bar">
+      <p>More gift ideas at <strong>valentines-gift-finder.vercel.app</strong></p>
+      <span class="page-number">2</span>
+    </div>
+  </div>
+
+  <!-- PAGE 3: WRAPPING & PRESENTATION -->
+  <div class="page content-page">
+    <!-- Background decorative heart -->
+    <div class="bg-heart bg-heart-left">
+      <svg width="180" height="180" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+    </div>
+
+    <h2 class="page-title">The Art of Giving</h2>
+    <div class="divider-gold" style="margin-bottom: 10px;"></div>
+    <p class="intro-text">
+      A thoughtfully presented gift shows you care before they've even opened it. Here's how to make your wrapping look beautiful without needing a craft degree.
+    </p>
+
+    <!-- Quick Visual Upgrades -->
+    <div class="section-block">
+      <h3 class="section-header">Quick Visual Upgrades</h3>
+
+      <div class="tip-item">
+        <span class="tip-bullet">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </span>
+        <span class="tip-item-title">Ditch the shiny paper.</span>
+        <p> Kraft paper (brown parcel paper) looks more expensive than it costs. Pair it with ribbon, twine, or a sprig of dried eucalyptus. Suddenly you're Pinterest-worthy.</p>
+      </div>
+
+      <div class="tip-item">
+        <span class="tip-bullet">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </span>
+        <span class="tip-item-title">The ribbon trick.</span>
+        <p> Skip the bow. Try a simple knot with long trailing ends. Curl them with scissors for an effortless, elegant look.</p>
+      </div>
+
+      <div class="tip-item">
+        <span class="tip-bullet">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </span>
+        <span class="tip-item-title">Handwritten notes win.</span>
+        <p> A small card or tag with a genuine message beats any printed greeting. Even something as simple as "I love you because..." followed by something specific.</p>
+      </div>
+
+      <div class="tip-item">
+        <span class="tip-bullet">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </span>
+        <span class="tip-item-title">Layer your textures.</span>
+        <p> Tissue paper inside. Structured paper outside. Add a wax seal if you're feeling extra. Multiple textures make even small gifts feel substantial.</p>
+      </div>
+
+      <div class="tip-item">
+        <span class="tip-bullet">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </span>
+        <span class="tip-item-title">Fresh greenery.</span>
+        <p> Tuck a small sprig of rosemary, eucalyptus, or a single flower stem under the ribbon. It adds scent and visual interest. Embrace the rustic look.</p>
+      </div>
+    </div>
+
+    <!-- Decorative flourish -->
+    <div class="section-flourish">&#10045; &#10045; &#10045;</div>
+
+    <!-- Creating the Unboxing Experience -->
+    <div class="section-block">
+      <h3 class="section-header">Creating the Unboxing Experience</h3>
+
+      <div class="tip-item">
+        <span class="tip-bullet">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </span>
+        <span class="tip-item-title">Think about the reveal.</span>
+        <p> If you're giving multiple small items, don't dump them in together. Wrap each one individually. Create a treasure hunt in a box.</p>
+      </div>
+
+      <div class="tip-item">
+        <span class="tip-bullet">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </span>
+        <span class="tip-item-title">Order matters.</span>
+        <p> Put the most meaningful item at the bottom. Build anticipation with smaller things first.</p>
+      </div>
+
+      <div class="tip-item">
+        <span class="tip-bullet">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </span>
+        <span class="tip-item-title">Add scent.</span>
+        <p> A single drop of their favourite perfume on tissue paper. Or a scented sachet tucked in. When they open the box, it smells like you thought about this.</p>
+      </div>
+
+      <div class="tip-item">
+        <span class="tip-bullet">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </span>
+        <span class="tip-item-title">Include a "first" and "last" item.</span>
+        <p> Something to open first (maybe a note, maybe a small treat) and something that clearly signals "this is the main event."</p>
+      </div>
+
+      <div class="tip-item">
+        <span class="tip-bullet">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </span>
+        <span class="tip-item-title">Hide a secret.</span>
+        <p> Tuck a tiny note somewhere unexpected. Inside a book's pages. In a jacket pocket. Under the tissue paper lining. Finding it later extends the joy.</p>
+      </div>
+    </div>
+
+    <!-- Footer bar -->
+    <div class="footer-bar">
+      <p>More gift ideas at <strong>valentines-gift-finder.vercel.app</strong></p>
+      <span class="page-number">3</span>
+    </div>
+  </div>
+
+  <!-- PAGE 4: CTA -->
+  <div class="page cta-page">
+    <div class="cta-content">
+      <h2>Now, Find Their<br>Perfect Gift</h2>
+
+      <div class="divider-gold-wide"></div>
+
+      <p class="cta-text">
+        You've got the date planned. The presentation sorted.<br>
+        The only thing left? <em>The gift itself.</em>
+      </p>
+
+      <p class="cta-text-emphasis">
+        Take our <strong>60-second quiz</strong> and get personalised suggestions based on who you're shopping for. Experiences, luxury treats, or heartfelt keepsakes.
+      </p>
+
+      <a href="https://valentines-gift-finder.vercel.app/quiz" class="cta-button">Find Their Gift</a>
+      <p class="cta-url">valentines-gift-finder.vercel.app/quiz</p>
+
+      <p class="cta-made-with-love">Made with love by Valentine's Gift Finder</p>
+    </div>
+
+    <!-- Footer bar -->
+    <div class="footer-bar">
+      <p>Need more ideas? Visit <strong>valentines-gift-finder.vercel.app</strong></p>
+      <span class="page-number">4</span>
+    </div>
+  </div>
+
+</body>
+</html>
