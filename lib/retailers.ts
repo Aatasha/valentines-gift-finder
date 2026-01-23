@@ -9,21 +9,15 @@
 //    - Get your Awin publisher ID and Etsy advertiser ID
 //    - Tracking URL format: https://www.awin1.com/cread.php?awinaffid=YOUR_ID&awinmid=ETSY_ID&ued=ENCODED_URL
 //
-// 3. Not On The High Street (via Awin):
-//    - Sign up: https://www.awin.com/ → Search for "Not On The High Street"
-//    - Get your Awin publisher ID and NOTHS advertiser ID
-//    - Commission: ~8% on sales
-//
-// 4. Virgin Experience Days:
-//    - Check if they use Awin or have direct program
-//    - May also be available via TradeDoubler or Commission Junction
+// 3. Virgin Experience Days (via Impact.com):
+//    - Sign up at: https://impact.com/
+//    - Search for Virgin Experience Days program
 
 export const AFFILIATE_TAGS = {
   amazon: 'aanthony08-21',
   // Add Awin IDs here once registered:
   // awinPublisherId: 'YOUR_AWIN_PUBLISHER_ID',
   // etsyAdvertiserId: 'ETSY_ADVERTISER_ID',
-  // nothsAdvertiserId: 'NOTHS_ADVERTISER_ID',
 } as const;
 
 // Clean and optimize search terms for better retailer results
@@ -46,13 +40,12 @@ export function cleanSearchTerm(rawTerm: string): string {
   return term;
 }
 
-export type RetailerKey = 'amazon' | 'etsy' | 'noths' | 'virginexp';
+export type RetailerKey = 'amazon' | 'etsy' | 'virginexp';
 
 // Retailer display names
 export const RETAILER_NAMES: Record<RetailerKey, string> = {
   amazon: 'Amazon',
   etsy: 'Etsy',
-  noths: 'Not On The High Street',
   virginexp: 'Virgin Experience Days',
 };
 
@@ -82,11 +75,8 @@ export function getRetailerSearchUrl(retailer: RetailerKey, productNameOrGift: s
       // TODO: Wrap with Awin tracking when affiliate ID is obtained
       // Format: https://www.awin1.com/cread.php?awinaffid=XXX&awinmid=YYY&ued=ENCODED_URL
       return `https://www.etsy.com/uk/search?q=${searchTerm}`;
-    case 'noths':
-      // TODO: Wrap with Awin tracking when affiliate ID is obtained
-      return `https://www.notonthehighstreet.com/search?term=${searchTerm}`;
     case 'virginexp':
-      // TODO: Add affiliate tracking when program is joined
+      // TODO: Add Impact.com tracking when program is approved
       return `https://www.virginexperiencedays.co.uk/search?query=${searchTerm}`;
     default:
       return null;
@@ -102,9 +92,9 @@ export function getBestRetailerForGift(tags: string[]): RetailerKey {
     return 'virginexp';
   }
 
-  // Personalised/handmade/unique → Not On The High Street (better for UK, no bot blocking)
+  // Personalised/handmade/unique → Etsy (great for custom/artisan items)
   if (lowerTags.some(t => ['personalised', 'personalized', 'custom', 'handmade', 'unique'].includes(t))) {
-    return 'noths';
+    return 'etsy';
   }
 
   // Default to Amazon for practical, tech, luxury, budget-friendly, etc.
