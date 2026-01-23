@@ -26,6 +26,26 @@ export const AFFILIATE_TAGS = {
   // nothsAdvertiserId: 'NOTHS_ADVERTISER_ID',
 } as const;
 
+// Clean and optimize search terms for better retailer results
+export function cleanSearchTerm(rawTerm: string): string {
+  let term = rawTerm;
+
+  // Remove content in parentheses (e.g., "Candle (Jo Malone)" → "Candle")
+  term = term.replace(/\s*\([^)]*\)/g, '');
+
+  // Remove content in brackets
+  term = term.replace(/\s*\[[^\]]*\]/g, '');
+
+  // Remove slashes and content after them if they look like alternatives
+  // e.g., "Coffee/Tea Set" → "Coffee Tea Set"
+  term = term.replace(/\//g, ' ');
+
+  // Trim and collapse multiple spaces
+  term = term.trim().replace(/\s+/g, ' ');
+
+  return term;
+}
+
 export type RetailerKey = 'amazon' | 'etsy' | 'noths' | 'virginexp';
 
 // Retailer display names
@@ -36,10 +56,24 @@ export const RETAILER_NAMES: Record<RetailerKey, string> = {
   virginexp: 'Virgin Experience Days',
 };
 
+// Get the best search term for a gift
+// Uses custom searchTerm if provided, otherwise cleans the product name
+export function getSearchTermForGift(gift: { name: string; searchTerm?: string }): string {
+  if (gift.searchTerm) {
+    return gift.searchTerm;
+  }
+  return cleanSearchTerm(gift.name);
+}
+
 // Generate search URL for a retailer
 // TODO: Add Awin affiliate tracking once IDs are obtained
-export function getRetailerSearchUrl(retailer: RetailerKey, productName: string): string | null {
-  const searchTerm = encodeURIComponent(productName);
+export function getRetailerSearchUrl(retailer: RetailerKey, productNameOrGift: string | { name: string; searchTerm?: string }): string | null {
+  // Handle both string and Gift object inputs
+  const rawTerm = typeof productNameOrGift === 'string'
+    ? productNameOrGift
+    : getSearchTermForGift(productNameOrGift);
+
+  const searchTerm = encodeURIComponent(cleanSearchTerm(rawTerm));
 
   switch (retailer) {
     case 'amazon':

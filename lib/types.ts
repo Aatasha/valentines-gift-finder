@@ -16,6 +16,7 @@ export interface Gift {
   imageUrl: string;
   affiliateLinks: Record<string, string>;
   notes: string;
+  searchTerm?: string; // Optional: custom search term for better retailer results
 }
 
 export interface GiftDatabase {

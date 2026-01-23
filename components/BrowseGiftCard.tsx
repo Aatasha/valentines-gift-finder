@@ -94,7 +94,7 @@ export function BrowseGiftCard({ gift }: BrowseGiftCardProps) {
   const accentClass = vibeAccents[primaryVibe] || 'border-l-[var(--burgundy)]';
   const bgClass = vibeBackgrounds[primaryVibe] || 'bg-[var(--burgundy)]/10';
 
-  const searchUrl = getRetailerSearchUrl('amazon', gift.name);
+  const searchUrl = getRetailerSearchUrl('amazon', gift);
 
   // Get the vibe icon (fallback to romantic)
   const getVibeIcon = () => vibeIcons[primaryVibe] || vibeIcons['romantic'];

@@ -3,13 +3,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { getGiftById, getAllGifts, getPriceLabel, getRandomGifts } from '@/lib/gifts';
 import { BrowseGiftCard } from '@/components/BrowseGiftCard';
-
-const AMAZON_AFFILIATE_TAG = 'aanthony08-21';
-
-function getAmazonSearchUrl(productName: string): string {
-  const searchTerm = encodeURIComponent(productName);
-  return `https://www.amazon.co.uk/s?k=${searchTerm}&tag=${AMAZON_AFFILIATE_TAG}`;
-}
+import { getRetailerSearchUrl } from '@/lib/retailers';
 
 interface GiftPageProps {
   params: Promise<{ id: string }>;
@@ -139,7 +133,7 @@ export default async function GiftPage({ params }: GiftPageProps) {
               {/* Buy on Amazon Button */}
               <div className="mt-8">
                 <a
-                  href={getAmazonSearchUrl(gift.name)}
+                  href={getRetailerSearchUrl('amazon', gift) || '#'}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-lg bg-[var(--burgundy)] px-6 py-3 text-lg font-medium text-white transition-colors hover:bg-[var(--burgundy-dark)]"
