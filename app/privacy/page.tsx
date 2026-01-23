@@ -199,7 +199,7 @@ export default function PrivacyPolicy() {
               data protection rights, please contact us at:
             </p>
             <p className="mt-2">
-              <strong>Email:</strong> privacy@valentines-gift-finder.com
+              <strong>Email:</strong> alistairdmanthony@gmail.com
             </p>
           </section>
         </div>

@@ -206,7 +206,7 @@ export default function TermsOfService() {
               If you have any questions about these Terms of Service, please contact us at:
             </p>
             <p className="mt-2">
-              <strong>Email:</strong> hello@valentines-gift-finder.com
+              <strong>Email:</strong> alistairdmanthony@gmail.com
             </p>
           </section>
         </div>
