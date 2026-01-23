@@ -36,12 +36,15 @@ export function Footer() {
             </Link>
           </div>
 
-          {/* Amazon Associates Disclosure - REQUIRED */}
+          {/* Affiliate Disclosure - REQUIRED FOR COMPLIANCE */}
           <div className="mt-8 rounded-lg bg-[var(--burgundy)]/50 p-4 max-w-2xl mx-auto">
             <p className="text-xs text-[var(--cream)]/60">
-              <span className="font-medium text-[var(--cream)]/80">Affiliate Disclosure:</span> As an Amazon Associate I earn from qualifying purchases.
-              This site contains affiliate links — if you click through and make a purchase,
-              we may receive a small commission at no extra cost to you.
+              <span className="font-medium text-[var(--cream)]/80">Affiliate Disclosure:</span> This
+              site contains affiliate links from partners including Amazon, Etsy, Not On The High Street,
+              and Virgin Experience Days. As an Amazon Associate and affiliate partner, we earn from
+              qualifying purchases. If you click through and make a purchase, we may receive a small
+              commission at no extra cost to you. This helps support the site and allows us to continue
+              providing gift recommendations.
             </p>
           </div>
 
