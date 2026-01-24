@@ -35,6 +35,21 @@ export const metadata: Metadata = {
     description:
       "Discover thoughtful Valentine's gifts curated for every personality, budget, and relationship.",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Valentine's Gift Finder - Find their perfect gift in 60 seconds",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Valentine's Gift Finder | Find Their Perfect Gift",
+    description:
+      "Discover thoughtful Valentine's gifts curated for every personality, budget, and relationship.",
+    images: ["/og-image.png"],
   },
   other: {
     "impact-site-verification": "e286691d-26ff-4215-acc6-b8e2337cb7eb",
