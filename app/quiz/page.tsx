@@ -366,6 +366,7 @@ export default function QuizPage() {
   const [step, setStep] = useState<Step>('recipient');
   const [answers, setAnswers] = useState<Partial<QuizAnswer>>({});
   const [results, setResults] = useState<AIGift[]>([]);
+  const [showResults, setShowResults] = useState(false);
 
   const currentStepIndex = stepOrder.indexOf(step as Exclude<Step, 'loading' | 'results'>);
   const progress = step === 'loading' || step === 'results'
@@ -494,6 +495,7 @@ export default function QuizPage() {
     setStep('recipient');
     setAnswers({});
     setResults([]);
+    setShowResults(false);
   };
 
   // Loading state
@@ -519,67 +521,123 @@ export default function QuizPage() {
     );
   }
 
-  // Results state
+  // Results state - shown with popup overlay first
   if (step === 'results') {
     return (
-      <div className="min-h-screen bg-[var(--background)]">
-        <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
-          <header className="mb-8 text-center">
-            {/* Ornate header flourish */}
-            <div className="flex justify-center mb-4">
-              <svg className="h-8 w-32 text-[var(--gold)]" viewBox="0 0 120 30" fill="none">
-                <path d="M60 15 C50 15, 45 5, 30 5 C15 5, 10 15, 5 15" stroke="currentColor" strokeWidth="1.5" fill="none"/>
-                <path d="M60 15 C70 15, 75 5, 90 5 C105 5, 110 15, 115 15" stroke="currentColor" strokeWidth="1.5" fill="none"/>
-                <path d="M60 15 C50 15, 45 25, 30 25 C15 25, 10 15, 5 15" stroke="currentColor" strokeWidth="1.5" fill="none"/>
-                <path d="M60 15 C70 15, 75 25, 90 25 C105 25, 110 15, 115 15" stroke="currentColor" strokeWidth="1.5" fill="none"/>
-                <circle cx="60" cy="15" r="3" fill="currentColor"/>
-              </svg>
+      <>
+        {/* Congratulations overlay - fullscreen */}
+        <div className={`fixed inset-0 z-50 bg-[var(--background)] flex flex-col items-center justify-center px-4 transition-opacity duration-500 ${showResults ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
+          {/* Celebration sparkles */}
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-[var(--gold)] rounded-full animate-ping" />
+            <div className="absolute top-1/3 right-1/4 w-1.5 h-1.5 bg-[var(--gold)] rounded-full animate-ping" style={{ animationDelay: '0.1s' }} />
+            <div className="absolute bottom-1/3 left-1/3 w-2 h-2 bg-[var(--gold)] rounded-full animate-ping" style={{ animationDelay: '0.2s' }} />
+            <div className="absolute top-1/2 right-1/3 w-1 h-1 bg-[var(--cream)] rounded-full animate-ping" style={{ animationDelay: '0.3s' }} />
+          </div>
+
+          {/* Main content */}
+          <div className="text-center relative z-10">
+            {/* Big celebration icon */}
+            <div className="flex justify-center mb-6">
+              <div className="h-24 w-24 rounded-full bg-[var(--gold)]/20 flex items-center justify-center animate-pulse">
+                <svg className="h-12 w-12 text-[var(--gold)]" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2 L14 8 L20 8 L15 12 L17 18 L12 14 L7 18 L9 12 L4 8 L10 8 Z" fill="currentColor"/>
+                </svg>
+              </div>
             </div>
-            <h1 className="font-serif text-3xl font-semibold text-[var(--cream)]">
-              Your Personalised Gift Ideas
+
+            <h1 className="font-serif text-4xl sm:text-5xl font-semibold text-[var(--cream)] mb-3">
+              Congratulations!
             </h1>
-            <p className="mt-2 text-[var(--cream)]/70">
-              Based on your answers, here are our top picks
+
+            <p className="text-2xl text-[var(--gold)] mb-2">
+              We found {results.length} perfect {results.length === 1 ? 'match' : 'matches'}
             </p>
-            <div className="mt-4 flex justify-center">
+
+            <p className="text-[var(--cream)]/60 mb-6">
+              Handpicked by AI just for you
+            </p>
+
+            {/* Countdown */}
+            <div className="mb-8">
               <ValentineCountdown />
             </div>
-          </header>
 
-          {results.length > 0 ? (
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {results.map((gift) => (
-                <AIGiftCard key={gift.id} gift={gift} />
-              ))}
-            </div>
-          ) : (
-            <div className="rounded-lg bg-[var(--cream)]/10 border border-[var(--gold)]/30 p-12 text-center">
-              <p className="text-lg text-[var(--cream)]/70">
-                We couldn't generate suggestions right now. Please try searching manually.
-              </p>
-            </div>
-          )}
+            {/* BIG CTA button */}
+            {results.length > 0 && (
+              <button
+                onClick={() => setShowResults(true)}
+                className="inline-flex items-center gap-3 rounded-xl bg-[var(--gold)] px-10 py-5 text-xl font-bold text-[var(--burgundy-dark)] transition-all hover:bg-[var(--gold-light)] hover:scale-105 shadow-xl"
+              >
+                Get Your Matches Now
+                <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
+                  <path d="M5 12 H17 M17 12 L12 7 M17 12 L12 17" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </button>
+            )}
 
-          <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
-            <button
-              onClick={restart}
-              className="rounded-lg border-2 border-[var(--gold)] px-8 py-3 font-medium text-[var(--gold)] transition-colors hover:bg-[var(--cream)]/10"
-            >
-              Take Quiz Again
-            </button>
-            <Link
-              href="/search"
-              className="flex items-center justify-center gap-2 rounded-lg bg-[var(--burgundy)] px-8 py-3 font-medium text-white text-center transition-colors hover:bg-[var(--burgundy-light)]"
-            >
-              Search for More Ideas
-              <svg className="h-4 w-6" viewBox="0 0 24 16" fill="none">
-                <path d="M4 8 H16 M16 8 C14 6, 14 4, 16 4 M16 8 C14 10, 14 12, 16 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-                <circle cx="20" cy="8" r="2" stroke="currentColor" strokeWidth="1" fill="none"/>
-              </svg>
-            </Link>
+            {results.length === 0 && (
+              <Link
+                href="/search"
+                className="inline-flex items-center gap-2 rounded-lg bg-[var(--burgundy)] px-8 py-4 font-medium text-white"
+              >
+                Search Manually Instead
+              </Link>
+            )}
           </div>
         </div>
-      </div>
+
+        {/* Results page - slides in when showResults is true */}
+        <div className={`min-h-screen bg-[var(--background)] transition-all duration-500 ${showResults ? 'opacity-100 relative z-[60]' : 'opacity-0 pointer-events-none'}`}>
+          <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
+            {/* Compact header */}
+            <header className="mb-6 text-center">
+              <h1 className="font-serif text-2xl font-semibold text-[var(--cream)]">
+                Your {results.length} Perfect {results.length === 1 ? 'Match' : 'Matches'}
+              </h1>
+              <div className="mt-2">
+                <ValentineCountdown />
+              </div>
+            </header>
+
+            {results.length > 0 && (
+              <div>
+                {/* Featured first result - larger and centered */}
+                <div className="mb-8 max-w-xl mx-auto">
+                  <AIGiftCard gift={results[0]} featured />
+                </div>
+
+                {/* Remaining results in grid */}
+                {results.length > 1 && (
+                  <>
+                    <p className="text-center text-[var(--cream)]/60 text-sm mb-4">More great options</p>
+                    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                      {results.slice(1).map((gift) => (
+                        <AIGiftCard key={gift.id} gift={gift} />
+                      ))}
+                    </div>
+                  </>
+                )}
+              </div>
+            )}
+
+            <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
+              <button
+                onClick={restart}
+                className="rounded-lg border-2 border-[var(--gold)] px-8 py-3 font-medium text-[var(--gold)] transition-colors hover:bg-[var(--cream)]/10"
+              >
+                Take Quiz Again
+              </button>
+              <Link
+                href="/search"
+                className="flex items-center justify-center gap-2 rounded-lg bg-[var(--burgundy)] px-8 py-3 font-medium text-white text-center transition-colors hover:bg-[var(--burgundy-light)]"
+              >
+                Search for More Ideas
+              </Link>
+            </div>
+          </div>
+        </div>
+      </>
     );
   }
 
