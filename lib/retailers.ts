@@ -84,19 +84,23 @@ export function getRetailerSearchUrl(retailer: RetailerKey, productNameOrGift: s
 }
 
 // Determine the best retailer based on gift tags
+// TODO: Re-enable Etsy and Virgin Experience Days once affiliate programs are approved
 export function getBestRetailerForGift(tags: string[]): RetailerKey {
-  const lowerTags = tags.map(t => t.toLowerCase());
-
-  // Experiences → Virgin Experience Days (ONLY for actual experience vouchers, not physical products)
-  if (lowerTags.includes('experience')) {
-    return 'virginexp';
-  }
-
-  // Personalised/handmade/unique → Etsy (great for custom/artisan items)
-  if (lowerTags.some(t => ['personalised', 'personalized', 'custom', 'handmade', 'unique'].includes(t))) {
-    return 'etsy';
-  }
-
-  // Default to Amazon for practical, tech, luxury, budget-friendly, etc.
+  // For now, always use Amazon until other affiliate programs are approved
   return 'amazon';
+
+  // Uncomment below once approved:
+  // const lowerTags = tags.map(t => t.toLowerCase());
+  //
+  // // Experiences → Virgin Experience Days (ONLY for actual experience vouchers, not physical products)
+  // if (lowerTags.includes('experience')) {
+  //   return 'virginexp';
+  // }
+  //
+  // // Personalised/handmade/unique → Etsy (great for custom/artisan items)
+  // if (lowerTags.some(t => ['personalised', 'personalized', 'custom', 'handmade', 'unique'].includes(t))) {
+  //   return 'etsy';
+  // }
+  //
+  // return 'amazon';
 }
