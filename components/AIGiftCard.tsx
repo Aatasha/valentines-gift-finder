@@ -146,7 +146,12 @@ export function AIGiftCard({ gift, featured = false }: AIGiftCardProps) {
 
   // Determine best retailer based on gift tags
   const bestRetailer = getBestRetailerForGift(gift.tags);
-  const searchTerm = gift.searchQuery || gift.name;
+
+  // Use brand name for tech products, generic search for fashion/clothing
+  const lowerTags = gift.tags.map(t => t.toLowerCase());
+  const useBrandName = lowerTags.includes('tech') || lowerTags.includes('luxury');
+  const searchTerm = useBrandName ? gift.name : (gift.searchQuery || gift.name);
+
   const primaryUrl = getRetailerSearchUrl(bestRetailer, searchTerm) || '#';
   const primaryRetailerName = RETAILER_NAMES[bestRetailer];
 
