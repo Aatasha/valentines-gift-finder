@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   },
   other: {
     "impact-site-verification": "e286691d-26ff-4215-acc6-b8e2337cb7eb",
-    "google-site-verification": "BLydlJAs5HoKVd3EhXBrU_WFDrFJwb8UpsXSmyFF5xQ",
+    "google-site-verification": "uAgy-vSm75hvNq6zPs_7en6yk6QPLBBdu3B47_5EAmY",
   },
 };
 
