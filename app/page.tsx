@@ -3,9 +3,73 @@ import { SearchBar } from '@/components/SearchBar';
 import { CategoryGrid } from '@/components/CategoryGrid';
 import { ValentineCountdown } from '@/components/ValentineCountdown';
 
+// JSON-LD structured data for SEO
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': 'https://valentinesgiftfinder.com/#website',
+      url: 'https://valentinesgiftfinder.com',
+      name: "Valentine's Gift Finder",
+      description: "Find the perfect Valentine's gift with our AI-powered quiz and curated recommendations.",
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: 'https://valentinesgiftfinder.com/search?q={search_term_string}',
+        },
+        'query-input': 'required name=search_term_string',
+      },
+    },
+    {
+      '@type': 'Organization',
+      '@id': 'https://valentinesgiftfinder.com/#organization',
+      name: "Valentine's Gift Finder",
+      url: 'https://valentinesgiftfinder.com',
+      logo: 'https://valentinesgiftfinder.com/og-image.png',
+    },
+    {
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'How does the Valentine\'s gift quiz work?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Our quiz asks you a few simple questions about your partner - their personality, interests, and your budget. Our AI then suggests personalised gift ideas tailored to your answers.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How long does the gift quiz take?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'The quiz takes less than 30 seconds to complete. You\'ll receive personalised gift recommendations immediately after.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'What types of Valentine\'s gifts can I find?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'We offer a wide range of gifts including romantic presents, experience days, tech gadgets, personalised items, luxury gifts, and budget-friendly options for all relationships.',
+          },
+        },
+      ],
+    },
+  ],
+};
+
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[var(--background)]">
+    <>
+      {/* JSON-LD structured data for SEO - static content, safe to use */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div className="min-h-screen bg-[var(--background)]">
       {/* Hero Section - Quiz as Primary */}
       <section className="px-4 pt-16 pb-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
@@ -142,5 +206,6 @@ export default function Home() {
         </div>
       </section>
     </div>
+    </>
   );
 }

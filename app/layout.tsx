@@ -17,7 +17,11 @@ const cinzel = Cinzel({
 });
 
 export const metadata: Metadata = {
-  title: "Valentine's Gift Finder | Find Their Perfect Gift",
+  metadataBase: new URL("https://valentinesgiftfinder.com"),
+  title: {
+    default: "Valentine's Gift Finder | Find Their Perfect Gift",
+    template: "%s | Valentine's Gift Finder",
+  },
   description:
     "Discover thoughtful Valentine's gifts curated for every personality, budget, and relationship. Take our 30-second quiz for personalised recommendations.",
   keywords: [
