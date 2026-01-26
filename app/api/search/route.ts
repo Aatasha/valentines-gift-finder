@@ -68,18 +68,26 @@ IMPORTANT tag rules:
 - "luxury" = high-end, premium items
 - "handmade" = artisan, crafted items
 - "budget-friendly" = affordable options
+- "fashion" = clothing, accessories, shoes, bags, jewellery (not watches)
+
+CRITICAL searchQuery rules:
+- INCLUDE brand names for: tech products, home items, kitchen items, watches, cameras, speakers, etc.
+  Example: "Fujifilm Instax Mini 12", "Le Creuset casserole dish", "Apple AirPods"
+- EXCLUDE brand names for: fashion, clothing, beauty, skincare, perfume, jewellery (not watches)
+  Example: "silk scarf" not "Hermes scarf", "red lipstick set" not "Charlotte Tilbury lipstick"
+- This helps find the exact product on retailers
 
 Respond in JSON format only, no other text:
 {
   "gifts": [
     {
-      "name": "Specific product name (can include brand)",
-      "searchQuery": "Generic search term WITHOUT brand names (e.g. 'instant film camera' not 'Fujifilm Instax')",
+      "name": "Specific product name (always include brand)",
+      "searchQuery": "Search term for retailers - INCLUDE brand for tech/home/kitchen, EXCLUDE brand for fashion/beauty",
       "description": "One sentence description",
       "priceEstimate": "Under £25" or "£25-50" or "£50-100" or "£100+",
       "whyItWorks": "Why this matches the query",
       "whereToBuy": ["Amazon UK", "John Lewis", etc],
-      "tags": ["romantic", "practical", "experience", "luxury", "budget-friendly", "personalised", "tech", "handmade"]
+      "tags": ["romantic", "practical", "experience", "luxury", "budget-friendly", "personalised", "tech", "handmade", "fashion"]
     }
   ]
 }`;

@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { AIGiftCard } from '@/components/AIGiftCard';
 import { ValentineCountdown } from '@/components/ValentineCountdown';
 import { trackQuizComplete } from '@/lib/analytics';
+import { EmailCapture } from '@/components/EmailCapture';
+import { EmailPopup } from '@/components/EmailPopup';
 
 interface QuizAnswer {
   recipient: string;
@@ -576,6 +578,20 @@ export default function QuizPage() {
               </button>
             )}
 
+            {/* Email capture on end card */}
+            {results.length > 0 && (
+              <div className="mt-8 max-w-sm mx-auto">
+                <p className="text-[var(--cream)]/50 text-sm mb-3">
+                  Or get your matches + our free Valentine's tips guide
+                </p>
+                <EmailCapture
+                  recipient={answers.recipient}
+                  budget={answers.budget}
+                  personality={answers.personality}
+                />
+              </div>
+            )}
+
             {results.length === 0 && (
               <Link
                 href="/search"
@@ -589,6 +605,17 @@ export default function QuizPage() {
 
         {/* Results page - slides in when showResults is true */}
         <div className={`min-h-screen bg-[var(--background)] transition-all duration-500 ${showResults ? 'opacity-100 relative z-[60]' : 'opacity-0 pointer-events-none'}`}>
+          {/* Email popup - triggers after delay or scroll */}
+          {showResults && (
+            <EmailPopup
+              recipient={answers.recipient}
+              budget={answers.budget}
+              personality={answers.personality}
+              delaySeconds={6}
+              scrollPercentage={20}
+            />
+          )}
+
           <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
             {/* Compact header */}
             <header className="mb-6 text-center">
@@ -621,7 +648,16 @@ export default function QuizPage() {
               </div>
             )}
 
-            <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
+            {/* Email capture section */}
+            <div className="mt-10 max-w-xl mx-auto">
+              <EmailCapture
+                recipient={answers.recipient}
+                budget={answers.budget}
+                personality={answers.personality}
+              />
+            </div>
+
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 onClick={restart}
                 className="rounded-lg border-2 border-[var(--gold)] px-8 py-3 font-medium text-[var(--gold)] transition-colors hover:bg-[var(--cream)]/10"
