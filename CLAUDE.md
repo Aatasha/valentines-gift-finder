@@ -111,7 +111,7 @@ State management uses React useState with a `step` variable: `'questions' | 'loa
 
 **Current status**:
 - Amazon UK: **Approved** (tag: `aanthony08-21`)
-- Etsy (via Awin): **Pending** - set `APPROVED_AFFILIATES.etsy = true` when approved
+- Etsy (via Awin): **Rejected** - removed all Etsy references from the site
 - Virgin Experience Days (via Impact): **Pending** - set `APPROVED_AFFILIATES.virginexp = true` when approved
 
 The `getBestRetailerForGift()` function routes clicks based on gift tags, but currently all traffic goes to Amazon until other programs are approved.

@@ -4,20 +4,12 @@
 // 1. Amazon Associates: Already configured ✓
 //    - Manage at: https://affiliate-program.amazon.co.uk/
 //
-// 2. Etsy (via Awin):
-//    - Sign up: https://www.awin.com/ → Search for "Etsy UK"
-//    - Get your Awin publisher ID and Etsy advertiser ID
-//    - Tracking URL format: https://www.awin1.com/cread.php?awinaffid=YOUR_ID&awinmid=ETSY_ID&ued=ENCODED_URL
-//
-// 3. Virgin Experience Days (via Impact.com):
+// 2. Virgin Experience Days (via Impact.com):
 //    - Sign up at: https://impact.com/
 //    - Search for Virgin Experience Days program
 
 export const AFFILIATE_TAGS = {
   amazon: 'aanthony08-21',
-  // Add Awin IDs here once registered:
-  // awinPublisherId: 'YOUR_AWIN_PUBLISHER_ID',
-  // etsyAdvertiserId: 'ETSY_ADVERTISER_ID',
 } as const;
 
 // Clean and optimize search terms for better retailer results
@@ -40,12 +32,11 @@ export function cleanSearchTerm(rawTerm: string): string {
   return term;
 }
 
-export type RetailerKey = 'amazon' | 'etsy' | 'virginexp';
+export type RetailerKey = 'amazon' | 'virginexp';
 
 // Retailer display names
 export const RETAILER_NAMES: Record<RetailerKey, string> = {
   amazon: 'Amazon',
-  etsy: 'Etsy',
   virginexp: 'Virgin Experience Days',
 };
 
@@ -71,10 +62,6 @@ export function getRetailerSearchUrl(retailer: RetailerKey, productNameOrGift: s
   switch (retailer) {
     case 'amazon':
       return `https://www.amazon.co.uk/s?k=${searchTerm}&tag=${AFFILIATE_TAGS.amazon}`;
-    case 'etsy':
-      // TODO: Wrap with Awin tracking when affiliate ID is obtained
-      // Format: https://www.awin1.com/cread.php?awinaffid=XXX&awinmid=YYY&ued=ENCODED_URL
-      return `https://www.etsy.com/uk/search?q=${searchTerm}`;
     case 'virginexp':
       // TODO: Add Impact.com tracking when program is approved
       return `https://www.virginexperiencedays.co.uk/search?query=${searchTerm}`;
@@ -84,7 +71,7 @@ export function getRetailerSearchUrl(retailer: RetailerKey, productNameOrGift: s
 }
 
 // Determine the best retailer based on gift tags
-// TODO: Re-enable Etsy and Virgin Experience Days once affiliate programs are approved
+// TODO: Re-enable Virgin Experience Days once affiliate program is approved
 export function getBestRetailerForGift(tags: string[]): RetailerKey {
   // For now, always use Amazon until other affiliate programs are approved
   return 'amazon';
@@ -95,11 +82,6 @@ export function getBestRetailerForGift(tags: string[]): RetailerKey {
   // // Experiences → Virgin Experience Days (ONLY for actual experience vouchers, not physical products)
   // if (lowerTags.includes('experience')) {
   //   return 'virginexp';
-  // }
-  //
-  // // Personalised/handmade/unique → Etsy (great for custom/artisan items)
-  // if (lowerTags.some(t => ['personalised', 'personalized', 'custom', 'handmade', 'unique'].includes(t))) {
-  //   return 'etsy';
   // }
   //
   // return 'amazon';
