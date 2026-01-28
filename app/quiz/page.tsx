@@ -5,8 +5,12 @@ import Link from 'next/link';
 import { AIGiftCard } from '@/components/AIGiftCard';
 import { ValentineCountdown } from '@/components/ValentineCountdown';
 import { trackQuizComplete } from '@/lib/analytics';
+import { EmailCapture } from '@/components/EmailCapture';
+import { EmailPopup } from '@/components/EmailPopup';
 
 interface QuizAnswer {
+  commitment: string;
+  reaction: string;
   recipient: string;
   relationship: string;
   age: string;
@@ -25,10 +29,70 @@ interface AIGift {
   tags: string[];
 }
 
-type Step = 'recipient' | 'relationship' | 'age' | 'interests' | 'budget' | 'personality' | 'loading' | 'results';
+type Step = 'commitment' | 'reaction' | 'recipient' | 'relationship' | 'age' | 'interests' | 'budget' | 'personality' | 'loading' | 'results';
 
 // Ornate icons for each option
 const optionIcons: Record<string, ReactNode> = {
+  // Commitment levels
+  'top-priority': (
+    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
+      {/* Target/bullseye */}
+      <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.5"/>
+      <circle cx="12" cy="12" r="5" stroke="currentColor" strokeWidth="1.5"/>
+      <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
+    </svg>
+  ),
+  'very-important': (
+    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
+      {/* Heart with checkmark */}
+      <path d="M12 20 C7 15, 2 12, 2 7 C2 3, 6 2, 12 8 C18 2, 22 3, 22 7 C22 12, 17 15, 12 20" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+      <path d="M8 11 L11 14 L16 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  ),
+  'fairly-important': (
+    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
+      {/* Thumbs up */}
+      <path d="M7 22 L7 11 M2 13 L2 20 C2 21, 3 22, 4 22 L14 22 C15.5 22, 17 21, 17 19.5 L17 13 L13 13 L14 7 C14 5.5, 13 4, 11.5 4 L7 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  ),
+  // Reactions
+  'big-smile': (
+    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
+      {/* Smiling face */}
+      <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.5"/>
+      <circle cx="8" cy="10" r="1.5" fill="currentColor"/>
+      <circle cx="16" cy="10" r="1.5" fill="currentColor"/>
+      <path d="M7 14 C8 17, 16 17, 17 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+    </svg>
+  ),
+  'happy-tears': (
+    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
+      {/* Face with happy tear */}
+      <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.5"/>
+      <circle cx="8" cy="10" r="1.5" fill="currentColor"/>
+      <circle cx="16" cy="10" r="1.5" fill="currentColor"/>
+      <path d="M8 14 C9 16, 15 16, 16 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M17 12 C17 13, 18 14.5, 17.5 15" stroke="currentColor" strokeWidth="1" strokeLinecap="round"/>
+    </svg>
+  ),
+  'total-surprise': (
+    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
+      {/* Surprised face */}
+      <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.5"/>
+      <circle cx="8" cy="10" r="1.5" fill="currentColor"/>
+      <circle cx="16" cy="10" r="1.5" fill="currentColor"/>
+      <ellipse cx="12" cy="16" rx="2" ry="2.5" stroke="currentColor" strokeWidth="1.5"/>
+    </svg>
+  ),
+  'how-did-you-know': (
+    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
+      {/* Star-struck face */}
+      <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.5"/>
+      <path d="M8 10 L7 8.5 L8.5 9.5 L9 8 L9.5 9.5 L11 8.5 L10 10 L11 10.5 L9.5 10.5 L9 12 L8.5 10.5 L7 10.5 Z" fill="currentColor"/>
+      <path d="M16 10 L15 8.5 L16.5 9.5 L17 8 L17.5 9.5 L19 8.5 L18 10 L19 10.5 L17.5 10.5 L17 12 L16.5 10.5 L15 10.5 Z" fill="currentColor"/>
+      <path d="M8 15 C9 17, 15 17, 16 15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+    </svg>
+  ),
   // Recipients - dating (heart + gender symbol) vs married (ring)
   boyfriend: (
     <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
@@ -289,6 +353,25 @@ const questions: Record<Exclude<Step, 'loading' | 'results'>, {
   options: { value: string; label: string }[];
   multiple?: boolean;
 }> = {
+  commitment: {
+    title: "How important is finding the perfect gift?",
+    subtitle: "Be honest — we'll tailor our search to match",
+    options: [
+      { value: 'top-priority', label: "It's my top priority" },
+      { value: 'very-important', label: 'Very important — I want to get it right' },
+      { value: 'fairly-important', label: 'Fairly important' },
+    ],
+  },
+  reaction: {
+    title: "What reaction are you hoping for?",
+    subtitle: "Picture the moment they open it",
+    options: [
+      { value: 'big-smile', label: 'A big smile' },
+      { value: 'happy-tears', label: 'Happy tears' },
+      { value: 'total-surprise', label: 'Total surprise' },
+      { value: 'how-did-you-know', label: '"How did you know?!"' },
+    ],
+  },
   recipient: {
     title: "Who are you shopping for?",
     subtitle: "Select who'll receive this gift",
@@ -360,10 +443,10 @@ const questions: Record<Exclude<Step, 'loading' | 'results'>, {
   },
 };
 
-const stepOrder: Exclude<Step, 'loading' | 'results'>[] = ['recipient', 'relationship', 'age', 'interests', 'budget', 'personality'];
+const stepOrder: Exclude<Step, 'loading' | 'results'>[] = ['commitment', 'reaction', 'recipient', 'relationship', 'age', 'interests', 'budget', 'personality'];
 
 export default function QuizPage() {
-  const [step, setStep] = useState<Step>('recipient');
+  const [step, setStep] = useState<Step>('commitment');
   const [answers, setAnswers] = useState<Partial<QuizAnswer>>({});
   const [results, setResults] = useState<AIGift[]>([]);
   const [showResults, setShowResults] = useState(false);
@@ -492,7 +575,7 @@ export default function QuizPage() {
   };
 
   const restart = () => {
-    setStep('recipient');
+    setStep('commitment');
     setAnswers({});
     setResults([]);
     setShowResults(false);
@@ -576,6 +659,20 @@ export default function QuizPage() {
               </button>
             )}
 
+            {/* Email capture on end card */}
+            {results.length > 0 && (
+              <div className="mt-8 max-w-sm mx-auto">
+                <p className="text-[var(--cream)]/50 text-sm mb-3">
+                  Or get your matches + our free Valentine's tips guide
+                </p>
+                <EmailCapture
+                  recipient={answers.recipient}
+                  budget={answers.budget}
+                  personality={answers.personality}
+                />
+              </div>
+            )}
+
             {results.length === 0 && (
               <Link
                 href="/search"
@@ -589,6 +686,17 @@ export default function QuizPage() {
 
         {/* Results page - slides in when showResults is true */}
         <div className={`min-h-screen bg-[var(--background)] transition-all duration-500 ${showResults ? 'opacity-100 relative z-[60]' : 'opacity-0 pointer-events-none'}`}>
+          {/* Email popup - triggers after delay or scroll */}
+          {showResults && (
+            <EmailPopup
+              recipient={answers.recipient}
+              budget={answers.budget}
+              personality={answers.personality}
+              delaySeconds={6}
+              scrollPercentage={20}
+            />
+          )}
+
           <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
             {/* Compact header */}
             <header className="mb-6 text-center">
@@ -621,7 +729,16 @@ export default function QuizPage() {
               </div>
             )}
 
-            <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
+            {/* Email capture section */}
+            <div className="mt-10 max-w-xl mx-auto">
+              <EmailCapture
+                recipient={answers.recipient}
+                budget={answers.budget}
+                personality={answers.personality}
+              />
+            </div>
+
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 onClick={restart}
                 className="rounded-lg border-2 border-[var(--gold)] px-8 py-3 font-medium text-[var(--gold)] transition-colors hover:bg-[var(--cream)]/10"

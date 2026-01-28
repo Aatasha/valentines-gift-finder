@@ -50,8 +50,7 @@ export function Footer() {
           <div className="mt-8 rounded-lg bg-[var(--burgundy)]/50 p-4 max-w-2xl mx-auto">
             <p className="text-xs text-[var(--cream)]/60">
               <span className="font-medium text-[var(--cream)]/80">Affiliate Disclosure:</span> This
-              site contains affiliate links from partners including Amazon, Etsy, and Virgin Experience
-              Days. As an Amazon Associate and affiliate partner, we earn from qualifying purchases. If
+              site contains affiliate links. As an Amazon Associate, we earn from qualifying purchases. If
               you click through and make a purchase, we may receive a small commission at no extra cost
               to you. This helps support the site and allows us to continue providing gift recommendations.
             </p>

@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { categories } from "@/lib/categories";
 import { getAllGifts } from "@/lib/gifts";
+import { getAllBlogPosts } from "@/lib/blog-posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://valentinesgiftfinder.com";
@@ -26,6 +27,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.7,
     },
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: now,
+      changeFrequency: "daily",
+      priority: 0.8,
+    },
   ];
 
   // Category pages
@@ -45,5 +52,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...categoryPages, ...giftPages];
+  // Blog posts
+  const blogPosts = getAllBlogPosts();
+  const blogPages: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+    url: `${baseUrl}/blog/${post.slug}`,
+    lastModified: new Date(post.updatedAt || post.publishedAt),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...categoryPages, ...giftPages, ...blogPages];
 }

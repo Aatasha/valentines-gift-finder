@@ -70,8 +70,6 @@ export default function TermsOfService() {
             </p>
             <ul className="list-disc pl-6 space-y-1">
               <li>Amazon Associates</li>
-              <li>Awin (Etsy)</li>
-              <li>Impact.com (Virgin Experience Days)</li>
             </ul>
             <p className="mt-2">
               Our recommendations are based on what we believe will be helpful to our users.

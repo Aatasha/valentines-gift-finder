@@ -84,9 +84,9 @@ export default function PrivacyPolicy() {
               4. Affiliate Partnerships & Third-Party Links
             </h2>
             <p>
-              Our Site contains affiliate links to third-party retailers including Amazon, Etsy,
-              and Virgin Experience Days. When you click these links and make a purchase, we may
-              earn a commission at no extra cost to you.
+              Our Site contains affiliate links to third-party retailers including Amazon.
+              When you click these links and make a purchase, we may earn a commission at no
+              extra cost to you.
             </p>
             <p className="mt-2">
               These third-party sites have their own privacy policies, and we encourage you to
@@ -97,8 +97,6 @@ export default function PrivacyPolicy() {
             </p>
             <ul className="list-disc pl-6 space-y-1">
               <li>Amazon Associates (Amazon.co.uk)</li>
-              <li>Awin (Etsy)</li>
-              <li>Impact.com (Virgin Experience Days)</li>
             </ul>
           </section>
 
