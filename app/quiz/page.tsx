@@ -10,7 +10,6 @@ import { EmailPopup } from '@/components/EmailPopup';
 
 interface QuizAnswer {
   commitment: string;
-  reaction: string;
   recipient: string;
   relationship: string;
   age: string;
@@ -29,7 +28,7 @@ interface AIGift {
   tags: string[];
 }
 
-type Step = 'commitment' | 'reaction' | 'recipient' | 'relationship' | 'age' | 'interests' | 'budget' | 'personality' | 'loading' | 'results';
+type Step = 'commitment' | 'recipient' | 'relationship' | 'age' | 'interests' | 'budget' | 'personality' | 'loading' | 'results';
 
 // Ornate icons for each option
 const optionIcons: Record<string, ReactNode> = {
@@ -53,44 +52,6 @@ const optionIcons: Record<string, ReactNode> = {
     <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
       {/* Thumbs up */}
       <path d="M7 22 L7 11 M2 13 L2 20 C2 21, 3 22, 4 22 L14 22 C15.5 22, 17 21, 17 19.5 L17 13 L13 13 L14 7 C14 5.5, 13 4, 11.5 4 L7 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-    </svg>
-  ),
-  // Reactions
-  'big-smile': (
-    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
-      {/* Smiling face */}
-      <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.5"/>
-      <circle cx="8" cy="10" r="1.5" fill="currentColor"/>
-      <circle cx="16" cy="10" r="1.5" fill="currentColor"/>
-      <path d="M7 14 C8 17, 16 17, 17 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-    </svg>
-  ),
-  'happy-tears': (
-    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
-      {/* Face with happy tear */}
-      <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.5"/>
-      <circle cx="8" cy="10" r="1.5" fill="currentColor"/>
-      <circle cx="16" cy="10" r="1.5" fill="currentColor"/>
-      <path d="M8 14 C9 16, 15 16, 16 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-      <path d="M17 12 C17 13, 18 14.5, 17.5 15" stroke="currentColor" strokeWidth="1" strokeLinecap="round"/>
-    </svg>
-  ),
-  'total-surprise': (
-    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
-      {/* Surprised face */}
-      <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.5"/>
-      <circle cx="8" cy="10" r="1.5" fill="currentColor"/>
-      <circle cx="16" cy="10" r="1.5" fill="currentColor"/>
-      <ellipse cx="12" cy="16" rx="2" ry="2.5" stroke="currentColor" strokeWidth="1.5"/>
-    </svg>
-  ),
-  'how-did-you-know': (
-    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none">
-      {/* Star-struck face */}
-      <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.5"/>
-      <path d="M8 10 L7 8.5 L8.5 9.5 L9 8 L9.5 9.5 L11 8.5 L10 10 L11 10.5 L9.5 10.5 L9 12 L8.5 10.5 L7 10.5 Z" fill="currentColor"/>
-      <path d="M16 10 L15 8.5 L16.5 9.5 L17 8 L17.5 9.5 L19 8.5 L18 10 L19 10.5 L17.5 10.5 L17 12 L16.5 10.5 L15 10.5 Z" fill="currentColor"/>
-      <path d="M8 15 C9 17, 15 17, 16 15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
     </svg>
   ),
   // Recipients - dating (heart + gender symbol) vs married (ring)
@@ -362,16 +323,6 @@ const questions: Record<Exclude<Step, 'loading' | 'results'>, {
       { value: 'fairly-important', label: 'Fairly important' },
     ],
   },
-  reaction: {
-    title: "What reaction are you hoping for?",
-    subtitle: "Picture the moment they open it",
-    options: [
-      { value: 'big-smile', label: 'A big smile' },
-      { value: 'happy-tears', label: 'Happy tears' },
-      { value: 'total-surprise', label: 'Total surprise' },
-      { value: 'how-did-you-know', label: '"How did you know?!"' },
-    ],
-  },
   recipient: {
     title: "Who are you shopping for?",
     subtitle: "Select who'll receive this gift",
@@ -443,7 +394,7 @@ const questions: Record<Exclude<Step, 'loading' | 'results'>, {
   },
 };
 
-const stepOrder: Exclude<Step, 'loading' | 'results'>[] = ['reaction', 'recipient', 'relationship', 'age', 'interests', 'budget', 'personality', 'commitment'];
+const stepOrder: Exclude<Step, 'loading' | 'results'>[] = ['recipient', 'relationship', 'age', 'interests', 'budget', 'personality', 'commitment'];
 
 export default function QuizPage() {
   const [step, setStep] = useState<Step>('reaction');
@@ -575,7 +526,7 @@ export default function QuizPage() {
   };
 
   const restart = () => {
-    setStep('reaction');
+    setStep('recipient');
     setAnswers({});
     setResults([]);
     setShowResults(false);
