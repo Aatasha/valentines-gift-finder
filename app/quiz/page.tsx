@@ -397,7 +397,7 @@ const questions: Record<Exclude<Step, 'loading' | 'results'>, {
 const stepOrder: Exclude<Step, 'loading' | 'results'>[] = ['recipient', 'relationship', 'age', 'interests', 'budget', 'personality', 'commitment'];
 
 export default function QuizPage() {
-  const [step, setStep] = useState<Step>('reaction');
+  const [step, setStep] = useState<Step>('recipient');
   const [answers, setAnswers] = useState<Partial<QuizAnswer>>({});
   const [results, setResults] = useState<AIGift[]>([]);
   const [showResults, setShowResults] = useState(false);
