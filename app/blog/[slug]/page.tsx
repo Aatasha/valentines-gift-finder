@@ -109,6 +109,14 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         article li {
           margin-bottom: 0.75rem !important;
         }
+        article a {
+          text-decoration: none !important;
+          transition: all 0.2s ease !important;
+        }
+        article a:hover {
+          text-decoration: underline !important;
+          text-underline-offset: 4px !important;
+        }
         article p > a:only-child {
           display: inline-block !important;
           background: rgba(212, 175, 55, 0.1) !important;
@@ -185,7 +193,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               prose-h2:text-3xl sm:prose-h2:text-4xl prose-h2:mt-20 prose-h2:mb-8 prose-h2:pt-10 prose-h2:border-t-2 prose-h2:border-[var(--cream)]/20
               prose-h3:text-2xl sm:prose-h3:text-3xl prose-h3:mt-16 prose-h3:mb-5 prose-h3:pt-8 prose-h3:border-t prose-h3:border-[var(--cream)]/10
               prose-p:text-[var(--cream)]/80 prose-p:leading-relaxed prose-p:mb-6
-              prose-a:text-[var(--gold)] prose-a:underline prose-a:underline-offset-2 prose-a:transition-colors hover:prose-a:text-[var(--gold-light)]
+              prose-a:text-[var(--gold)] prose-a:no-underline prose-a:transition-all hover:prose-a:underline hover:prose-a:underline-offset-4 hover:prose-a:text-[var(--gold-light)]
               prose-strong:text-[var(--cream)] prose-strong:font-semibold
               prose-ul:text-[var(--cream)]/80 prose-ul:my-6 prose-li:marker:text-[var(--gold)] prose-li:mb-3
               prose-ol:text-[var(--cream)]/80 prose-ol:my-6

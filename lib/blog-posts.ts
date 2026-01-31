@@ -71,10 +71,12 @@ export const blogPosts: BlogPost[] = [
       <p><strong>£39–£119</strong> | Instant digital delivery</p>
       <p>Tinggly lets you gift an experience (spa days, restaurant tasting menus, hot air balloon rides, adventure activities) without having to guess which one they'd actually enjoy. You buy a voucher at your chosen price tier, and your partner picks their own experience from hundreds of UK options. It ends up feeling more personal than something ordered weeks ago, because they choose exactly what excites them.</p>
       <ul>
-        <li><strong>Pros:</strong> Instant email delivery, huge range of UK experiences, 5-year validity so no pressure to book immediately</li>
-        <li><strong>Pros:</strong> Presentation is polished. You can print a beautiful gift card or show it on your phone</li>
-        <li><strong>Cons:</strong> Doesn't give them something physical to unwrap on the day</li>
-        <li><strong>Cons:</strong> Some premium experiences (helicopter tours, etc.) require the higher-priced vouchers</li>
+        <li><strong>Pros</strong></li>
+        <li>Instant email delivery, huge range of UK experiences, 5-year validity so no pressure to book immediately</li>
+        <li>Presentation is polished. You can print a beautiful gift card or show it on your phone</li>
+        <li><strong>Cons</strong></li>
+        <li>Doesn't give them something physical to unwrap on the day</li>
+        <li>Some premium experiences (helicopter tours, etc.) require the higher-priced vouchers</li>
       </ul>
       <p><strong>Why this over alternatives:</strong> Virgin Experience Days is the other big name here, but Tinggly edges it on presentation, international options (handy if you're planning a trip together), and the flexible voucher model. Reviews consistently mention it being one of the best gifts people have given.</p>
       <p><a href="https://tinggly.com/valentines-day-experience-gifts" target="_blank" rel="noopener">Get it now →</a></p>
@@ -83,9 +85,11 @@ export const blogPosts: BlogPost[] = [
       <p><strong>£29–£150</strong> | Instant email delivery</p>
       <p>If you already know what kind of experience they'd love (a couples' spa day, a cocktail masterclass, a track driving experience), Virgin Experience Days lets you buy a specific activity and send it instantly by email. The brand recognition helps too; it feels like a known, trusted gift rather than something obscure.</p>
       <ul>
-        <li><strong>Pros:</strong> Massive UK coverage with 4,000+ experiences, strong brand trust, instant delivery</li>
-        <li><strong>Pros:</strong> Can pick a specific experience or let them choose from a collection</li>
-        <li><strong>Cons:</strong> Some experiences have limited weekend availability, which can be frustrating to book</li>
+        <li><strong>Pros</strong></li>
+        <li>Massive UK coverage with 4,000+ experiences, strong brand trust, instant delivery</li>
+        <li>Can pick a specific experience or let them choose from a collection</li>
+        <li><strong>Cons</strong></li>
+        <li>Some experiences have limited weekend availability, which can be frustrating to book</li>
       </ul>
       <p><a href="https://www.virginexperiencedays.co.uk/valentines-day" target="_blank" rel="noopener">Get it now →</a></p>
 
@@ -93,10 +97,12 @@ export const blogPosts: BlogPost[] = [
       <p><strong>£10.99–£35.97</strong> (1–3 months) | Instant delivery</p>
       <p>A digital subscription might sound impersonal, but paired with a handwritten note ("So you've always got the perfect playlist for your morning runs" or "For our next audiobook road trip together") it becomes a gift that keeps giving daily. You can buy Spotify or Audible gift cards digitally through Amazon and send them in seconds.</p>
       <ul>
-        <li><strong>Pros:</strong> Truly instant, personal with the right note, and useful every day</li>
-        <li><strong>Cons:</strong> Doesn't feel "Valentine's" on its own. Best paired with something physical, even just a card</li>
+        <li><strong>Pros</strong></li>
+        <li>Truly instant, personal with the right note, and useful every day</li>
+        <li><strong>Cons</strong></li>
+        <li>Doesn't feel "Valentine's" on its own. Best paired with something physical, even just a card</li>
       </ul>
-      <p><a href="https://www.amazon.co.uk/dp/B085FMRFP4?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.spotify.com/uk/premium/" target="_blank" rel="noopener">Get it now →</a></p>
 
       <p>Looking for more experience-based presents? <a href="/category/experiences">Browse our full collection of experience gifts for Valentine's Day</a>.</p>
 
@@ -108,9 +114,11 @@ export const blogPosts: BlogPost[] = [
       <p><strong>£24</strong> | Next-day via Amazon</p>
       <p>This has become one of those cult beauty products that gets recommended endlessly on social media, and for good reason. It's a rich, berry-scented lip mask you apply before bed, and you wake up with noticeably softer lips. The kind of small luxury most people wouldn't buy for themselves but love receiving.</p>
       <ul>
-        <li><strong>Pros:</strong> Universally loved, beautiful packaging, lasts months so the gift keeps on giving</li>
-        <li><strong>Pros:</strong> Compact enough to pair with chocolate or flowers without feeling like you overdid it</li>
-        <li><strong>Cons:</strong> If she's already a skincare enthusiast, she may already own it. Check first</li>
+        <li><strong>Pros</strong></li>
+        <li>Universally loved, beautiful packaging, lasts months so the gift keeps on giving</li>
+        <li>Compact enough to pair with chocolate or flowers without feeling like you overdid it</li>
+        <li><strong>Cons</strong></li>
+        <li>If she's already a skincare enthusiast, she may already own it. Check first</li>
       </ul>
       <p><a href="https://www.amazon.co.uk/dp/B076Y4TFLL?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
@@ -118,9 +126,11 @@ export const blogPosts: BlogPost[] = [
       <p><strong>£38</strong> | Next-day via John Lewis or Space NK</p>
       <p>Created by Jo Malone herself after she left her eponymous brand, Jo Loves candles carry the same understated luxury at a slightly more accessible price point. The Pomelo scent is fresh, zesty, and a bit unexpected. It doesn't scream "generic Valentine's candle," which is exactly the point.</p>
       <ul>
-        <li><strong>Pros:</strong> Premium brand with a great backstory, beautiful glass jar packaging</li>
-        <li><strong>Pros:</strong> Scent is distinctive without being divisive. Most people seem to love it</li>
-        <li><strong>Cons:</strong> At £38, it's pricier than supermarket candles, but that's rather the point for a gift</li>
+        <li><strong>Pros</strong></li>
+        <li>Premium brand with a great backstory, beautiful glass jar packaging</li>
+        <li>Scent is distinctive without being divisive. Most people seem to love it</li>
+        <li><strong>Cons</strong></li>
+        <li>At £38, it's pricier than supermarket candles, but that's rather the point for a gift</li>
       </ul>
       <p><strong>Why this over alternatives:</strong> Cheaper than Jo Malone but from the same nose. The NEOM candle (above) is the better value option; this is the one for when you want the luxury name attached.</p>
       <p><a href="https://www.johnlewis.com/brand/jo-loves/_/N-1z0ronp" target="_blank" rel="noopener">Get it now →</a> <a href="https://www.spacenk.com/uk/fragrance/home-fragrance/candle/pomelo-a-scented-candle-MUK200021009.html" target="_blank" rel="noopener">Get it now →</a></p>
@@ -129,10 +139,12 @@ export const blogPosts: BlogPost[] = [
       <p><strong>£25–£45</strong> | Next-day letterbox delivery</p>
       <p>Letterbox flowers solve the biggest headache with flower delivery: nobody needs to be home. The stems arrive bud-stage in a flat, beautifully designed box and bloom over the following days, so they actually last longer than a traditional bouquet. Bloom & Wild's Valentine's range includes classic red roses and more adventurous mixed arrangements.</p>
       <ul>
-        <li><strong>Pros:</strong> Fits through the letterbox. No failed delivery attempts or sad "sorry we missed you" cards</li>
-        <li><strong>Pros:</strong> Option to add a handwritten-style card with a personal message</li>
-        <li><strong>Cons:</strong> Stems are shorter than a traditional bouquet, which some people notice</li>
-        <li><strong>Cons:</strong> The most popular arrangements sell out fast in the final days. Order as soon as you can</li>
+        <li><strong>Pros</strong></li>
+        <li>Fits through the letterbox. No failed delivery attempts or sad "sorry we missed you" cards</li>
+        <li>Option to add a handwritten-style card with a personal message</li>
+        <li><strong>Cons</strong></li>
+        <li>Stems are shorter than a traditional bouquet, which some people notice</li>
+        <li>The most popular arrangements sell out fast in the final days. Order as soon as you can</li>
       </ul>
       <p><a href="https://www.bloomandwild.com/send-flowers/tagonly/letterbox" target="_blank" rel="noopener">Get it now →</a></p>
 
@@ -146,9 +158,11 @@ export const blogPosts: BlogPost[] = [
       <p><strong>£25.99</strong> | Next-day via Amazon</p>
       <p>This is one of the most-gifted items in the UK for a reason. It's an oversized, sherpa-lined hoodie-blanket hybrid that's absurdly comfortable for sofa evenings, gaming sessions, or working from home. Reviews are full of people saying they basically live in theirs from October to March.</p>
       <ul>
-        <li><strong>Pros:</strong> Universally comfortable, machine washable, one-size-fits-most design works well</li>
-        <li><strong>Pros:</strong> Available in plenty of colours. Valentine's red if you're feeling thematic</li>
-        <li><strong>Cons:</strong> It's not "romantic" in the traditional sense. Pair with a card and chocolate to balance</li>
+        <li><strong>Pros</strong></li>
+        <li>Universally comfortable, machine washable, one-size-fits-most design works well</li>
+        <li>Available in plenty of colours. Valentine's red if you're feeling thematic</li>
+        <li><strong>Cons</strong></li>
+        <li>It's not "romantic" in the traditional sense. Pair with a card and chocolate to balance</li>
       </ul>
       <p><a href="https://www.amazon.co.uk/dp/B08CK1Q29J?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
@@ -156,9 +170,11 @@ export const blogPosts: BlogPost[] = [
       <p><strong>£40</strong> | Next-day via Amazon or John Lewis</p>
       <p>For the partner who cooks (or the one you cook for), these heart-shaped Le Creuset ramekins are a premium kitchen item that nobody buys for themselves but everyone loves using. Perfect for crème brûlée, individual pies, or just serving dips. The Cerise (cherry red) colourway is made for Valentine's Day.</p>
       <ul>
-        <li><strong>Pros:</strong> Le Creuset quality. Lasts a lifetime, looks stunning in any kitchen</li>
-        <li><strong>Pros:</strong> Functional and decorative. They'll actually use these, not just display them</li>
-        <li><strong>Cons:</strong> Only practical if they enjoy cooking or baking. Otherwise it'll gather dust</li>
+        <li><strong>Pros</strong></li>
+        <li>Le Creuset quality. Lasts a lifetime, looks stunning in any kitchen</li>
+        <li>Functional and decorative. They'll actually use these, not just display them</li>
+        <li><strong>Cons</strong></li>
+        <li>Only practical if they enjoy cooking or baking. Otherwise it'll gather dust</li>
       </ul>
       <p><strong>Why this over alternatives:</strong> Le Creuset's brand carries real weight as a gift. Other heart-shaped bakeware exists at half the price, but it doesn't have the same "this is a proper gift" feeling when unwrapped.</p>
       <p><a href="https://www.amazon.co.uk/dp/B0C9HXTGK7?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
@@ -167,9 +183,11 @@ export const blogPosts: BlogPost[] = [
       <p><strong>£39.99</strong> | Next-day via Amazon</p>
       <p>A compact, waterproof Bluetooth speaker that clips onto a bag, sits on a bathroom shelf, or takes up almost no space on a desk. The sound is impressive for the size, and the bold colour options (red, pink, or black) make it a decent Valentine's gift. Practical gifts get a bad reputation, but this is the sort of thing that becomes part of someone's daily life.</p>
       <ul>
-        <li><strong>Pros:</strong> Excellent sound quality for the size, waterproof (IP67), 7-hour battery life</li>
-        <li><strong>Pros:</strong> Small enough to take anywhere: beach, shower, garden, desk</li>
-        <li><strong>Cons:</strong> If they already have a premium speaker at home, this might feel like a downgrade</li>
+        <li><strong>Pros</strong></li>
+        <li>Excellent sound quality for the size, waterproof (IP67), 7-hour battery life</li>
+        <li>Small enough to take anywhere: beach, shower, garden, desk</li>
+        <li><strong>Cons</strong></li>
+        <li>If they already have a premium speaker at home, this might feel like a downgrade</li>
       </ul>
       <p><a href="https://www.amazon.co.uk/dp/B0CX5C6WP3?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
@@ -181,8 +199,10 @@ export const blogPosts: BlogPost[] = [
       <p><strong>£18</strong> | Next-day via Amazon</p>
       <p>The smaller version of NEOM's bestselling candle. English lavender, sweet basil, and jasmine create a scent that actually helps you unwind. It's backed by clinical trials, which is unusual for a candle. At £18, it punches well above its weight as a gift.</p>
       <ul>
-        <li><strong>Pros:</strong> Looks and smells far more expensive than £18, backed by real wellbeing research</li>
-        <li><strong>Cons:</strong> The 75g size burns for around 20 hours. Lovely while it lasts, but not forever</li>
+        <li><strong>Pros</strong></li>
+        <li>Looks and smells far more expensive than £18, backed by real wellbeing research</li>
+        <li><strong>Cons</strong></li>
+        <li>The 75g size burns for around 20 hours. Lovely while it lasts, but not forever</li>
       </ul>
       <p><a href="https://www.amazon.co.uk/dp/B00LC6BXM0?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
@@ -190,8 +210,10 @@ export const blogPosts: BlogPost[] = [
       <p><strong>£15–£18 combined</strong> | Card via Moonpig (next-day), Chocolates via Amazon</p>
       <p>Sometimes the classics work. A personalised card with a proper message inside (not just "Happy Valentine's") paired with a box of chocolates is all most people want. Moonpig and Thortful offer next-day personalised cards, and you can add a gift directly at checkout.</p>
       <ul>
-        <li><strong>Pros:</strong> The personal message is what they'll remember, not the price tag</li>
-        <li><strong>Cons:</strong> Can feel "safe" rather than inspired. Add a specific, meaningful note to elevate it</li>
+        <li><strong>Pros</strong></li>
+        <li>The personal message is what they'll remember, not the price tag</li>
+        <li><strong>Cons</strong></li>
+        <li>Can feel "safe" rather than inspired. Add a specific, meaningful note to elevate it</li>
       </ul>
       <p><a href="https://www.moonpig.com/uk/valentines-day/" target="_blank" rel="noopener">Create a card on Moonpig →</a></p>
 
@@ -199,8 +221,10 @@ export const blogPosts: BlogPost[] = [
       <p><strong>£13–£18</strong> | Next-day via Shutterfly or Amazon</p>
       <p>A photo mug with a picture from your favourite memory together is one of those gifts that costs very little but actually gets used every single morning. Pick a photo that has a story behind it: a holiday, a funny moment, a candid shot they didn't know you took.</p>
       <ul>
-        <li><strong>Pros:</strong> Deeply personal, very affordable, used daily</li>
-        <li><strong>Cons:</strong> Quality varies by supplier. Stick to known names and read reviews carefully</li>
+        <li><strong>Pros</strong></li>
+        <li>Deeply personal, very affordable, used daily</li>
+        <li><strong>Cons</strong></li>
+        <li>Quality varies by supplier. Stick to known names and read reviews carefully</li>
       </ul>
       <p><a href="https://www.amazon.co.uk/s?k=personalised+photo+mug&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
@@ -214,9 +238,11 @@ export const blogPosts: BlogPost[] = [
       <p><strong>£24.95</strong> | Next-day letterbox delivery</p>
       <p>This is a curated box of small treats (chocolate, tea, bath salts, a mini candle) packaged in a letterbox-friendly format. It strikes exactly the right tone for a new relationship: thoughtful and sweet without being overwhelming or presumptuous. The name itself ("Box of Hugs") does half the emotional heavy lifting.</p>
       <ul>
-        <li><strong>Pros:</strong> Perfect tone for early relationships. Warm without being over the top</li>
-        <li><strong>Pros:</strong> Letterbox delivery means no awkward "are you home?" coordination</li>
-        <li><strong>Cons:</strong> The items inside are small. It's more about the gesture than the individual products</li>
+        <li><strong>Pros</strong></li>
+        <li>Perfect tone for early relationships. Warm without being over the top</li>
+        <li>Letterbox delivery means no awkward "are you home?" coordination</li>
+        <li><strong>Cons</strong></li>
+        <li>The items inside are small. It's more about the gesture than the individual products</li>
       </ul>
       <p><a href="https://www.boxofhugs.co.uk/products/the-valentines-letterbox-hug" target="_blank" rel="noopener">Get it now →</a></p>
 
@@ -224,8 +250,10 @@ export const blogPosts: BlogPost[] = [
       <p><strong>£5–£15</strong> | Next-day via Amazon</p>
       <p>Two or three bars of Tony's Chocolonely make a solid gift. Ethically sourced, properly delicious, and packaged in those distinctive colourful wrappers that look great without gift wrap. Pick their favourite flavours (milk chocolate, caramel sea salt, dark almond) and you've got something that says "I thought about this" without saying "I've been planning our future."</p>
       <ul>
-        <li><strong>Pros:</strong> Ethical brand with a real story, looks impressive, universally enjoyable</li>
-        <li><strong>Cons:</strong> If they're not a chocolate person (unlikely, but possible), this misses entirely</li>
+        <li><strong>Pros</strong></li>
+        <li>Ethical brand with a real story, looks impressive, universally enjoyable</li>
+        <li><strong>Cons</strong></li>
+        <li>If they're not a chocolate person (unlikely, but possible), this misses entirely</li>
       </ul>
       <p><a href="https://www.amazon.co.uk/dp/B07P14PRSH?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
@@ -238,11 +266,13 @@ export const blogPosts: BlogPost[] = [
       <p>The build takes around 1–2 hours, which makes it a lovely Valentine's evening activity with a glass of wine. The finished arrangement includes a dozen red roses and looks surprisingly elegant on a shelf or table.</p>
 
       <ul>
-        <li><strong>Pros:</strong> Unique. Stands out from flowers, chocolate, and candle gifts</li>
-        <li><strong>Pros:</strong> Shared activity that creates a memory, not just a product</li>
-        <li><strong>Pros:</strong> Permanent display piece. A Valentine's gift that lasts years</li>
-        <li><strong>Cons:</strong> Not for someone who has zero interest in building things. Know your audience</li>
-        <li><strong>Cons:</strong> At £55, it's mid-range. Probably too much for a very new relationship</li>
+        <li><strong>Pros</strong></li>
+        <li>Unique. Stands out from flowers, chocolate, and candle gifts</li>
+        <li>Shared activity that creates a memory, not just a product</li>
+        <li>Permanent display piece. A Valentine's gift that lasts years</li>
+        <li><strong>Cons</strong></li>
+        <li>Not for someone who has zero interest in building things. Know your audience</li>
+        <li>At £55, it's mid-range. Probably too much for a very new relationship</li>
       </ul>
 
       <p><strong>Why this over alternatives:</strong> There are cheaper artificial flower kits out there, but the LEGO brand quality, the building experience, and the final result are impressive. Reviews consistently mention it being a favourite Valentine's gift.</p>

@@ -10,11 +10,16 @@ declare global {
 
 export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
+// Only track if GA is loaded (requires cookie consent) and gtag exists
+function canTrack(): boolean {
+  return typeof window !== 'undefined' && !!GA_MEASUREMENT_ID && typeof window.gtag === 'function';
+}
+
 // Track page views (called automatically by GA, but useful for SPA navigation)
 export function trackPageView(url: string) {
-  if (typeof window === 'undefined' || !GA_MEASUREMENT_ID) return;
+  if (!canTrack()) return;
 
-  window.gtag('config', GA_MEASUREMENT_ID, {
+  window.gtag('config', GA_MEASUREMENT_ID!, {
     page_path: url,
   });
 }
@@ -25,7 +30,7 @@ export function trackAffiliateClick(params: {
   giftName: string;
   source: 'quiz' | 'search' | 'browse' | 'category';
 }) {
-  if (typeof window === 'undefined' || !GA_MEASUREMENT_ID) return;
+  if (!canTrack()) return;
 
   window.gtag('event', 'affiliate_click', {
     retailer: params.retailer,
@@ -41,7 +46,7 @@ export function trackQuizComplete(params: {
   personality: string;
   resultsCount: number;
 }) {
-  if (typeof window === 'undefined' || !GA_MEASUREMENT_ID) return;
+  if (!canTrack()) return;
 
   window.gtag('event', 'quiz_complete', {
     recipient: params.recipient,
@@ -53,7 +58,7 @@ export function trackQuizComplete(params: {
 
 // Track search queries
 export function trackSearch(query: string, resultsCount: number) {
-  if (typeof window === 'undefined' || !GA_MEASUREMENT_ID) return;
+  if (!canTrack()) return;
 
   window.gtag('event', 'search', {
     search_term: query,
@@ -63,7 +68,7 @@ export function trackSearch(query: string, resultsCount: number) {
 
 // Track category browsing
 export function trackCategoryView(category: string) {
-  if (typeof window === 'undefined' || !GA_MEASUREMENT_ID) return;
+  if (!canTrack()) return;
 
   window.gtag('event', 'view_category', {
     category_name: category,

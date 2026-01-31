@@ -2,7 +2,7 @@
 
 import Script from 'next/script';
 import { usePathname, useSearchParams } from 'next/navigation';
-import { useEffect, Suspense } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { GA_MEASUREMENT_ID, trackPageView } from '@/lib/analytics';
 
 function AnalyticsPageTracker() {
@@ -20,8 +20,25 @@ function AnalyticsPageTracker() {
 }
 
 export function Analytics() {
-  // Don't render anything if no measurement ID
-  if (!GA_MEASUREMENT_ID) {
+  const [hasConsent, setHasConsent] = useState(false);
+
+  useEffect(() => {
+    // Check existing consent on mount
+    const consent = localStorage.getItem('cookie-consent');
+    setHasConsent(consent === 'accepted');
+
+    // Listen for consent changes from CookieConsent component
+    const handleConsentUpdate = () => {
+      const updated = localStorage.getItem('cookie-consent');
+      setHasConsent(updated === 'accepted');
+    };
+
+    window.addEventListener('cookie-consent-update', handleConsentUpdate);
+    return () => window.removeEventListener('cookie-consent-update', handleConsentUpdate);
+  }, []);
+
+  // Don't load GA if no measurement ID or no consent
+  if (!GA_MEASUREMENT_ID || !hasConsent) {
     return null;
   }
 
