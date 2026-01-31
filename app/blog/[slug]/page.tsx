@@ -69,7 +69,22 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     },
   };
 
-  // Note: Content is from our own blog-posts.ts file (trusted source),
+  // FAQ schema for SEO (Google featured snippets)
+  // Safe: content is from our own blog-posts.ts, not user-generated
+  const faqJsonLd = post.faqs?.length ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: post.faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  } : null;
+
+  // Content is from our own blog-posts.ts file (trusted source),
   // not user-generated content, so dangerouslySetInnerHTML is safe here
 
   return (
@@ -78,6 +93,12 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
 
       {/* Blog article spacing styles - static CSS, safe to inline */}
       <style dangerouslySetInnerHTML={{ __html: `
@@ -108,6 +129,15 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         }
         article li {
           margin-bottom: 0.75rem !important;
+        }
+        article ul ul, article ol ul {
+          list-style-type: disc !important;
+          padding-left: 1.25rem !important;
+          margin-top: 0.25rem !important;
+          margin-bottom: 0.5rem !important;
+        }
+        article ul ul li, article ol ul li {
+          margin-bottom: 0.35rem !important;
         }
         article a {
           text-decoration: none !important;
