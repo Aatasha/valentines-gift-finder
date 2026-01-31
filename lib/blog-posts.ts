@@ -33,7 +33,7 @@ export const blogPosts: BlogPost[] = [
 
       <p>Every pick below is available with next-day or same-day delivery from UK retailers (or instant digital delivery), priced between £10 and £150, and chosen because it actually makes someone smile, not just because it was in stock.</p>
 
-      <p class="affiliate-notice"><em>This post contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. We only recommend products we genuinely rate.</em></p>
+      <p class="affiliate-notice"><em>This post contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. We only recommend products we'd genuinely consider giving.</em></p>
 
       <p><strong>In a rush?</strong> <a href="#top-picks">Jump straight to our top picks</a> | <a href="/quiz">Take our 30-second gift finder quiz</a></p>
 
@@ -43,23 +43,23 @@ export const blogPosts: BlogPost[] = [
 
       <h3>1. NEOM Perfect Night's Sleep Candle (75g)</h3>
       <p><strong>£18</strong> | Best for: Partners who need to unwind. A luxurious scented candle that feels expensive without the splurge. Next-day delivery via Amazon or John Lewis.</p>
-      <p><a href="https://www.amazon.co.uk/dp/B00LC6BXM0?tag=aanthony08-21" target="_blank" rel="noopener">See price on Amazon →</a></p>
+      <p><a href="https://www.amazon.co.uk/dp/B00LC6BXM0?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>2. Tinggly Experience Voucher</h3>
       <p><strong>From £39</strong> | Best for: Experience lovers. Instant digital delivery, zero delivery risk. Choose from hundreds of UK experiences (spa days, dining, adventure). They pick what they actually want.</p>
-      <p><a href="https://www.tinggly.com/" target="_blank" rel="noopener">See price on Tinggly →</a></p>
+      <p><a href="https://tinggly.com/valentines-day-experience-gifts" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>3. Bloom & Wild Letterbox Flowers</h3>
       <p><strong>From £25</strong> | Best for: The classic romantic gesture. Arrives through the letterbox, so no one needs to be home. Beautifully packaged with a handwritten note option.</p>
-      <p><a href="https://www.bloomandwild.com/" target="_blank" rel="noopener">See price on Bloom & Wild →</a></p>
+      <p><a href="https://www.bloomandwild.com/send-flowers/tagonly/letterbox" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>4. LEGO Bouquet of Roses (10328)</h3>
       <p><strong>£54.99</strong> | Best for: Couples who like doing things together. Part gift, part activity, part permanent decor. More fun to build together than you'd expect.</p>
-      <p><a href="https://www.amazon.co.uk/dp/B0CGY4X222?tag=aanthony08-21" target="_blank" rel="noopener">See price on Amazon →</a></p>
+      <p><a href="https://www.amazon.co.uk/dp/B0CGY4X222?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>5. Cutter & Squidge Valentine's Letterbox Treats</h3>
       <p><strong>From £27</strong> | Best for: Anyone with a sweet tooth. Luxury hand-finished brownies and biscuits, posted in a beautiful letterbox-friendly box. Next-day delivery available.</p>
-      <p><a href="https://www.cutterandsquidge.com/" target="_blank" rel="noopener">See price on Cutter & Squidge →</a></p>
+      <p><a href="https://cutterandsquidge.com/pages/valentines-day-gifts" target="_blank" rel="noopener">Get it now →</a></p>
 
       <p>Want to explore all our options? Keep reading for our full breakdown by category, price, and recipient type.</p>
 
@@ -77,7 +77,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Cons:</strong> Some premium experiences (helicopter tours, etc.) require the higher-priced vouchers</li>
       </ul>
       <p><strong>Why this over alternatives:</strong> Virgin Experience Days is the other big name here, but Tinggly edges it on presentation, international options (handy if you're planning a trip together), and the flexible voucher model. Reviews consistently mention it being one of the best gifts people have given.</p>
-      <p><a href="https://www.tinggly.com/" target="_blank" rel="noopener">See latest Tinggly options →</a></p>
+      <p><a href="https://tinggly.com/valentines-day-experience-gifts" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Virgin Experience Days E-Voucher</h3>
       <p><strong>£29–£150</strong> | Instant email delivery</p>
@@ -87,7 +87,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Pros:</strong> Can pick a specific experience or let them choose from a collection</li>
         <li><strong>Cons:</strong> Some experiences have limited weekend availability, which can be frustrating to book</li>
       </ul>
-      <p><a href="https://www.virginexperiencedays.co.uk/" target="_blank" rel="noopener">Browse Valentine's experiences →</a></p>
+      <p><a href="https://www.virginexperiencedays.co.uk/valentines-day" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Spotify Premium or Audible Gift Subscription</h3>
       <p><strong>£10.99–£35.97</strong> (1–3 months) | Instant delivery</p>
@@ -96,9 +96,9 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Pros:</strong> Truly instant, personal with the right note, and useful every day</li>
         <li><strong>Cons:</strong> Doesn't feel "Valentine's" on its own. Best paired with something physical, even just a card</li>
       </ul>
-      <p><a href="https://www.amazon.co.uk/dp/B085FMRFP4?tag=aanthony08-21" target="_blank" rel="noopener">See Spotify gift options on Amazon →</a></p>
+      <p><a href="https://www.amazon.co.uk/dp/B085FMRFP4?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
-      <p>Looking for more experience-based presents? <a href="/category/experience">Browse our full collection of experience gifts for Valentine's Day</a>.</p>
+      <p>Looking for more experience-based presents? <a href="/category/experiences">Browse our full collection of experience gifts for Valentine's Day</a>.</p>
 
       <h2>Best Next-Day Delivery Gifts for Her</h2>
 
@@ -112,7 +112,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Pros:</strong> Compact enough to pair with chocolate or flowers without feeling like you overdid it</li>
         <li><strong>Cons:</strong> If she's already a skincare enthusiast, she may already own it. Check first</li>
       </ul>
-      <p><a href="https://www.amazon.co.uk/dp/B076Y4TFLL?tag=aanthony08-21" target="_blank" rel="noopener">See price on Amazon →</a></p>
+      <p><a href="https://www.amazon.co.uk/dp/B076Y4TFLL?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Jo Loves A Shot of Pomelo Candle</h3>
       <p><strong>£38</strong> | Next-day via John Lewis or Space NK</p>
@@ -123,7 +123,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Cons:</strong> At £38, it's pricier than supermarket candles, but that's rather the point for a gift</li>
       </ul>
       <p><strong>Why this over alternatives:</strong> Cheaper than Jo Malone but from the same nose. The NEOM candle (above) is the better value option; this is the one for when you want the luxury name attached.</p>
-      <p><a href="https://www.johnlewis.com/brand/jo-loves/_/N-1z0ronp" target="_blank" rel="noopener">See price on John Lewis →</a> <a href="https://www.spacenk.com/uk/fragrance/home-fragrance/candle/pomelo-a-scented-candle-MUK200021009.html" target="_blank" rel="noopener">See price on Space NK →</a></p>
+      <p><a href="https://www.johnlewis.com/brand/jo-loves/_/N-1z0ronp" target="_blank" rel="noopener">Get it now →</a> <a href="https://www.spacenk.com/uk/fragrance/home-fragrance/candle/pomelo-a-scented-candle-MUK200021009.html" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Bloom & Wild The Valentine's Letterbox Bouquet</h3>
       <p><strong>£25–£45</strong> | Next-day letterbox delivery</p>
@@ -134,7 +134,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Cons:</strong> Stems are shorter than a traditional bouquet, which some people notice</li>
         <li><strong>Cons:</strong> The most popular arrangements sell out fast in the final days. Order as soon as you can</li>
       </ul>
-      <p><a href="https://www.bloomandwild.com/" target="_blank" rel="noopener">See Valentine's bouquets →</a></p>
+      <p><a href="https://www.bloomandwild.com/send-flowers/tagonly/letterbox" target="_blank" rel="noopener">Get it now →</a></p>
 
       <p>Want to explore more romantic gift ideas? <a href="/category/romantic">See our full romantic gifts collection</a>.</p>
 
@@ -150,7 +150,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Pros:</strong> Available in plenty of colours. Valentine's red if you're feeling thematic</li>
         <li><strong>Cons:</strong> It's not "romantic" in the traditional sense. Pair with a card and chocolate to balance</li>
       </ul>
-      <p><a href="https://www.amazon.co.uk/dp/B08CK1Q29J?tag=aanthony08-21" target="_blank" rel="noopener">See price on Amazon →</a></p>
+      <p><a href="https://www.amazon.co.uk/dp/B08CK1Q29J?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Le Creuset Heart Ramekin Set</h3>
       <p><strong>£40</strong> | Next-day via Amazon or John Lewis</p>
@@ -161,7 +161,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Cons:</strong> Only practical if they enjoy cooking or baking. Otherwise it'll gather dust</li>
       </ul>
       <p><strong>Why this over alternatives:</strong> Le Creuset's brand carries real weight as a gift. Other heart-shaped bakeware exists at half the price, but it doesn't have the same "this is a proper gift" feeling when unwrapped.</p>
-      <p><a href="https://www.amazon.co.uk/dp/B0C9HXTGK7?tag=aanthony08-21" target="_blank" rel="noopener">See price on Amazon →</a></p>
+      <p><a href="https://www.amazon.co.uk/dp/B0C9HXTGK7?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>JBL Go 4 Portable Bluetooth Speaker</h3>
       <p><strong>£39.99</strong> | Next-day via Amazon</p>
@@ -171,7 +171,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Pros:</strong> Small enough to take anywhere: beach, shower, garden, desk</li>
         <li><strong>Cons:</strong> If they already have a premium speaker at home, this might feel like a downgrade</li>
       </ul>
-      <p><a href="https://www.amazon.co.uk/dp/B0CX5C6WP3?tag=aanthony08-21" target="_blank" rel="noopener">See price on Amazon →</a></p>
+      <p><a href="https://www.amazon.co.uk/dp/B0CX5C6WP3?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h2>Best Gifts Under £20 (Budget-Friendly but Thoughtful)</h2>
 
@@ -184,7 +184,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Pros:</strong> Looks and smells far more expensive than £18, backed by real wellbeing research</li>
         <li><strong>Cons:</strong> The 75g size burns for around 20 hours. Lovely while it lasts, but not forever</li>
       </ul>
-      <p><a href="https://www.amazon.co.uk/dp/B00LC6BXM0?tag=aanthony08-21" target="_blank" rel="noopener">See price on Amazon →</a></p>
+      <p><a href="https://www.amazon.co.uk/dp/B00LC6BXM0?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Personalised Valentine's Card + Cadbury Milk Tray (200g)</h3>
       <p><strong>£15–£18 combined</strong> | Card via Moonpig (next-day), Chocolates via Amazon</p>
@@ -193,7 +193,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Pros:</strong> The personal message is what they'll remember, not the price tag</li>
         <li><strong>Cons:</strong> Can feel "safe" rather than inspired. Add a specific, meaningful note to elevate it</li>
       </ul>
-      <p><a href="https://www.moonpig.com/" target="_blank" rel="noopener">Create a card on Moonpig →</a></p>
+      <p><a href="https://www.moonpig.com/uk/valentines-day/" target="_blank" rel="noopener">Create a card on Moonpig →</a></p>
 
       <h3>Custom Photo Mug</h3>
       <p><strong>£13–£18</strong> | Next-day via Shutterfly or Amazon</p>
@@ -202,9 +202,9 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Pros:</strong> Deeply personal, very affordable, used daily</li>
         <li><strong>Cons:</strong> Quality varies by supplier. Stick to known names and read reviews carefully</li>
       </ul>
-      <p><a href="https://www.amazon.co.uk/s?k=personalised+photo+mug&tag=aanthony08-21" target="_blank" rel="noopener">See custom mug options on Amazon →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=personalised+photo+mug&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
-      <p>Plenty more affordable ideas in our <a href="/category/budget-friendly">budget-friendly Valentine's gifts collection</a>.</p>
+      <p>Plenty more affordable ideas in our <a href="/category/under-25">budget-friendly Valentine's gifts collection</a>.</p>
 
       <h2>Best Gifts for New Relationships</h2>
 
@@ -218,7 +218,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Pros:</strong> Letterbox delivery means no awkward "are you home?" coordination</li>
         <li><strong>Cons:</strong> The items inside are small. It's more about the gesture than the individual products</li>
       </ul>
-      <p><a href="https://www.notonthehighstreet.com/search?term=box+of+hugs" target="_blank" rel="noopener">See price on Not On The High Street →</a></p>
+      <p><a href="https://www.boxofhugs.co.uk/products/the-valentines-letterbox-hug" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Tony's Chocolonely Chocolate Bars</h3>
       <p><strong>£5–£15</strong> | Next-day via Amazon</p>
@@ -227,7 +227,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Pros:</strong> Ethical brand with a real story, looks impressive, universally enjoyable</li>
         <li><strong>Cons:</strong> If they're not a chocolate person (unlikely, but possible), this misses entirely</li>
       </ul>
-      <p><a href="https://www.amazon.co.uk/dp/B07P14PRSH?tag=aanthony08-21" target="_blank" rel="noopener">See price on Amazon →</a></p>
+      <p><a href="https://www.amazon.co.uk/dp/B07P14PRSH?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h2>Spotlight: LEGO Bouquet of Roses (10328)</h2>
 
@@ -247,7 +247,7 @@ export const blogPosts: BlogPost[] = [
 
       <p><strong>Why this over alternatives:</strong> There are cheaper artificial flower kits out there, but the LEGO brand quality, the building experience, and the final result are impressive. Reviews consistently mention it being a favourite Valentine's gift.</p>
 
-      <p><a href="https://www.amazon.co.uk/dp/B0CGY4X222?tag=aanthony08-21" target="_blank" rel="noopener">See price on Amazon →</a></p>
+      <p><a href="https://www.amazon.co.uk/dp/B0CGY4X222?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h2>How to Choose the Right Last-Minute Valentine's Gift</h2>
 
@@ -317,8 +317,8 @@ export const blogPosts: BlogPost[] = [
       <p>If we had to narrow it down to three top recommendations:</p>
 
       <ol>
-        <li><strong>For the safest bet with zero delivery risk:</strong> A <a href="https://www.tinggly.com/" target="_blank" rel="noopener">Tinggly Experience Voucher</a> (from £39, instant delivery)</li>
-        <li><strong>For the most thoughtful under £30:</strong> <a href="https://www.bloomandwild.com/" target="_blank" rel="noopener">Bloom & Wild Letterbox Flowers</a> (from £25, next-day letterbox delivery)</li>
+        <li><strong>For the safest bet with zero delivery risk:</strong> A <a href="https://tinggly.com/valentines-day-experience-gifts" target="_blank" rel="noopener">Tinggly Experience Voucher</a> (from £39, instant delivery)</li>
+        <li><strong>For the most thoughtful under £30:</strong> <a href="https://www.bloomandwild.com/send-flowers/tagonly/letterbox" target="_blank" rel="noopener">Bloom & Wild Letterbox Flowers</a> (from £25, next-day letterbox delivery)</li>
         <li><strong>For the most unique and memorable:</strong> The <a href="https://www.amazon.co.uk/dp/B0CGY4X222?tag=aanthony08-21" target="_blank" rel="noopener">LEGO Bouquet of Roses</a> (£54.99, next-day delivery). A gift that becomes an experience and a permanent keepsake</li>
       </ol>
 

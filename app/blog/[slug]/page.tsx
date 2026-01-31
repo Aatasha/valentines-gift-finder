@@ -82,12 +82,18 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       {/* Blog article spacing styles - static CSS, safe to inline */}
       <style dangerouslySetInnerHTML={{ __html: `
         article h2 {
+          font-size: 2.25rem !important;
+          line-height: 2.5rem !important;
+          text-transform: uppercase !important;
+          letter-spacing: 0.05em !important;
           margin-top: 5rem !important;
           margin-bottom: 2rem !important;
           padding-top: 3rem !important;
           border-top: 2px solid rgba(253, 248, 245, 0.15) !important;
         }
         article h3 {
+          font-size: 1.875rem !important;
+          line-height: 2.25rem !important;
           margin-top: 4rem !important;
           margin-bottom: 1.5rem !important;
           padding-top: 2rem !important;
@@ -176,10 +182,10 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           <div
             className="mx-auto max-w-3xl prose prose-invert prose-lg
               prose-headings:font-serif prose-headings:text-[var(--cream)] prose-headings:font-semibold
-              prose-h2:text-3xl prose-h2:mt-20 prose-h2:mb-8 prose-h2:pt-10 prose-h2:border-t-2 prose-h2:border-[var(--cream)]/20
-              prose-h3:text-xl prose-h3:mt-16 prose-h3:mb-5 prose-h3:pt-8 prose-h3:border-t prose-h3:border-[var(--cream)]/10
+              prose-h2:text-3xl sm:prose-h2:text-4xl prose-h2:mt-20 prose-h2:mb-8 prose-h2:pt-10 prose-h2:border-t-2 prose-h2:border-[var(--cream)]/20
+              prose-h3:text-2xl sm:prose-h3:text-3xl prose-h3:mt-16 prose-h3:mb-5 prose-h3:pt-8 prose-h3:border-t prose-h3:border-[var(--cream)]/10
               prose-p:text-[var(--cream)]/80 prose-p:leading-relaxed prose-p:mb-6
-              prose-a:text-[var(--gold)] prose-a:no-underline hover:prose-a:underline
+              prose-a:text-[var(--gold)] prose-a:underline prose-a:underline-offset-2 prose-a:transition-colors hover:prose-a:text-[var(--gold-light)]
               prose-strong:text-[var(--cream)] prose-strong:font-semibold
               prose-ul:text-[var(--cream)]/80 prose-ul:my-6 prose-li:marker:text-[var(--gold)] prose-li:mb-3
               prose-ol:text-[var(--cream)]/80 prose-ol:my-6
