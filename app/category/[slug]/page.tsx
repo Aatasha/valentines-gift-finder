@@ -85,6 +85,12 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           </p>
         </header>
 
+        {/* AI-Powered Suggestions */}
+        <CategoryAISuggestions
+          categoryName={category.name}
+          categoryDescription={category.description}
+        />
+
         {/* Gift Grid */}
         {gifts.length > 0 ? (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -108,12 +114,6 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             </Link>
           </div>
         )}
-
-        {/* AI-Powered Suggestions */}
-        <CategoryAISuggestions
-          categoryName={category.name}
-          categoryDescription={category.description}
-        />
 
         {/* Quiz CTA */}
         <div className="mt-12 rounded-lg bg-[var(--cream)] p-8 text-center">
