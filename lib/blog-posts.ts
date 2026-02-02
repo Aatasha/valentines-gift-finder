@@ -2329,23 +2329,23 @@ export const blogPosts: BlogPost[] = [
 
       <h3>1. Marshall Emberton II Bluetooth Speaker</h3>
       <p><strong>£109</strong> (reduced from £149.99) | Best for: Music lovers. Portable with 30+ hours battery and that iconic Marshall look.</p>
-      <p><a href="https://www.amazon.co.uk/dp/B09YDHC8JY?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=marshall+emberton+ii+bluetooth+speaker&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>2. Theragun Relief Massage Gun</h3>
       <p><strong>£125</strong> | Best for: Gym-goers and anyone with desk-job tension. Entry-level Theragun, three speeds, quiet operation.</p>
-      <p><a href="https://www.amazon.co.uk/dp/B0BXFTLVNM?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=theragun+relief+massage+gun&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>3. Glenfiddich 15 Year Old Single Malt</h3>
       <p><strong>£50-60</strong> | Best for: Whisky drinkers (or aspiring ones). A reliable, well-regarded single malt. Classic gift, but a classic for a reason.</p>
-      <p><a href="https://www.amazon.co.uk/dp/B004GKDVW0?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=glenfiddich+15+year+old&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>4. LEGO Bouquet of Roses (10328)</h3>
-      <p><strong>£54.99</strong> | Best for: Couples. Part gift, part activity, part permanent display piece. Build together on Valentine's evening.</p>
-      <p><a href="https://www.amazon.co.uk/dp/B0CGY4X222?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><strong>~£75</strong> | Best for: Couples. Part gift, part activity, part permanent display piece. Build together on Valentine's evening.</p>
+      <p><a href="https://www.amazon.co.uk/s?k=LEGO+bouquet+of+roses+10328&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>5. Virgin Experience Days E-Voucher</h3>
       <p><strong>From £29</strong> | Best for: The man who has everything. Instant email delivery, he picks from thousands of UK experiences.</p>
-      <p><a href="https://www.virginexperiencedays.co.uk/valentines-day" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.virginexperiencedays.co.uk/" target="_blank" rel="noopener">Get it now →</a></p>
 
       <p>Want the full breakdown? Keep reading for detailed reviews by price bracket, or <a href="#by-category">skip to our category guide</a> if you already know what type of gift you're after.</p>
 
@@ -2370,7 +2370,7 @@ export const blogPosts: BlogPost[] = [
           </ul>
         </li>
       </ul>
-      <p><a href="https://www.amazon.co.uk/dp/B0CFY4WVBM?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=LEGO+daisies+set+40747&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Apple AirTag</h3>
       <p><strong>~£29</strong> | Next-day via Amazon UK</p>
@@ -2390,7 +2390,7 @@ export const blogPosts: BlogPost[] = [
           </ul>
         </li>
       </ul>
-      <p><a href="https://www.amazon.co.uk/dp/B0D54JZTHY?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=apple+airtag&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Clinique For Men Skincare Starter Kit</h3>
       <p><strong>Worth £26</strong> | Boots, Amazon UK</p>
@@ -2490,7 +2490,7 @@ export const blogPosts: BlogPost[] = [
           </ul>
         </li>
       </ul>
-      <p><a href="https://www.niococktails.co.uk/products/negroni-9-pack" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=NIO+negroni+cocktail+box&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Kenneth Cole Mankind Cologne</h3>
       <p><strong>£30-45</strong> | Amazon UK, Boots</p>
@@ -2527,7 +2527,7 @@ export const blogPosts: BlogPost[] = [
           </ul>
         </li>
       </ul>
-      <p><a href="https://www.amazon.co.uk/dp/B0C1J3FJKL?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=LEGO+flowering+cactus+10309&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <p>For more ideas in this price range, <a href="/category/for-him">browse our full collection of Valentine's gifts for him</a>.</p>
 
@@ -2554,7 +2554,7 @@ export const blogPosts: BlogPost[] = [
         </li>
       </ul>
       <p><strong>Why this over alternatives:</strong> Cheaper massage guns exist on Amazon for £30-50, but the motor quality, build, and ergonomics of the Theragun justify the difference. This is one category where brand really matters.</p>
-      <p><a href="https://www.amazon.co.uk/dp/B0BXFTLVNM?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=theragun+relief+massage+gun&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Marshall Emberton II Bluetooth Speaker</h3>
       <p><strong>£109</strong> (reduced from £149.99) | Marshall UK, Amazon UK</p>
@@ -2574,7 +2574,7 @@ export const blogPosts: BlogPost[] = [
         </li>
       </ul>
       <p><strong>Why this over alternatives:</strong> The JBL Charge 5 and Sonos Roam compete at this price, but neither has the Marshall's visual appeal. If he cares about how things look as well as how they sound, this wins.</p>
-      <p><a href="https://www.amazon.co.uk/dp/B09YDHC8JY?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=marshall+emberton+ii+bluetooth+speaker&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Jo Malone English Oak & Hazelnut Cologne (30ml)</h3>
       <p><strong>~£55</strong> | Jo Malone, John Lewis</p>
@@ -2596,7 +2596,7 @@ export const blogPosts: BlogPost[] = [
       <p><a href="https://www.johnlewis.com/search?search-term=jo+malone+english+oak+hazelnut" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>LEGO Bouquet of Roses (10328)</h3>
-      <p><strong>£54.99</strong> | Next-day via Amazon UK</p>
+      <p><strong>~£75</strong> | Next-day via Amazon UK</p>
       <p>Twelve buildable roses that take 1-2 hours to construct. The build itself becomes a Valentine's evening activity (add wine), and the finished bouquet is a permanent display piece that never wilts. This has become one of the most popular Valentine's gifts in the UK for good reason: it combines the romantic gesture of flowers with something really fun to do together.</p>
       <ul>
         <li><strong>Pros</strong>
@@ -2609,11 +2609,11 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Cons</strong>
           <ul>
             <li>Not for someone who has zero interest in building things. Know your audience</li>
-            <li>At £55, it's a commitment for something made of plastic bricks</li>
+            <li>At ~£75, it's a commitment for something made of plastic bricks</li>
           </ul>
         </li>
       </ul>
-      <p><a href="https://www.amazon.co.uk/dp/B0CGY4X222?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=LEGO+bouquet+of+roses+10328&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Looper Beer and Pub Snacks Gift Hamper</h3>
       <p><strong>£54</strong> | Menkind</p>
@@ -2632,7 +2632,7 @@ export const blogPosts: BlogPost[] = [
           </ul>
         </li>
       </ul>
-      <p><a href="https://www.menkind.co.uk/search?q=beer+hamper" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=craft+beer+and+snacks+gift+hamper&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h2 id="luxury">Luxury Valentine's Gifts for Him Over £100</h2>
 
@@ -2656,7 +2656,7 @@ export const blogPosts: BlogPost[] = [
           </ul>
         </li>
       </ul>
-      <p><a href="https://www.johnlewis.com/search?search-term=oura+ring+4" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=oura+ring+4&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Apple AirPods Pro 3</h3>
       <p><strong>£219</strong> | Apple, Currys, Amazon UK</p>
@@ -2715,7 +2715,7 @@ export const blogPosts: BlogPost[] = [
           </ul>
         </li>
       </ul>
-      <p><a href="https://www.virginexperiencedays.co.uk/valentines-day" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.virginexperiencedays.co.uk/" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Muhle 4-Piece Shaving Set</h3>
       <p><strong>~£120</strong> | Amazon UK</p>
@@ -2788,7 +2788,6 @@ export const blogPosts: BlogPost[] = [
 
       <h3>Good Options for New Relationships</h3>
       <ul>
-        <li><strong>Tony's Chocolonely Gift Set</strong> (£15-20): Ethical chocolate, distinctive packaging. Sweet without being overwhelming</li>
         <li><strong>A nice bottle of his favourite spirit</strong> (£25-40): Shows you've paid attention to what he drinks</li>
         <li><strong>Tickets to something</strong> (cinema, comedy, a gig): An activity you do together, which builds the relationship</li>
         <li><strong>A quality card with a heartfelt message</strong>: What you write matters more than what you buy at this stage</li>
@@ -2823,16 +2822,16 @@ export const blogPosts: BlogPost[] = [
       <p>If you're unsure of his specific tastes, an experience voucher (Virgin Experience Days or Buyagift) is the safest choice. He picks what he actually wants from thousands of options. For physical gifts, quality whisky (Glenfiddich 15 Year Old is a reliable pick) or a well-reviewed grooming set are options that most men appreciate. Avoid anything where personal taste could backfire, like fragrance or clothing.</p>
 
       <h3>What to get a guy you've just started dating for Valentine's Day?</h3>
-      <p>Keep it in the £25-40 range and aim for charming over grand. A couple of bars of quality chocolate (Tony's Chocolonely), a bottle of his favourite spirit, or tickets to something you can do together all hit the right note. Avoid anything engraved with both your names, expensive jewellery, or gifts that imply a level of commitment you haven't reached yet. A thoughtful card with an honest message matters more than the gift at this stage.</p>
+      <p>Keep it in the £25-40 range and aim for charming over grand. A bottle of his favourite spirit, quality chocolate, or tickets to something you can do together all hit the right note. Avoid anything engraved with both your names, expensive jewellery, or gifts that imply a level of commitment you haven't reached yet. A thoughtful card with an honest message matters more than the gift at this stage.</p>
 
       <h2>Final Recommendations</h2>
 
       <p>Most men want something practical they'll use, something consumable they can enjoy, or a shared experience with you. If you're still weighing up options, here are our top picks by budget:</p>
 
       <ul>
-        <li><strong>Best under £30:</strong> <a href="https://www.amazon.co.uk/dp/B0C1J3FJKL?tag=aanthony08-21" target="_blank" rel="noopener">LEGO Flowering Cactus</a> (£24.99) or <a href="https://www.amazon.co.uk/s?k=brighton+beard+company+gift+set&tag=aanthony08-21" target="_blank" rel="noopener">Brighton Beard Company gift set</a> (£24)</li>
-        <li><strong>Best £50-100:</strong> <a href="https://www.amazon.co.uk/dp/B09YDHC8JY?tag=aanthony08-21" target="_blank" rel="noopener">Marshall Emberton II speaker</a> (£109) or <a href="https://www.amazon.co.uk/dp/B0BXFTLVNM?tag=aanthony08-21" target="_blank" rel="noopener">Theragun Relief</a> (£125)</li>
-        <li><strong>Best splurge:</strong> <a href="https://www.johnlewis.com/search?search-term=oura+ring+4" target="_blank" rel="noopener">Oura Ring 4</a> (from £239) or a <a href="https://www.virginexperiencedays.co.uk/valentines-day" target="_blank" rel="noopener">premium experience day</a></li>
+        <li><strong>Best under £30:</strong> <a href="https://www.amazon.co.uk/s?k=LEGO+flowering+cactus+10309&tag=aanthony08-21" target="_blank" rel="noopener">LEGO Flowering Cactus</a> (£24.99) or <a href="https://www.amazon.co.uk/s?k=brighton+beard+company+gift+set&tag=aanthony08-21" target="_blank" rel="noopener">Brighton Beard Company gift set</a> (£24)</li>
+        <li><strong>Best £50-100:</strong> <a href="https://www.amazon.co.uk/s?k=marshall+emberton+ii+bluetooth+speaker&tag=aanthony08-21" target="_blank" rel="noopener">Marshall Emberton II speaker</a> (£109) or <a href="https://www.amazon.co.uk/s?k=theragun+relief+massage+gun&tag=aanthony08-21" target="_blank" rel="noopener">Theragun Relief</a> (£125)</li>
+        <li><strong>Best splurge:</strong> <a href="https://www.amazon.co.uk/s?k=oura+ring+4&tag=aanthony08-21" target="_blank" rel="noopener">Oura Ring 4</a> (from £239) or a <a href="https://www.virginexperiencedays.co.uk/" target="_blank" rel="noopener">premium experience day</a></li>
       </ul>
 
       <p><strong>Still unsure what he'd like?</strong> <a href="/quiz">Take our quick gift finder quiz</a>. Answer a few questions about his personality and interests, and we'll match you with specific recommendations. Takes less than a minute.</p>
