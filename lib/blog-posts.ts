@@ -62,7 +62,7 @@ export const blogPosts: BlogPost[] = [
       <p><a href="https://www.bloomandwild.com/send-flowers/tagonly/letterbox" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>4. LEGO Bouquet of Roses (10328)</h3>
-      <p><strong>£54.99</strong> | Best for: Couples who like doing things together. Part gift, part activity, part permanent decor. More fun to build together than you'd expect.</p>
+      <p><strong>~£75</strong> | Best for: Couples who like doing things together. Part gift, part activity, part permanent decor. More fun to build together than you'd expect.</p>
       <p><a href="https://www.amazon.co.uk/dp/B0CGY4X222?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>5. Cutter & Squidge Valentine's Letterbox Treats</h3>
@@ -351,7 +351,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Spotlight: LEGO Bouquet of Roses (10328)</h2>
 
-      <p><strong>£54.99</strong> | Next-day via Amazon or LEGO.com</p>
+      <p><strong>~£75</strong> | Next-day via Amazon or LEGO.com</p>
 
       <p>This deserves its own section because it's doing something different from everything else on this list. The LEGO Bouquet of Roses is part gift, part Valentine's evening activity, and part permanent home decor. You build it together, display it permanently, and it never wilts. It's become one of the most popular Valentine's gifts in the UK, and based on reviews, it delivers on the promise.</p>
 
@@ -447,7 +447,7 @@ export const blogPosts: BlogPost[] = [
       <ol>
         <li><strong>For the safest bet with zero delivery risk:</strong> A <a href="https://tinggly.com/valentines-day-experience-gifts" target="_blank" rel="noopener">Tinggly Experience Voucher</a> (from £39, instant delivery)</li>
         <li><strong>For the most thoughtful under £30:</strong> <a href="https://www.bloomandwild.com/send-flowers/tagonly/letterbox" target="_blank" rel="noopener">Bloom & Wild Letterbox Flowers</a> (from £25, next-day letterbox delivery)</li>
-        <li><strong>For the most unique and memorable:</strong> The <a href="https://www.amazon.co.uk/dp/B0CGY4X222?tag=aanthony08-21" target="_blank" rel="noopener">LEGO Bouquet of Roses</a> (£54.99, next-day delivery). A gift that becomes an experience and a permanent keepsake</li>
+        <li><strong>For the most unique and memorable:</strong> The <a href="https://www.amazon.co.uk/dp/B0CGY4X222?tag=aanthony08-21" target="_blank" rel="noopener">LEGO Bouquet of Roses</a> (~£75, next-day delivery). A gift that becomes an experience and a permanent keepsake</li>
       </ol>
 
       <p>And if you're still stuck, <a href="/quiz">take our 30-second gift finder quiz</a>. It matches you with a recommendation based on who you're buying for, your budget, and how much time you've got. No sign-up, no faff.</p>
@@ -816,7 +816,7 @@ export const blogPosts: BlogPost[] = [
       <p>Short on time? These are the five unique gifts we'd recommend right now, covering a range of budgets and personalities. Each one goes well beyond the standard flowers-and-chocolate routine.</p>
 
       <h3>1. LEGO Bouquet of Roses (10328)</h3>
-      <p><strong>~£55</strong> | Best for: Couples who enjoy doing things together. Part gift, part activity, part permanent decor. 822 pieces, 1-2 hours to build with a glass of wine (or maybe a hot chocolate for a cosier feel).</p>
+      <p><strong>~£75</strong> | Best for: Couples who enjoy doing things together. Part gift, part activity, part permanent decor. 822 pieces, 1-2 hours to build with a glass of wine (or maybe a hot chocolate for a cosier feel).</p>
       <p><a href="https://www.amazon.co.uk/dp/B0CGY4X222?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>2. School of Wok Gift Voucher</h3>
@@ -943,7 +943,7 @@ export const blogPosts: BlogPost[] = [
       <p>These are physical products that become activities. Rather than just handing over a box, you're giving something you'll build, create, or enjoy together. The shared experience is what makes the gift, not the object itself.</p>
 
       <h3>LEGO Bouquet of Roses (10328)</h3>
-      <p><strong>~£55</strong> | Next-day via Amazon</p>
+      <p><strong>~£75</strong> | Next-day via Amazon</p>
       <p>LEGO flowers have become a proper Valentine's phenomenon in recent years, and this set is the gold standard. 822 pieces including 12 roses and 4 sprigs of baby's breath. The build typically takes 1-2 hours, which makes for a lovely evening together with a glass of wine (or maybe a hot chocolate for a cosier feel). Once built, they look great on a shelf or table and obviously never wilt. It's part gift, part date night, part permanent home decor.</p>
       <ul>
         <li><strong>Pros</strong>
@@ -1233,7 +1233,7 @@ export const blogPosts: BlogPost[] = [
       <p>This is the sweet spot for established relationships. Enough to feel generous without being over the top.</p>
 
       <ul>
-        <li><strong>LEGO Bouquet of Roses (10328) - ~£55:</strong> The gold standard of LEGO flowers. A shared experience.</li>
+        <li><strong>LEGO Bouquet of Roses (10328) - ~£75:</strong> The gold standard of LEGO flowers. A shared experience.</li>
         <li><strong>LEGO Bonsai Tree - £33.99:</strong> Elegant alternative with two display options.</li>
         <li><strong>Pott'd/Sculpd Craft Kit - ~£35-£45:</strong> Shared creative experience with lasting results.</li>
         <li><strong>Savage Vines Wine (1 month) - £34.95:</strong> Premium wines, properly curated.</li>
@@ -1280,7 +1280,7 @@ export const blogPosts: BlogPost[] = [
 
       <ol>
         <li><strong>For experience lovers:</strong> A <a href="https://schoolofwok.co.uk/gift-vouchers" target="_blank" rel="noopener">School of Wok cooking class</a> (from £25) or a <a href="https://www.spaseekers.com/packages/valentines" target="_blank" rel="noopener">SpaSeekers spa day</a>. A Saturday Valentine's Day was made for experiences.</li>
-        <li><strong>For something to do together:</strong> The <a href="https://www.amazon.co.uk/dp/B0CGY4X222?tag=aanthony08-21" target="_blank" rel="noopener">LEGO Bouquet of Roses</a> (~£55). Part gift, part activity, part permanent decor that never wilts.</li>
+        <li><strong>For something to do together:</strong> The <a href="https://www.amazon.co.uk/dp/B0CGY4X222?tag=aanthony08-21" target="_blank" rel="noopener">LEGO Bouquet of Roses</a> (~£75). Part gift, part activity, part permanent decor that never wilts.</li>
         <li><strong>For something deeply personal:</strong> A <a href="https://www.amazon.co.uk/s?k=custom+star+map+print&tag=aanthony08-21" target="_blank" rel="noopener">custom star map</a> from a significant date (from £8). It looks stunning, costs very little, and shows you remember the moments that matter.</li>
       </ol>
 
