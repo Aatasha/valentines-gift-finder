@@ -1757,8 +1757,6 @@ export const blogPosts: BlogPost[] = [
 
       <p>Whether you're after the classic dozen red roses, something more unexpected like peonies or ranunculus, or just the most reliable letterbox option that won't need anyone home to receive it, this guide has you covered.</p>
 
-      <p class="affiliate-notice"><em>This post contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. We only recommend services that are well-reviewed and widely trusted.</em></p>
-
       <p><strong>In a rush?</strong> <a href="#delivery-comparison">Jump to the delivery comparison table</a> | <a href="#flower-meanings">What different flowers mean</a> | <a href="#colour-guide">Colour guide</a> | <a href="#letterbox-flowers">Letterbox flowers</a> | <a href="/quiz">Take our 30-second gift finder quiz</a></p>
 
       <h2 id="delivery-comparison">UK Flower Delivery Services at a Glance</h2>
