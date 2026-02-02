@@ -2311,7 +2311,7 @@ export const blogPosts: BlogPost[] = [
   category: 'gift-guide',
   tags: ['gifts for him', 'valentines gifts for boyfriend', 'valentines gifts for husband', 'gift ideas', 'UK gifts'],
   readingTime: 14,
-  published: false,
+  published: true,
   content: `
       <p class="lead">Finding a Valentine's gift for a man is famously difficult. Not because men don't want gifts (they do), but because they're notoriously unhelpful when asked. "I don't need anything" is the standard response, followed by vague suggestions like "maybe a nice whisky?" which leaves you no further forward.</p>
 
