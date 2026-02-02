@@ -34,9 +34,6 @@ export function Footer() {
             <Link href="/search" className="text-sm text-[var(--cream)]/70 hover:text-[var(--gold)] transition-colors">
               Search
             </Link>
-            <Link href="/blog" className="text-sm text-[var(--cream)]/70 hover:text-[var(--gold)] transition-colors">
-              Gift Guides
-            </Link>
           </div>
 
           {/* Legal links */}

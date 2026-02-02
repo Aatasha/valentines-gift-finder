@@ -160,6 +160,30 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         article p > a:only-child:hover {
           background: rgba(212, 175, 55, 0.2) !important;
         }
+        article table {
+          width: 100% !important;
+          border-collapse: collapse !important;
+          margin: 2rem 0 !important;
+          font-size: 0.95rem !important;
+        }
+        article thead {
+          border-bottom: 2px solid rgba(212, 175, 55, 0.3) !important;
+        }
+        article th {
+          text-align: left !important;
+          padding: 0.75rem 1rem !important;
+          color: rgba(253, 248, 245, 0.9) !important;
+          font-weight: 600 !important;
+          white-space: nowrap !important;
+        }
+        article td {
+          padding: 0.75rem 1rem !important;
+          color: rgba(253, 248, 245, 0.8) !important;
+          border-bottom: 1px solid rgba(253, 248, 245, 0.1) !important;
+        }
+        article tbody tr:hover {
+          background: rgba(253, 248, 245, 0.03) !important;
+        }
       `}} />
 
       <div className="min-h-screen bg-[var(--background)]">
