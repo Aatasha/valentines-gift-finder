@@ -3412,7 +3412,7 @@ export const blogPosts: BlogPost[] = [
   category: 'gift-guide',
   tags: ['new relationships', 'first valentines', 'dating', 'gift ideas', 'spending guide'],
   readingTime: 12,
-  published: false,
+  published: true,
   content: `
     <p class="lead">So you're seeing someone new and Valentine's Day is hurtling towards you with all the subtlety of a freight train. You like this person. You don't want to scare them off with a grand declaration of eternal love. But you also don't want to show up empty-handed and look like you couldn't care less. Welcome to the single most universally awkward gift-buying situation of the year.</p>
 
@@ -3446,7 +3446,7 @@ export const blogPosts: BlogPost[] = [
 
     <h3>5. Virgin Experience Days E-Voucher for Two</h3>
     <p><strong>From £29</strong> | Best for: 3-6 months. Instant email delivery, hundreds of UK experiences. Let them choose what they'd actually enjoy. Doubles as a future date, which is a nice signal without being pushy.</p>
-    <p><a href="https://www.virginexperiencedays.co.uk/valentines-day" target="_blank" rel="noopener">Get it now &rarr;</a></p>
+    <p><a href="https://www.virginexperiencedays.co.uk/" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <p>Want more detail? Keep reading for our full budget breakdowns, the "what to avoid" list, card-writing tips, and more options by category.</p>
 
@@ -3486,9 +3486,6 @@ export const blogPosts: BlogPost[] = [
 
     <h3>Expensive Jewellery</h3>
     <p>A necklace or bracelet from someone you've been dating for two months carries a weight that neither of you needs right now. It implies permanence. It also creates an awkward imbalance if they got you a box of chocolates. One Reddit user dating just two weeks considered buying a coordinate necklace showing where they first met. The community consensus was clear: save the link and buy it for the one-year anniversary instead. We'd agree with that.</p>
-
-    <h3>Lingerie or Very Intimate Gifts</h3>
-    <p>This ranks among the most frequent early-relationship mistakes. Gift-giving guides consistently flag it as presumptuous. Valentine's Day in a new relationship should express heartfelt emotions, not primarily signal physical expectations. Unless you've had explicit conversations, leave this category alone.</p>
 
     <h3>Multiple Gifts at Once</h3>
     <p>One reader mentioned that after dating someone for one month, they planned to give a bracelet, scalp massager, magic 8-ball, and polo shirts. The feedback was unanimous: that's quite a lot for just one month. When in doubt, one thoughtful gift outperforms four moderate ones. Multiple gifts creates an unspoken pressure to reciprocate at scale.</p>
@@ -3544,7 +3541,7 @@ export const blogPosts: BlogPost[] = [
         </ul>
       </li>
     </ul>
-    <p><a href="https://www.moonpig.com/uk/valentines-day/" target="_blank" rel="noopener">Create a card on Moonpig &rarr;</a></p>
+    <p><a href="https://www.moonpig.com/uk/valentines-day/valentines-day-cards/" target="_blank" rel="noopener">Create a card on Moonpig &rarr;</a></p>
 
     <h3>Hotel Chocolat A Dozen Little Lovebirds</h3>
     <p><strong>£9.95</strong> | Next-day via Hotel Chocolat or Amazon</p>
@@ -3563,10 +3560,10 @@ export const blogPosts: BlogPost[] = [
         </ul>
       </li>
     </ul>
-    <p><a href="https://www.amazon.co.uk/s?k=hotel+chocolat+little+lovebirds+valentines&tag=aanthony08-21" target="_blank" rel="noopener">Get it now &rarr;</a></p>
+    <p><a href="https://www.hotelchocolat.com/uk/valentines-day-gifts.html" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <h3>Grow Your Own Bonsai Tree Kit</h3>
-    <p><strong>~£8-£12</strong> | Next-day via Amazon</p>
+    <p><strong>~£15</strong> | Next-day via Amazon</p>
     <p>A quirky, lighthearted gift that gives you both something to joke about in the future. "How's our bonsai doing?" is a low-stakes way of checking in without being intense. It's a plant you grow together, which is a sweet metaphor without being on-the-nose about it. Available from Urban Outfitters and Amazon.</p>
     <ul>
       <li><strong>Pros</strong>
@@ -3711,10 +3708,10 @@ export const blogPosts: BlogPost[] = [
         </ul>
       </li>
     </ul>
-    <p><a href="https://www.virginexperiencedays.co.uk/valentines-day" target="_blank" rel="noopener">Get it now &rarr;</a></p>
+    <p><a href="https://www.virginexperiencedays.co.uk/" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <h3>Tinggly Experience Gift Box</h3>
-    <p><strong>From £39</strong> | Instant digital delivery or physical box</p>
+    <p><strong>From £49</strong> | Instant digital delivery or physical box</p>
     <p>Similar concept to Virgin Experience Days but with a wider international range and polished presentation. Tinggly lets you gift an experience (restaurant tasting menus, spa treatments, adventure activities, weekend breaks) with a voucher that has 5-year validity. If you're planning a trip together at some point, the international options are a real bonus. You can send a digital voucher instantly or order a physical gift box.</p>
     <ul>
       <li><strong>Pros</strong>
@@ -3813,7 +3810,7 @@ export const blogPosts: BlogPost[] = [
         </ul>
       </li>
     </ul>
-    <p><a href="https://www.amazon.co.uk/s?k=patchwork+valentines+edition+board+game&tag=aanthony08-21" target="_blank" rel="noopener">Get it now &rarr;</a></p>
+    <p><a href="https://www.amazon.co.uk/s?k=patchwork+valentine+board+game&tag=aanthony08-21" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <h3>Talking Hearts Conversation Cards</h3>
     <p><strong>£12.49</strong> | Next-day via Amazon</p>
@@ -3955,7 +3952,7 @@ export const blogPosts: BlogPost[] = [
     <ol>
       <li><strong>Best for very early stages (under £15):</strong> <a href="https://www.amazon.co.uk/s?k=tonys+chocolonely+valentines+bar&tag=aanthony08-21" target="_blank" rel="noopener">Tony's Chocolonely Valentine's Bar</a> + a Moonpig card with a real message inside</li>
       <li><strong>Best all-rounder (under £30):</strong> <a href="https://www.boxofhugs.co.uk/products/the-valentines-letterbox-hug" target="_blank" rel="noopener">Box of Hugs Valentine's Letterbox Gift</a>, which does the hard work of striking the right tone for you</li>
-      <li><strong>Best for 3+ months (under £50):</strong> A <a href="https://www.virginexperiencedays.co.uk/valentines-day" target="_blank" rel="noopener">Virgin Experience Days</a> voucher, which gives you both something to look forward to together</li>
+      <li><strong>Best for 3+ months (under £50):</strong> A <a href="https://www.virginexperiencedays.co.uk/" target="_blank" rel="noopener">Virgin Experience Days</a> voucher, which gives you both something to look forward to together</li>
     </ol>
 
     <p>And if you're still unsure, <a href="/quiz">take our 30-second gift finder quiz</a>. It filters by relationship stage, budget, and personality, and suggests something that fits. No sign-up needed.</p>
