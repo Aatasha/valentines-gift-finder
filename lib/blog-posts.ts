@@ -490,7 +490,7 @@ export const blogPosts: BlogPost[] = [
     category: 'gift-guide',
     tags: ['budget', 'under £25', 'cheap valentines gifts', 'affordable', 'gift ideas'],
     readingTime: 10,
-  published: false,
+  published: true,
     content: `
       <p class="lead">There's a persistent myth that a good Valentine's gift needs to cost serious money. It doesn't. Some of the most appreciated gifts we've come across cost less than a round of drinks, and the person receiving them had no idea they were under £25. The trick is choosing something that feels considered rather than something that merely looks expensive.</p>
 
@@ -512,7 +512,7 @@ export const blogPosts: BlogPost[] = [
 
       <h3>2. Tony's Chocolonely Heart Bar (Milk Rose Raspberry)</h3>
       <p><strong>~£5</strong> | Best for: Anyone. Valentine's-themed ethical chocolate that looks far better than a supermarket box. Pair with a card for a perfect low-key gift.</p>
-      <p><a href="https://www.amazon.co.uk/dp/B0BGQ69TS6?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=tonys+chocolonely+heart+bar+valentines&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>3. NEOM Perfect Night's Sleep Candle (75g)</h3>
       <p><strong>~£18</strong> | Best for: Anyone who could do with slowing down. Clinically proven scent, beautiful packaging, and a brand that punches well above this price point.</p>
@@ -524,7 +524,7 @@ export const blogPosts: BlogPost[] = [
 
       <h3>5. Loop Quiet Ear Plugs</h3>
       <p><strong>~£20</strong> | Best for: Him or her. Noise-reducing ear plugs that actually look good. Perfect for light sleepers, commuters, or anyone who needs to tune out the world.</p>
-      <p><a href="https://www.amazon.co.uk/dp/B0CSHQDB5T?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=loop+quiet+ear+plugs&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <p>Want the full breakdown? Keep reading for detailed reviews, pros and cons, and more options by category.</p>
 
@@ -568,7 +568,7 @@ export const blogPosts: BlogPost[] = [
           </ul>
         </li>
       </ul>
-      <p><a href="https://www.amazon.co.uk/s?k=l%27occitane+cherry+blossom+travel&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=l%27occitane+cherry+blossom+travel+collection+gift+set&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Yankee Candle Votive Gift Set (8-Pack)</h3>
       <p><strong>~£20</strong> | Next-day via Amazon</p>
@@ -612,7 +612,7 @@ export const blogPosts: BlogPost[] = [
           </ul>
         </li>
       </ul>
-      <p><a href="https://www.amazon.co.uk/dp/B0CSHQDB5T?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=loop+quiet+ear+plugs&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Bulldog Original Skincare Kit</h3>
       <p><strong>~£10–£15</strong> | Next-day via Amazon</p>
@@ -674,7 +674,7 @@ export const blogPosts: BlogPost[] = [
           </ul>
         </li>
       </ul>
-      <p><a href="https://www.amazon.co.uk/dp/B0BGQ69TS6?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=tonys+chocolonely+heart+bar+valentines&tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>NEOM Perfect Night's Sleep Candle (75g Travel Size)</h3>
       <p><strong>~£18</strong> | Next-day via Amazon</p>
