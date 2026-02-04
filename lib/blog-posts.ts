@@ -2876,13 +2876,13 @@ export const blogPosts: BlogPost[] = [
   category: 'gift-guide',
   tags: ['long distance', 'ldr', 'care packages', 'virtual dates', 'gift ideas'],
   readingTime: 14,
-  published: false,
+  published: true,
   content: `
       <p class="lead">Valentine's Day is hard enough to get right when you live in the same city. When you're in a long distance relationship, the stakes feel higher and the options feel narrower. You can't fall back on a dinner reservation or a spontaneous bunch of flowers from the corner shop. Everything requires planning, logistics, and a fair bit of faith in Royal Mail.</p>
 
       <p>Here's the thing, though: around 75% of UK university students experience a long distance relationship at some point, and research shows 58-60% of those relationships succeed long-term. LDR couples communicate more intentionally than most, averaging 49 messages and eight hours of video calls per week. Valentine's Day is simply one more opportunity to put that intentionality to work.</p>
 
-      <p>This guide covers gift ideas that actually work across distance, not the generic product roundups that recommend an £89 bracelet without mentioning the connectivity issues. We've drawn on honest product reviews, LDR community discussions, UK delivery logistics, and real feedback from couples who've navigated Valentine's apart. Everything is UK-focused, priced in GBP, and organised by category so you can find what fits your situation, your budget, and your timeline.</p>
+      <p>This guide covers gift ideas that actually work across distance, not the generic product roundups that recommend a ~£100 bracelet without mentioning the connectivity issues. We've drawn on honest product reviews, LDR community discussions, UK delivery logistics, and real feedback from couples who've navigated Valentine's apart. Everything is UK-focused, priced in GBP, and organised by category so you can find what fits your situation, your budget, and your timeline.</p>
 
       <p class="affiliate-notice"><em>This post contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. We only recommend products we'd actually consider giving.</em></p>
 
@@ -2897,7 +2897,7 @@ export const blogPosts: BlogPost[] = [
       <p><a href="https://wherebluebirdsfly.co.uk" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
       <h3>2. LuvLink Friendship Lamps (Pair)</h3>
-      <p><strong>From £70/pair</strong> | Best for: Ongoing daily connection. Tap yours and theirs lights up, anywhere in the world. Better value and more reliable than Bond Touch bracelets.</p>
+      <p><strong>~£120/pair</strong> | Best for: Ongoing daily connection. Tap yours and theirs lights up, anywhere in the world. Better value and more reliable than Bond Touch bracelets.</p>
       <p><a href="https://www.luvlink.co.uk/products/friendship-lamp" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
       <h3>3. Open When Letters (DIY or Kit)</h3>
@@ -2905,8 +2905,8 @@ export const blogPosts: BlogPost[] = [
       <p><a href="https://www.amazon.co.uk/s?k=open+when+letters+kit&tag=aanthony08-21" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
       <h3>4. Jamie Oliver Virtual Cooking Class for Two</h3>
-      <p><strong>From £40</strong> | Best for: Creating a shared experience and a new memory together, even apart. Cook the same recipe simultaneously via video call.</p>
-      <p><a href="https://www.virginexperiencedays.co.uk/product/online-class-jamie-oliver-cookery-school" target="_blank" rel="noopener">Get it now &rarr;</a></p>
+      <p><strong>~£33</strong> | Best for: Creating a shared experience and a new memory together, even apart. Cook the same recipe simultaneously via video call.</p>
+      <p><a href="https://www.virginexperiencedays.co.uk/" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
       <h3>5. Surprise Uber Eats Delivery + Video Call Dinner Date</h3>
       <p><strong>£20-£30</strong> | Best for: Last-minute, instant delivery anywhere. Order their favourite food, hop on a call, eat together. Consistently rated as one of the most impactful LDR Valentine's gestures.</p>
@@ -2958,19 +2958,19 @@ export const blogPosts: BlogPost[] = [
 
       <h3>DIY Care Package (The Reddit-Approved Approach)</h3>
       <p><strong>£15-£30</strong> | You control the timing</p>
-      <p>Reddit discussions on r/LongDistance consistently suggest that the most treasured care packages are homemade ones. The approach: gather items with personal significance, include an article of worn clothing sprayed with your perfume or cologne (this addresses the physical intimacy gap that 66% of LDR couples identify as their primary difficulty), add handwritten notes, and pack it yourself. It's more effort than ordering a pre-made box, but the emotional return is substantially higher.</p>
+      <p>Reddit discussions on r/LongDistance consistently suggest that care packages are among the most treasured LDR gifts. You can buy a pre-made care package box on Amazon (ready-filled with treats and comforts), or go the fully DIY route: gather items with personal significance, include an article of worn clothing sprayed with your perfume or cologne (this addresses the physical intimacy gap that 66% of LDR couples identify as their primary difficulty), add handwritten notes, and pack it yourself. The DIY approach takes more effort but the emotional return is substantially higher.</p>
       <ul>
         <li><strong>Pros</strong>
           <ul>
-            <li>Maximum personalisation. Inside jokes, favourite snacks, shared memories</li>
+            <li>Pre-made boxes offer convenience; DIY offers maximum personalisation</li>
             <li>The worn clothing trick is surprisingly effective for bridging physical distance</li>
             <li>Budget is entirely in your control</li>
           </ul>
         </li>
         <li><strong>Cons</strong>
           <ul>
-            <li>Requires more time and effort than buying a pre-made package</li>
-            <li>You need to post it yourself, which means hitting Royal Mail deadlines</li>
+            <li>DIY requires more time and effort than buying pre-made</li>
+            <li>If sending DIY, factor in postal delivery times</li>
           </ul>
         </li>
       </ul>
@@ -2983,7 +2983,7 @@ export const blogPosts: BlogPost[] = [
       <p>The market for "stay connected" devices is heavily marketed to LDR couples, but honest performance data is surprisingly scarce. Most gift guides recommend these products without acknowledging the issues real users report. Here's what we found when we looked at actual reviews rather than just the marketing.</p>
 
       <h3>LuvLink Friendship Lamps</h3>
-      <p><strong>From £35 per lamp (pairs from £70)</strong> | 3-5 days UK delivery</p>
+      <p><strong>~£120/pair</strong> | 3-5 days UK delivery</p>
       <p>The concept is simple: tap your lamp at home, and your partner's lamp across the country (or across the world) illuminates in the same colour. You can assign different colours to different meanings, creating a private communication system. Based on Trustpilot reviews (3.6/5 rating), these earn higher user satisfaction than Bond Touch bracelets at a lower price point. Setup is straightforward via Bluetooth, and there are no subscription fees or distance limitations.</p>
       <ul>
         <li><strong>Pros</strong>
@@ -3005,7 +3005,7 @@ export const blogPosts: BlogPost[] = [
       <p><a href="https://www.luvlink.co.uk/products/friendship-lamp" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
       <h3>Bond Touch Bracelets</h3>
-      <p><strong>£89/pair</strong> | Ships to UK (check current availability)</p>
+      <p><strong>~£100/pair</strong> | Ships to UK (check current availability)</p>
       <p>Bond Touch is the most visible LDR tech product on social media. Each partner wears a bracelet that vibrates and lights up when the other taps theirs. The core functionality works as advertised, but we want to be upfront about the issues that user reviews consistently raise, because other gift guides tend to gloss over them.</p>
       <ul>
         <li><strong>Pros</strong>
@@ -3023,12 +3023,12 @@ export const blogPosts: BlogPost[] = [
           </ul>
         </li>
       </ul>
-      <p><strong>Our honest take:</strong> Reddit discussions describe Bond Touch as good for couples who value the specific use case of sending quick signals when texting isn't possible. At £89 for fairly limited functionality, they work best for that narrow scenario. If you're after more versatile connection technology at a better price, the Friendship Lamps above offer more for less.</p>
+      <p><strong>Our honest take:</strong> Reddit discussions describe Bond Touch as good for couples who value the specific use case of sending quick signals when texting isn't possible. At ~£100 for fairly limited functionality, they work best for that narrow scenario. If you're after more versatile connection technology, the Friendship Lamps above offer more communication flexibility.</p>
       <p><a href="https://www.amazon.co.uk/s?k=bond+touch+bracelets&tag=aanthony08-21" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
       <h3>"Miles Apart" Matching Candles</h3>
-      <p><strong>From £24.50</strong> | Standard UK delivery</p>
-      <p>A low-tech alternative that emerged from Reddit discussions as surprisingly effective: buy identical candles and light them simultaneously during video calls. Not On The High Street offers a "Miles Apart" candle specifically designed for this, though any matching candle pair works. You get shared ritual, aromatherapy benefits, and visual connection without any technology to malfunction.</p>
+      <p><strong>From ~£12 each</strong> | Standard UK delivery</p>
+      <p>A low-tech alternative that emerged from Reddit discussions as surprisingly effective: buy two identical candles and light them simultaneously during video calls. Amazon sells individual candles you can order two of, or Not On The High Street offers a "Miles Apart" candle specifically designed for this. You get shared ritual, aromatherapy benefits, and visual connection without any technology to malfunction.</p>
       <ul>
         <li><strong>Pros</strong>
           <ul>
@@ -3073,8 +3073,8 @@ export const blogPosts: BlogPost[] = [
       <p><a href="https://www.amazon.co.uk/s?k=open+when+letters+kit&tag=aanthony08-21" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
       <h3>Custom Star Maps</h3>
-      <p><strong>£21.99-£29.99</strong> | Standard UK delivery or digital download</p>
-      <p>Star maps show the exact arrangement of stars at a chosen date, time, and location using real astronomical data, so the result is truly unique to your specific moment. UK options include Skylit Studio (from £21.99, often discounted) and Posterhaste (from £24.99, available as print, poster, framed, or canvas with ten years of positive customer reviews).</p>
+      <p><strong>From ~£15</strong> | Standard UK delivery or digital download</p>
+      <p>Star maps show the exact arrangement of stars at a chosen date, time, and location using real astronomical data, so the result is truly unique to your specific moment. Available from various UK sellers on Amazon and Etsy, with options ranging from simple prints to framed versions and canvases.</p>
       <ul>
         <li><strong>Pros</strong>
           <ul>
@@ -3154,7 +3154,7 @@ export const blogPosts: BlogPost[] = [
           </ul>
         </li>
       </ul>
-      <p><a href="https://www.virginexperiencedays.co.uk/product/online-class-jamie-oliver-cookery-school" target="_blank" rel="noopener">Get it now &rarr;</a></p>
+      <p><a href="https://www.virginexperiencedays.co.uk/" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
       <h3>Watch-Together Services</h3>
       <p><strong>Free</strong> | Instant setup</p>
@@ -3221,7 +3221,7 @@ export const blogPosts: BlogPost[] = [
 
       <h3>E-Gift Cards with Context</h3>
       <p><strong>£20-£50</strong> | Instant delivery</p>
-      <p>Generic gift cards feel impersonal. Contextual e-gift cards demonstrate attention. Send an Uber Eats gift card with a note: "Order dinner at 7pm your time, I'm ordering at 7pm mine, we'll eat together on FaceTime." The gift isn't the card. It's the shared virtual dinner date. A streaming service gift card becomes meaningful when paired with specifics: "I bought you three months of Disney+ because you mentioned wanting to watch that series, and I want to watch it with you."</p>
+      <p>Generic gift cards feel impersonal. Contextual e-gift cards demonstrate attention. Send a Deliveroo or Uber Eats gift card with a note: "Order dinner at 7pm your time, I'm ordering at 7pm mine, we'll eat together on FaceTime." The gift isn't the card — it's the shared virtual dinner date. A streaming service gift card becomes meaningful when paired with specifics: "I bought you three months of Disney+ because you mentioned wanting to watch that series, and I want to watch it with you."</p>
       <ul>
         <li><strong>Pros</strong>
           <ul>
@@ -3235,7 +3235,7 @@ export const blogPosts: BlogPost[] = [
           </ul>
         </li>
       </ul>
-      <p><a href="https://www.amazon.co.uk/s?k=uber+eats+gift+card&tag=aanthony08-21" target="_blank" rel="noopener">Get it now &rarr;</a></p>
+      <p><a href="https://www.amazon.co.uk/s?k=e+gift+card+food+delivery&tag=aanthony08-21" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
       <h3>Recorded Video Messages</h3>
       <p><strong>Free</strong> | Instant delivery</p>
@@ -3250,6 +3250,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Cons</strong>
           <ul>
             <li>Requires being comfortable on camera. Not everyone finds this easy</li>
+            <li>On its own, this can feel a bit cheap as a Valentine's gift. Best paired with something else — even just a planned date for the next time you see each other</li>
           </ul>
         </li>
       </ul>
@@ -3347,7 +3348,7 @@ export const blogPosts: BlogPost[] = [
       <p>Based on feedback from LDR communities, the gifts that consistently resonate most are care packages with personal touches (inside jokes, favourite snacks, worn clothing with your scent), Open When letter sets, and surprise food delivery for a virtual dinner date. These outperform expensive technology gifts because they demonstrate specific thought about your partner rather than a generic purchase. The effort behind the gift matters more than the price tag.</p>
 
       <h3>Do Bond Touch bracelets actually work?</h3>
-      <p>The core tap-to-vibrate functionality works as advertised. However, honest reviews reveal consistent issues: the app needs to stay active in the background (which drains phone battery), straps can come undone, and bracelet battery life is around four days. At £89, they work best for couples who specifically need a "thinking of you" signal during times when texting isn't possible. LuvLink Friendship Lamps (from £35 each) offer a more reliable alternative with higher user satisfaction ratings on Trustpilot.</p>
+      <p>The core tap-to-vibrate functionality works as advertised. However, honest reviews reveal consistent issues: the app needs to stay active in the background (which drains phone battery), straps can come undone, and bracelet battery life is around four days. At ~£100, they work best for couples who specifically need a "thinking of you" signal during times when texting isn't possible. LuvLink Friendship Lamps (~£120/pair) offer a more reliable alternative with higher user satisfaction ratings on Trustpilot.</p>
 
       <h3>What can I do for Valentine's Day long distance with no money?</h3>
       <p>Some of the most valued LDR Valentine's gestures are completely free. Record a series of short video messages for different scenarios ("watch when you miss me," "watch when you're stressed"). Create a curated Spotify playlist with written liner notes explaining each song choice. Plan a virtual date: synchronised cooking with ingredients you already have, a virtual museum tour, or a "memory lane" video walk through meaningful locations. Write a heartfelt letter. The effort matters more than the spend.</p>
@@ -3366,8 +3367,8 @@ export const blogPosts: BlogPost[] = [
 
       <ol>
         <li><strong>For the most emotional impact:</strong> <a href="https://www.amazon.co.uk/s?k=open+when+letters+kit&tag=aanthony08-21" target="_blank" rel="noopener">Open When Letters</a> (£5-£14). Nothing else extends the gift across months or provides comfort during specific difficult moments the way these do</li>
-        <li><strong>For the best shared experience:</strong> A <a href="https://www.virginexperiencedays.co.uk/product/online-class-jamie-oliver-cookery-school" target="_blank" rel="noopener">virtual cooking class</a> paired with an Uber Eats backup for the meal. Active, collaborative, and it gives you a recipe you'll associate with each other forever</li>
-        <li><strong>For reliable daily connection:</strong> <a href="https://www.luvlink.co.uk/products/friendship-lamp" target="_blank" rel="noopener">LuvLink Friendship Lamps</a> (from £70/pair). Better value and more reliable than Bond Touch, with no subscription fees and no distance limitations</li>
+        <li><strong>For the best shared experience:</strong> A <a href="https://www.virginexperiencedays.co.uk/" target="_blank" rel="noopener">virtual cooking class</a> paired with an Uber Eats backup for the meal. Active, collaborative, and it gives you a recipe you'll associate with each other forever</li>
+        <li><strong>For reliable daily connection:</strong> <a href="https://www.luvlink.co.uk/products/friendship-lamp" target="_blank" rel="noopener">LuvLink Friendship Lamps</a> (~£120/pair). Better value and more reliable than Bond Touch, with no subscription fees and no distance limitations</li>
       </ol>
 
       <p>And if you're still unsure what fits your situation, <a href="/quiz">take our 30-second gift finder quiz</a>. It matches you with a recommendation based on who you're buying for, your budget, and your timeline.</p>
@@ -3387,7 +3388,7 @@ export const blogPosts: BlogPost[] = [
     },
     {
       question: "Do Bond Touch bracelets actually work?",
-      answer: "The core tap-to-vibrate functionality works, but honest reviews reveal issues: the app must stay active (draining battery), straps can come undone, and battery life is about four days. At £89, LuvLink Friendship Lamps (from £35 each) offer better value and reliability for most couples.",
+      answer: "The core tap-to-vibrate functionality works, but honest reviews reveal issues: the app must stay active (draining battery), straps can come undone, and battery life is about four days. At ~£100, LuvLink Friendship Lamps (~£120/pair) offer better value and reliability for most couples.",
     },
     {
       question: "What can I do for Valentine's Day long distance with no money?",
@@ -3987,527 +3988,569 @@ export const blogPosts: BlogPost[] = [
   ],
 },
   {
-  slug: 'valentines-gifts-under-30',
-  title: "Best Valentine's Gifts Under \u00a330 UK (2026)",
-  description: "Thoughtful Valentine's gifts under \u00a330 from UK retailers. Chocolates, beauty, personalised items, and experience days that feel considered without breaking the budget.",
-  publishedAt: '2026-02-01',
+  slug: 'valentines-edible-gifts',
+  title: "Best Edible Valentine's Gifts UK 2026: Chocolate, Cheese & Food Hampers",
+  description: "The best edible Valentine's gifts in the UK for 2026, from chocolate and cheese to brownie boxes and gin pairings. Every pick with real prices, £5-£50.",
+  publishedAt: '2026-02-04',
   author: "Valentine's Gift Finder",
   category: 'gift-guide',
-  tags: ['budget', 'under \u00a330', 'gift guide', 'chocolates', 'beauty gifts', 'experience gifts', 'personalised gifts', 'affordable'],
-  readingTime: 14,
+  tags: ['edible gifts', 'chocolate', 'cheese', 'food hampers', 'UK gifts', 'valentine food gifts'],
+  readingTime: 12,
   published: false,
   content: `
-    <p class="lead">You don't need to spend a fortune to give a Valentine's gift that feels thoughtful. The average UK spend on Valentine's Day is around \u00a352, but some of the most appreciated gifts sit well below that. A \u00a330 budget is more than enough to get something that shows you've actually thought about what they'd enjoy.</p>
-
-    <p>This guide focuses on gifts available from UK retailers (with a heavy Amazon UK focus for convenience), organised by category so you can find something that fits your partner's personality. Every pick below is under \u00a330, truly useful or enjoyable, and available with decent delivery times.</p>
-
-    <p>We've covered gifts under \u00a325 in a <a href="/blog/valentines-gifts-under-25">separate guide</a>, so this article expands the range into the \u00a325\u2013\u00a330 bracket where you'll find experience vouchers, premium beauty, and personalised options that the tighter budget doesn't quite stretch to. There's some overlap on the best-value picks, but the focus here is on what that extra fiver opens up.</p>
-
-    <p class="affiliate-notice"><em>This post contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. We only recommend products we'd actually consider giving.</em></p>
-
-    <p><strong>Short on time?</strong> <a href="#top-picks">Jump to our top 5 picks</a> | <a href="/quiz">Take our 30-second gift finder quiz</a></p>
-
-    <h2 id="top-picks">Our Top 5 Picks Under \u00a330</h2>
-
-    <p>If you want a quick answer without reading the full breakdown, these are the five gifts that consistently get positive feedback and hit the sweet spot for quality, price, and thoughtfulness.</p>
-
-    <h3>1. Hotel Chocolat With Love H-Box</h3>
-    <p><strong>\u00a312\u2013\u00a316</strong> | Best for: Chocolate lovers who appreciate quality over quantity. Fourteen hand-finished chocolates in a Valentine's presentation box.</p>
-    <p><a href="https://www.hotelchocolat.com/uk/valentines-day-gifts.html" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>2. LUSH Valentine's Bath Bomb Set</h3>
-    <p><strong>\u00a312\u2013\u00a320 (2\u20133 bombs)</strong> | Best for: Anyone who enjoys a proper bath. Their Valentine's range includes reusable bubble bars and bath bombs with sea salt and bergamot.</p>
-    <p><a href="https://www.lush.com/uk/en/c/valentines-day" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>3. LANEIGE Lip Sleeping Mask</h3>
-    <p><strong>\u00a314.70\u2013\u00a322</strong> | Best for: The skincare enthusiast. A cult-favourite overnight lip mask that people rave about. The berry scent is the most popular.</p>
-    <p><a href="https://www.amazon.co.uk/dp/B076Y4TFLL?tag=aanthony08-21" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>4. Afternoon Tea for Two at Patisserie Valerie</h3>
-    <p><strong>\u00a329.99</strong> (reduced from \u00a339.95) | Best for: Experience-focused couples. Available at 85+ UK locations. Rated 4.5/5 from over 5,000 reviews.</p>
-    <p><a href="https://www.buyagift.co.uk/afternoon-tea/afternoon-tea-at-patisserie-valerie" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>5. Thorntons Classic Collection (449g)</h3>
-    <p><strong>\u00a38\u2013\u00a312</strong> | Best for: A reliable, crowd-pleasing option. 39 assorted chocolates in milk, white, and dark varieties. Next-day Amazon delivery.</p>
-    <p><a href="https://www.amazon.co.uk/s?k=thorntons+classic+collection+449g&tag=aanthony08-21" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <p>Want the full breakdown? Keep reading for detailed reviews, pros and cons, and more options by category.</p>
-
-    <h2 id="chocolates">Best Chocolates & Sweets Under \u00a330</h2>
-
-    <p>Food gifts have the highest purchase intention among UK Valentine's shoppers, and for good reason. They create a moment rather than something that needs dusting. No clutter, no guilt.</p>
-
-    <h3>Hotel Chocolat With Love H-Box</h3>
-    <p><strong>\u00a312\u2013\u00a316</strong> | Available from Hotel Chocolat stores and online</p>
-    <p>Fourteen chocolates in a heart-shaped box. The flavour selection is thoughtful: Dark Gianduja, Lemon Curd, Salted Caramel, and others that feel more interesting than generic truffles. Hotel Chocolat occupies that "affordable luxury" space where it feels like a proper gift without requiring a second mortgage.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>Beautiful presentation that looks more expensive than it costs</li>
-          <li>Interesting flavours beyond the usual truffle selection</li>
-          <li>Vegan options available in the Unbelievably Vegan range</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>14 chocolates doesn't last long if you're sharing</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.hotelchocolat.com/uk/valentines-day-gifts.html" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>Thorntons Classic Collection (449g)</h3>
-    <p><strong>\u00a38\u2013\u00a312</strong> | Next-day via Amazon UK</p>
-    <p>The reliable option. 39 chocolates covering milk, white, and dark varieties. Nothing revolutionary, but consistently enjoyed. This is the gift for someone who wants good chocolate without anything too experimental. At this price-to-quantity ratio, it's hard to beat for pure value.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>Excellent value for the quantity. 39 chocolates for under \u00a312</li>
-          <li>Widely available with next-day Amazon delivery</li>
-          <li>Crowd-pleasing flavours that suit most tastes</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>Less "special" than boutique options if your partner is a chocolate connoisseur</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.amazon.co.uk/s?k=thorntons+classic+collection+449g&tag=aanthony08-21" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>Lindt LINDOR Truffles Gift Box</h3>
-    <p><strong>\u00a310\u2013\u00a315</strong> | Next-day via Amazon UK and most supermarkets</p>
-    <p>The smooth, melt-in-your-mouth texture of LINDOR truffles has made them a Valentine's staple. The assorted box includes milk, dark, and white chocolate options. Good for partners who appreciate familiar, high-quality chocolate.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>Universally liked flavour profile that rarely misses</li>
-          <li>Elegant packaging that looks gift-ready out of the box</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>They're popular enough that it might feel safe rather than inspired</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.amazon.co.uk/s?k=lindt+lindor+truffles+gift+box&tag=aanthony08-21" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>Charbonnel et Walker Pink Champagne Truffles</h3>
-    <p><strong>\u00a315\u2013\u00a325</strong> | Available at Selfridges and department stores</p>
-    <p>For the partner who appreciates a touch of indulgence. These champagne-infused truffles come in a pretty pink box and feel properly luxurious. Charbonnel et Walker has been making chocolate since 1875, so there's history and craft behind it. A solid choice if you want something a step above supermarket chocolates without spending \u00a330+.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>Truly premium product with heritage brand weight</li>
-          <li>Beautiful pink packaging that suits Valentine's perfectly</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>Price varies quite a bit depending on box size and retailer</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.amazon.co.uk/s?k=charbonnel+et+walker+pink+champagne+truffles&tag=aanthony08-21" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <p>Already explored our budget chocolate picks? See our <a href="/blog/valentines-gifts-under-25">under \u00a325 guide</a> for Tony's Chocolonely and other affordable options that pair brilliantly with a heartfelt card.</p>
-
-    <h2 id="beauty">Best Beauty & Pampering Gifts Under \u00a330</h2>
-
-    <p>Self-care gifts work well for Valentine's Day because they show you want your partner to feel good, not just receive an object. Bath products and skincare sit nicely in the "small luxury" category: indulgent enough to feel like a treat, practical enough to actually get used.</p>
-
-    <h3>LUSH Valentine's Collection</h3>
-    <p><strong>\u00a34\u2013\u00a315</strong> | Available in LUSH stores and online</p>
-    <p>LUSH releases a dedicated Valentine's range every year, and the 2026 collection has several options under \u00a330. You can build your own selection to suit your budget.</p>
-    <p><strong>Individual bath bombs (\u00a34\u2013\u00a39):</strong> Love Letter Bath Bomb (\u00a34) is the budget entry point. Be My Valentine Bubble Bar (\u00a39) is reusable and creates rosy bubbles, making it better value than single-use options. Love Struck Bath Bomb (\u00a36\u20138) has a more interesting scent profile with sea salt, bergamot, and blackcurrant. Valentine Bombshell (\u00a36\u20138) uses rose and lemon oil with dried flower petals.</p>
-    <p><strong>The Love Burger (\u00a312\u201315):</strong> A three-course bath treat. Slightly gimmicky, but if they enjoy bath products, it works as a self-contained gift.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>Eco-friendly packaging and handmade in the UK</li>
-          <li>Smells fantastic. The scent alone makes it feel special</li>
-          <li>Wide price range means you can build a set to your exact budget</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>Bath products only suit people who actually take baths (obvious, but worth stating)</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.lush.com/uk/en/c/valentines-day" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>LANEIGE Lip Sleeping Mask</h3>
-    <p><strong>\u00a314.70\u2013\u00a322</strong> | Currently on sale at Space NK and Amazon</p>
-    <p>This has become one of those cult beauty products that gets recommended constantly on social media, and the hype is justified. It's a rich overnight lip mask that leaves lips noticeably softer by morning. The berry scent is the original and most popular. A small jar lasts for months, which means the gift keeps giving well beyond Valentine's Day.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>Lasts for months, so the gift has real staying power</li>
-          <li>Beautiful packaging that looks more expensive than it costs</li>
-          <li>Universally loved. Very few people dislike this product</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>If they're already into skincare, they may own it. Worth a subtle check first</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.amazon.co.uk/dp/B076Y4TFLL?tag=aanthony08-21" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>Boots Valentine's Beauty Box</h3>
-    <p><strong>\u00a327</strong> | Available from Boots online and in-store</p>
-    <p>Six products including brands like Pixi, NARS, and Elemis, worth considerably more than the box price. These curated beauty boxes are popular because they let someone try premium products without committing to full-size prices. If your partner enjoys beauty products but you don't know their exact preferences, this hedges your bets nicely.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>Good value. Contents are worth more than the \u00a327 price tag</li>
-          <li>Variety of products gives them something to explore</li>
-          <li>Nice presentation that looks gift-ready</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>The specific products vary, so you're trusting Boots' curation rather than choosing individual items</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.boots.com/beauty/beauty-box" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>Space NK Valentine's Picks Under \u00a330</h3>
-    <p><strong>\u00a34\u2013\u00a329</strong> | Available from Space NK online and in-store</p>
-    <p>Space NK's sale section often has premium beauty items discounted below \u00a330. Current standouts include Milk Makeup Hydro Grip Heroes at \u00a317.40 (down from \u00a329), Summer Fridays Lip Butter Balm at \u00a323, and Malin + Goetz In Good Hands set at \u00a313.80 (down from \u00a323). Worth browsing if your partner appreciates premium skincare brands and you want something with a recognised name behind it.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>Premium brands at reduced prices feel like a savvy find</li>
-          <li>Space NK gift bags and packaging elevate the presentation</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>Sale stock changes frequently. These specific items may sell out</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.spacenk.com/uk/sale" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <p>For more beauty gift ideas at a lower price point, our <a href="/blog/valentines-gifts-under-25">under \u00a325 guide</a> covers L'Occitane travel sets, Yankee Candle gift boxes, and other pampering picks.</p>
-
-    <h2 id="personalised">Best Personalised Gifts Under \u00a330</h2>
-
-    <p>Personalised gifts land well because they demonstrate that you planned ahead (even if you ordered them three days ago). A name, a date, or a shared photo transforms a generic item into something meaningful. This is the category where \u00a330 buys significantly more than \u00a325 does.</p>
-
-    <h3>Personalised Photo Heart Glass Plaque</h3>
-    <p><strong>\u00a317</strong> | Available from Menkind</p>
-    <p>A glass plaque with your photo printed on it, shaped like a heart. Simple concept, but it looks nicer than you'd expect and sits well on a bedside table or desk. The glass gives it a more premium feel than a printed card or paper photo, and it's the sort of thing that stays on display permanently.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>Looks more expensive than \u00a317</li>
-          <li>Permanent display piece that becomes part of their space</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>Requires a good-quality photo. Check resolution before ordering</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.menkind.co.uk/personalised-photo-heart-glass-plaque" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>Personalised Date Night Ideas Bag</h3>
-    <p><strong>\u00a314.88</strong> (reduced from \u00a317.50) | Available from Not On The High Street</p>
-    <p>A cotton bag filled with wooden tokens, each suggesting a date night activity. You can add your own suggestions to the pre-written options. It's a gift that keeps giving throughout the year, and the interactive element makes it more engaging than a static object.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>Interactive. Creates ongoing date nights rather than a single moment</li>
-          <li>Good for couples stuck in a routine who want to try new things together</li>
-          <li>The personalisation options make it feel bespoke</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>Requires you to actually follow through on the date nights. The gift is only as good as the commitment</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.notonthehighstreet.com/s/personalised-date-night-ideas-bag" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>Star Map Print</h3>
-    <p><strong>\u00a320\u2013\u00a330</strong> | Available from My Picture and various retailers</p>
-    <p>A print showing the night sky exactly as it appeared on a meaningful date: when you met, your first date, an anniversary. Looks elegant, feels personal, and doesn't require much wall space. The combination of science and sentimentality appeals to a wide range of personalities, and it works for any gender.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>Deeply personal without being cheesy</li>
-          <li>Elegant enough to frame and display permanently</li>
-          <li>Works for any gender or relationship stage</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>Delivery times vary. Order early to ensure it arrives before the 14th</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.amazon.co.uk/s?k=personalised+star+map+print+valentine&tag=aanthony08-21" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>Personalised Photo Beer Glass</h3>
-    <p><strong>\u00a315</strong> | Available from Menkind</p>
-    <p>For partners who enjoy a pint at home. Upload a photo, add a message, receive a proper glass tankard. More useful than it sounds. It's the kind of gift that gets pulled out regularly rather than being displayed once and forgotten.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>Actually gets used, rather than sitting in a cupboard</li>
-          <li>Good for partners who are tricky to buy personalised gifts for</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>Only works if they're a beer/drinks person. Know your audience</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.menkind.co.uk/personalised-photo-beer-glass" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>'Partner In Brine' Sardine Iced Biscuits</h3>
-    <p><strong>\u00a313</strong> | Available from Not On The High Street</p>
-    <p>If your relationship involves a lot of puns and you want something edible, these hand-decorated sardine-shaped biscuits are a quirky option. Playful rather than romantic, which suits some couples better. They're also truly delicious, which helps.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>Quirky and memorable. Not another box of chocolates</li>
-          <li>Hand-decorated, so it feels artisan rather than mass-produced</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>The humour won't land for every couple. Best for relationships with a playful dynamic</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.notonthehighstreet.com/s/partner-in-brine-sardine-biscuits" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h2 id="experiences">Best Experience Gifts Under \u00a330</h2>
-
-    <p>Experience gifts have become increasingly popular because they create memories rather than objects. A shared experience gives you time together rather than something that might end up in a drawer. The \u00a325\u2013\u00a330 bracket is where experience gifts really start to open up.</p>
-
-    <h3>Afternoon Tea for Two at Patisserie Valerie</h3>
-    <p><strong>\u00a329.99</strong> (reduced from \u00a339.95) | Via Buyagift</p>
-    <p>This is the standout value option for experience gifts under \u00a330. Afternoon tea at a proper patisserie, available at 85+ locations across the UK, with consistently good reviews (4.5/5 stars from over 5,000 people). The voucher is valid for 20 months, so there's no pressure to book immediately. A shared experience at a quality venue for under \u00a330 is hard to beat.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>Excellent value. Originally \u00a339.95, currently reduced to \u00a329.99</li>
-          <li>Wide UK coverage with 85+ locations</li>
-          <li>20-month validity gives flexibility on booking</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>Popular locations get busy on weekends. Book ahead for the best slots</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.buyagift.co.uk/afternoon-tea/afternoon-tea-at-patisserie-valerie" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>Cinema Tickets with Popcorn for Two</h3>
-    <p><strong>\u00a324.99</strong> | Via Buyagift</p>
-    <p>Two cinema tickets plus popcorn at 85 venues across the UK. Rated 4.5/5 stars. A classic date option that works whether you've been together two months or twenty years. There's something about a cinema trip that still feels like a date, no matter how long you've been together.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>Classic date experience that suits any couple</li>
-          <li>Good UK coverage with 85 venues</li>
-          <li>Includes popcorn, so no awkward "shall we?" at the concessions stand</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>Depends on what films are showing. Better as a voucher they can use when something good is on</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.buyagift.co.uk/cinema-tickets" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>Two Course Meal at Slug & Lettuce for Two</h3>
-    <p><strong>\u00a329.99</strong> (reduced from \u00a344.80) | Via Buyagift</p>
-    <p>Dinner for two at any of 67 UK locations. At 33% off, this represents solid value for a meal out. More substantial than afternoon tea if your partner prefers a proper dinner. The Slug & Lettuce chain is reliable without being fancy, which makes the voucher feel like a real treat rather than a compromise.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>33% off the standard price. Real saving, not inflated-then-discounted</li>
-          <li>67 locations across the UK</li>
-          <li>A proper meal out is more substantial than most gifts at this price</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>Slug & Lettuce is casual dining. If they expect fine dining, manage expectations</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.buyagift.co.uk/food-and-drink/slug-and-lettuce-meal-for-two" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>Pottery Workshop</h3>
-    <p><strong>\u00a329</strong> (reduced from \u00a346) | Via ClassBento</p>
-    <p>A hands-on pottery session, currently 37% off through ClassBento. This works particularly well if your partner has expressed interest in trying something creative. The finished piece becomes a keepsake, so you end up with both an experience and a physical reminder of the day.</p>
-    <ul>
-      <li><strong>Pros</strong>
-        <ul>
-          <li>Unique experience that most people haven't tried</li>
-          <li>Learn a new skill together. Builds a memory, not just a moment</li>
-          <li>Take home what you make as a keepsake</li>
-        </ul>
-      </li>
-      <li><strong>Cons</strong>
-        <ul>
-          <li>Currently London-based (London Bridge). Less useful if you're outside London</li>
-        </ul>
-      </li>
-    </ul>
-    <p><a href="https://www.classbento.co.uk/pottery-classes" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <p>Looking for more experience-based presents? Check our <a href="/blog/last-minute-valentines-gifts">last-minute guide</a> for Tinggly and Virgin Experience Days vouchers that deliver digitally.</p>
-
-    <h2 id="budget">Best Budget Gifts Under \u00a310</h2>
-
-    <p>A smaller budget doesn't mean a forgettable gift. Some of the most appreciated options cost less than a takeaway coffee habit. The key is choosing something that shows thought, and pairing it with a card that has a real message in it.</p>
-
-    <h3>LUSH Love Letter Bath Bomb</h3>
-    <p><strong>\u00a34</strong> | Available from LUSH stores and online</p>
-    <p>The most budget-friendly option in LUSH's Valentine's range. Looks pretty, smells lovely, creates a pleasant bath. Nothing complicated, but effective. Pair it with one or two other small items or a heartfelt card and you have a thoughtful gift for under \u00a310.</p>
-    <p><a href="https://www.lush.com/uk/en/c/valentines-day" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>Lovisa Gold Diamante Choker Necklace</h3>
-    <p><strong>\u00a39</strong> | Available from Lovisa</p>
-    <p>Budget jewellery that doesn't look like budget jewellery. Lovisa has built a reputation for affordable accessories that look more expensive than they cost. At \u00a39, this sits in the sweet spot between "token gesture" and "proper gift."</p>
-    <p><a href="https://www.lovisa.co.uk" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>Personalised Padlock</h3>
-    <p><strong>\u00a39.99</strong> | Via Find Me A Gift</p>
-    <p>A padlock engraved with your initials or a date. The symbolism is obvious but effective. Some couples attach them to bridges, others keep them in a memory box. Either way, it's a small physical token that carries more meaning than its price suggests.</p>
-    <p><a href="https://www.findmeagift.co.uk/s/personalised-padlock" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>Our Story Timeline Mug</h3>
-    <p><strong>\u00a39.99</strong> | Via Find Me A Gift</p>
-    <p>A mug with a printed timeline of your relationship milestones. Customise it with dates and events that matter to you both. Gets used every morning, which is more than most gifts can claim. The personalisation is what lifts this from generic mug to meaningful present.</p>
-    <p><a href="https://www.findmeagift.co.uk/s/our-story-timeline-mug" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h3>Space NK Love Heart Key Charm</h3>
-    <p><strong>\u00a34</strong> (reduced from \u00a310) | Available from Space NK</p>
-    <p>Currently 60% off. A small, pretty keyring charm. Works well as an add-on to a card rather than a standalone gift. At \u00a34 it's essentially free alongside something else.</p>
-    <p><a href="https://www.spacenk.com/uk/sale" target="_blank" rel="noopener">Get it now \u2192</a></p>
-
-    <h2 id="how-to-choose">How to Choose the Right Gift Under \u00a330</h2>
-
-    <p>A framework helps when you're browsing dozens of options. Here's how we'd approach it.</p>
-
-    <h3>1. Think About What They'd Never Buy Themselves</h3>
-    <p>The best gifts occupy a specific space: something they'd enjoy owning but would never justify purchasing. A \u00a315 box of premium chocolates. A fancy bath bomb. A personalised photo item. The slight indulgence is what makes it a gift rather than a purchase.</p>
-
-    <h3>2. Consider Consumables Over Clutter</h3>
-    <p>Chocolates, bath products, and experiences don't need dusting or storage space. They create a moment and then they're done. For many people, that's preferable to another object in an already-full home. This is especially true if you're unsure of their taste in permanent items.</p>
-
-    <h3>3. Match the Relationship Stage</h3>
-    <p><strong>New relationship (under 6 months):</strong> Stay under \u00a320. Sweet and charming, not grand. Chocolates, small treats, or a budget experience voucher. The <a href="/blog/valentines-gifts-under-25">under \u00a325 guide</a> has more ideas for this bracket.</p>
-    <p><strong>Established relationship:</strong> The \u00a320\u2013\u00a330 range gives you room for something thoughtful without pressure. This is where personalised items and experience vouchers come into their own.</p>
-    <p><strong>Long-term partner:</strong> They probably value the gesture over the price tag. A personalised item or shared experience often lands better than an expensive object they didn't ask for.</p>
-
-    <h3>4. Check Delivery Times</h3>
-    <p>Before committing to a gift, confirm it will arrive in time. Amazon Prime handles most under \u00a330 options with next-day delivery. Personalised items from Not On The High Street vary by seller, so check individual listings. Experience vouchers (Buyagift, Tinggly) deliver digitally if you're running very late. Our <a href="/blog/last-minute-valentines-gifts">last-minute guide</a> has the full breakdown of delivery cut-offs.</p>
-
-    <h3>5. Add a Personal Note</h3>
-    <p>Whatever you choose, the card message matters more than most people realise. A generic "Happy Valentine's Day" wastes the opportunity. Write something specific about why you chose this gift or what you appreciate about them. The note is often the part they remember longest.</p>
-
-    <h2 id="where-to-buy">Where to Buy: UK Retailers Summary</h2>
-
-    <p>A quick reference for where to find the best options under \u00a330, organised by what they're best for.</p>
-
-    <p><strong>Amazon UK:</strong> Widest selection, reliable next-day delivery (Prime), customer reviews help quality-check. Best for chocolates, beauty products, and home items. Most products in this guide are available here.</p>
-
-    <p><strong>LUSH:</strong> Dedicated Valentine's bath products. Order online or visit high street stores. Returns are easy if you change your mind.</p>
-
-    <p><strong>Hotel Chocolat:</strong> Premium chocolates in Valentine's packaging. Stores nationwide or order online. Their quality-to-price ratio is hard to beat.</p>
-
-    <p><strong>Not On The High Street:</strong> Personalised gifts from UK small businesses. Delivery times vary by seller, so order early.</p>
-
-    <p><strong>Boots:</strong> Beauty gift sets at good value. In-store or online with click & collect. Good for last-minute grabs on the high street.</p>
-
-    <p><strong>Space NK:</strong> Premium beauty products, often with sale discounts. Online or in stores. Worth checking their sale section first.</p>
-
-    <p><strong>Buyagift:</strong> Experience vouchers with good UK coverage. Digital delivery available for same-day gifting.</p>
-
-    <p><strong>Menkind:</strong> Quirky personalised gifts and "gifts for him" options. Online with standard delivery.</p>
-
-    <p>Not sure which retailer suits you best? <a href="/quiz">Our gift finder quiz</a> matches you with specific products and tells you where to get them.</p>
-
-    <h2>Frequently Asked Questions</h2>
-
-    <h3>What is a good Valentine's gift under \u00a330?</h3>
-    <p>Quality chocolates (Hotel Chocolat, around \u00a312\u201316), pampering products (LUSH bath bombs, \u00a34\u201315), or experience vouchers (afternoon tea for two, \u00a329.99) all hit the sweet spot. The best option depends on your partner's personality. Someone who loves relaxing at home might prefer bath products. A foodie would appreciate chocolates. A couple looking for more time together benefits from an experience voucher.</p>
-
-    <h3>Is \u00a330 enough to spend on a Valentine's gift?</h3>
-    <p>Absolutely. The UK average is around \u00a352, but research consistently shows that thoughtfulness matters more than price. A well-chosen \u00a315 gift often lands better than a thoughtless \u00a350 one. The \u00a315\u201340 range is where most Valentine's purchases sit, and plenty of excellent options exist under \u00a330. Over two-thirds of UK shoppers spend in this bracket.</p>
-
-    <h3>What are the best Valentine's chocolates under \u00a330 UK?</h3>
-    <p>Hotel Chocolat's With Love H-Box (around \u00a312\u201316) offers the best quality-to-price ratio. Thorntons Classic Collection (around \u00a38\u201312) provides more chocolate for less money. Lindt LINDOR truffles (around \u00a310\u201315) are a reliable middle ground. For something more premium, Charbonnel et Walker Pink Champagne Truffles (around \u00a315\u201325) feel properly luxurious.</p>
-
-    <h3>Are experience gifts better than physical gifts for Valentine's Day?</h3>
-    <p>Experience gifts have grown in popularity because they create shared memories rather than adding to household clutter. Afternoon tea, cinema trips, and pottery classes give couples time together rather than another object. That said, some people prefer having something physical to unwrap on the day. Know your partner. If they love experiences, a voucher works perfectly. If they prefer something tangible, chocolates or a personalised item might land better.</p>
-
-    <h3>What should I get for someone I just started dating?</h3>
-    <p>Keep it under \u00a320 and choose something charming rather than grand. Premium chocolates, a small treat box, or a low-key experience voucher all work well. Avoid anything that implies long-term commitment like jewellery or engraved items with both names. A thoughtful card with a heartfelt message often matters more than the gift itself at this stage. Our <a href="/blog/valentines-gifts-under-25">under \u00a325 guide</a> has more options for new relationships.</p>
-
-    <h3>Where can I buy Valentine's gifts under \u00a330 with next-day delivery?</h3>
-    <p>Amazon UK (Prime) is the most reliable option for next-day delivery on most products. Boots offers click & collect that's often ready within hours. Buyagift experience vouchers deliver digitally, so they work even on Valentine's Day itself. LUSH and Hotel Chocolat both offer standard delivery through their websites, though high street stores are a safer bet if you're cutting it fine.</p>
-
-    <h2>Final Recommendations</h2>
-
-    <p>A \u00a330 budget gives you more options than you might expect. The key is choosing something that shows you thought about what they'd actually enjoy, rather than grabbing the first thing with a heart on it.</p>
-
-    <p>If we had to narrow it down:</p>
-
-    <ol>
-      <li><strong>For the chocolate lover:</strong> <a href="https://www.hotelchocolat.com/uk/valentines-day-gifts.html" target="_blank" rel="noopener">Hotel Chocolat With Love H-Box</a> (around \u00a312\u201316). Quality over quantity.</li>
-      <li><strong>For the self-care enthusiast:</strong> <a href="https://www.lush.com/uk/en/c/valentines-day" target="_blank" rel="noopener">LUSH Valentine's bath products</a> (\u00a34\u201315) or <a href="https://www.amazon.co.uk/dp/B076Y4TFLL?tag=aanthony08-21" target="_blank" rel="noopener">LANEIGE Lip Sleeping Mask</a> (around \u00a315\u201322).</li>
-      <li><strong>For the experience-focused couple:</strong> <a href="https://www.buyagift.co.uk/afternoon-tea/afternoon-tea-at-patisserie-valerie" target="_blank" rel="noopener">Afternoon Tea for Two at Patisserie Valerie</a> (\u00a329.99). Creates a memory, not clutter.</li>
-      <li><strong>For the sentimental partner:</strong> A <a href="https://www.amazon.co.uk/s?k=personalised+star+map+print+valentine&tag=aanthony08-21" target="_blank" rel="noopener">personalised star map</a> or photo gift (around \u00a315\u201325). More meaningful than something generic.</li>
-      <li><strong>For the tight budget:</strong> <a href="https://www.lush.com/uk/en/c/valentines-day" target="_blank" rel="noopener">LUSH Love Letter Bath Bomb</a> (\u00a34) paired with a heartfelt card. Simple, effective, affordable.</li>
-    </ol>
-
-    <p><strong>Still not sure what to get?</strong> <a href="/quiz">Take our 30-second gift finder quiz</a> to get a personalised recommendation based on your partner's personality and your budget.</p>
-
-    <p>Whatever you choose, the fact that you're putting thought into it already puts you ahead. Happy Valentine's Day.</p>
-  `,
+<p class="lead">Most edible Valentine's gifts fall into one of two camps: a box of Cadbury Roses from the petrol station, or an overpriced hamper stuffed with things nobody actually eats. This guide covers the middle ground — food and drink gifts that are worth the money, taste good, and don't require a second mortgage.</p>
+
+<p>Every product listed is available from UK retailers with current pricing. We've covered chocolate, cheese, brownies, fudge, drink pairings, and subscription boxes, organised by category so you can jump to whatever suits your partner's taste.</p>
+
+<p class="affiliate-notice"><em>This article contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you.</em></p>
+
+<p><strong>In a rush?</strong> <a href="#top-picks">Top 5 picks</a> | <a href="#chocolate">Chocolate</a> | <a href="#cheese">Cheese</a> | <a href="#sweet-treats">Brownies & fudge</a> | <a href="#drink-combos">Drink & food combos</a> | <a href="#subscriptions">Subscriptions</a> | <a href="#comparison">Comparison table</a> | <a href="/quiz">Take our 30-second gift quiz</a></p>
+
+<h2 id="top-picks">Our Top 5 Picks</h2>
+
+<p>Short on time? These five cover different tastes and budgets:</p>
+
+<ol>
+<li><strong>Best Chocolate:</strong> Hotel Chocolat With Love Sleekster (~£30) — 27 heart-shaped chocolates, proper flavour range</li>
+<li><strong>Best for Cheese Lovers:</strong> Pong Cheese Heart-Shaped Box (£32) — 830g of British cheese, seasonally rotated</li>
+<li><strong>Best Brownies:</strong> Bad Brownie Valentine's Collection (~£37-50) — 12 dense, fudgy brownies in a gift box</li>
+<li><strong>Best Budget:</strong> Montezuma's Chocolate Bars (from ~£3) — Ethical chocolate with interesting flavours</li>
+<li><strong>Best Combo:</strong> M&S Gin & Chocolate Gift Box (~£40) — Old Tom gin with paired chocolates</li>
+</ol>
+
+<p>Want the full breakdown? Keep reading for detailed reviews by category, or <a href="/quiz">take our gift quiz</a> if you'd rather answer a few questions and get matched.</p>
+
+<h2 id="chocolate">Best Chocolate Valentine's Gifts</h2>
+
+<p>The obvious category, but the gap between a good chocolate gift and a forgettable one is wider than you'd think. These are the brands worth spending money on.</p>
+
+<h3>Hotel Chocolat With Love Sleekster — ~£30</h3>
+
+<p>27 heart-shaped chocolates in a flat box that looks the part the moment it's opened. The selection runs through their better recipes — Supermilk Praline, Salted Caramel, a few fruit-based ones — without any of the filler flavours you get in supermarket boxes.</p>
+
+<p>Hotel Chocolat sits in a sweet spot: recognisable enough that the brand name carries weight, but the chocolate is noticeably better than mass-market options. The box arrives gift-ready, so no wrapping needed.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>Beautiful presentation, generous 27-piece selection</li>
+<li>Includes Hotel Chocolat's best recipes</li>
+<li>Arrives in gift-ready packaging</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>Not available on Amazon — buy from Hotel Chocolat or Moonpig</li>
+<li>Price point may be high for newer relationships</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://www.hotelchocolat.com/uk/valentines-collection.html" target="_blank" rel="noopener">Buy from Hotel Chocolat →</a></p>
+
+<h3>Charbonnel et Walker Pink Marc de Champagne Heart — ~£27.50</h3>
+
+<p>Charbonnel et Walker have been making chocolates since 1875 and hold a Royal Warrant, which is the sort of thing that sounds like marketing fluff until you actually try the truffles. Their Pink Marc de Champagne box contains 200g of champagne-infused truffles dusted with icing sugar, and the champagne flavour is genuine rather than artificial.</p>
+
+<p>The pink velvet heart box looks good enough that most people end up keeping it for jewellery or trinkets. If your partner drinks champagne or fizz, this is a natural choice. If they don't drink at all, skip to Montezuma's below.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>Royal Warrant holder with genuine pedigree</li>
+<li>Real champagne flavour, not synthetic</li>
+<li>Reusable velvet heart box</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>Single flavour throughout (not ideal if they prefer variety)</li>
+<li>Not suitable for non-drinkers</li>
+<li>Must buy direct from charbonnel.co.uk</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://charbonnel.co.uk/collection/valentines" target="_blank" rel="noopener">Buy from Charbonnel et Walker →</a></p>
+
+<h3>Montezuma's Valentine's Chocolate Collection — From ~£3</h3>
+
+<p>If you're after something good for under a fiver — or want to buy for several people without going broke — Montezuma's is the answer. Their bars start around £3 and include flavours like Salted Caramel Truffle and Love Bug (strawberry and champagne). The chocolate is genuinely good for the price, not just "good for a budget option."</p>
+
+<p>The packaging is bright and colourful rather than traditionally romantic, which honestly works in its favour. It looks like you chose it because the chocolate is interesting, not because it had a heart on the front.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>Budget-friendly from ~£3</li>
+<li>Interesting flavours beyond basic milk/dark</li>
+<li>Ethically sourced</li>
+<li>Some availability on Amazon UK</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>Less formal presentation than boxed selections</li>
+<li>May feel less substantial as a sole gift</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://www.amazon.co.uk/s?k=montezumas+chocolate+valentines&tag=aanthony08-21" target="_blank" rel="noopener">Find on Amazon UK →</a></p>
+
+<h3>Willie's Cacao Single Estate Bars — ~£3.45-£4.45</h3>
+
+<p>Willie's Cacao is for the person who actually cares about where their chocolate comes from — the equivalent of someone who drinks single-origin coffee rather than instant. Each bar states the cacao percentage and origin, with tasting notes on the wrapper explaining what to look for.</p>
+
+<p>A word of caution: if your partner happily eats Galaxy and doesn't understand why anyone would pay more, this won't land. But if they're already into food, cooking, or wine, the single-estate angle gives you something to talk about over dinner.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>Single-estate cacao with clear origin info</li>
+<li>Noticeably more complex than supermarket chocolate</li>
+<li>Good value at under £5 per bar</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>Doesn't scream "Valentine's" in the packaging</li>
+<li>Wasted on someone who doesn't notice the difference</li>
+<li>Better through specialist retailers than Amazon</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://www.williescacao.com/product-tag/valentines-day/" target="_blank" rel="noopener">Buy from Willie's Cacao →</a></p>
+
+<h2 id="cheese">Best Cheese Valentine's Gifts</h2>
+
+<p>Not everyone wants chocolate. If your partner would rather have a cheese board than a box of truffles, these are the options worth knowing about.</p>
+
+<h3>Pong Cheese Heart-Shaped Box — £32</h3>
+
+<p>830g of British cheese in a heart-shaped box. The selection rotates seasonally, so you're getting whatever's best right now rather than the same fixed lineup year-round. Each cheese comes with tasting notes and pairing suggestions, which is useful if you're not sure what to serve alongside it.</p>
+
+<p>At £32 for nearly a kilo of cheese, the value is solid. The heart-shaped box is undeniably cheesy (sorry) but it does the job for Valentine's without being too much.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>Nearly a kilo of cheese for £32</li>
+<li>Seasonal rotation means you get what's good right now</li>
+<li>Includes pairing notes so you know what to serve with it</li>
+<li>Heart-shaped box does the Valentine's job</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>Needs refrigerating (can't deliver to an office easily)</li>
+<li>Needs eating within 2 weeks</li>
+<li>Not available on Amazon — buy from pongcheese.co.uk</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://www.pongcheese.co.uk/shop/valentine-s-day/" target="_blank" rel="noopener">Buy from Pong Cheese →</a></p>
+
+<h3>Pong Cheese Explorer Box — ~£23</h3>
+
+<p>If the heart-shaped presentation feels too themed or your budget is closer to £20, Pong's Explorer Box offers 565g of cheese in standard packaging. Same attention to quality and seasonal selection, just without the Valentine's-specific wrapping.</p>
+
+<p>Works well if you're planning a cheese and wine night together and want the focus on taste rather than themed packaging.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>More affordable at ~£23</li>
+<li>Still substantial at 565g</li>
+<li>Same quality selection as heart box</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>Less romantic presentation</li>
+<li>Requires refrigeration</li>
+<li>Must buy direct from Pong Cheese</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://www.pongcheese.co.uk/shop/cheese-gift-boxes/" target="_blank" rel="noopener">Buy from Pong Cheese →</a></p>
+
+<h3>The Chuckling Cheese Company Love Cheese Gift Box — ~£15-20</h3>
+
+<p>Two heart-shaped cheddar truckles in a gift box. It sounds gimmicky until you realise the cheese quality holds up well. At £15-20, it works as a standalone gift for newer relationships or as part of a larger gift for established partners.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>Budget-friendly at £15-20</li>
+<li>Fun heart-shaped presentation</li>
+<li>Available on Not On The High Street</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>Limited variety (just cheddar)</li>
+<li>Smaller portion than Pong selections</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://www.chucklingcheese.co.uk/products/love-cheese-gift-box" target="_blank" rel="noopener">Buy from Chuckling Cheese →</a></p>
+
+<h2>Best Sweet Treat Valentine's Gifts</h2>
+
+<p>Beyond traditional chocolate boxes, these indulgent selections offer variety and creativity. From artisan brownies to handmade fudge, these treats show thought while satisfying a sweet tooth.</p>
+
+<h3>Bad Brownie Valentine's Collection — ~£37-50</h3>
+
+<p>Bad Brownie has built a cult following for dense, fudgy brownies, and their Valentine's Collection brings together 12 bites in a gift box. Flavours rotate but typically include Salted Caramel, Cookies & Cream, and seasonal Valentine's specials.</p>
+
+<p>What makes these work as Valentine's gifts is the texture — these aren't cakey brownies but dense, fudgy blocks that feel properly indulgent. Each bite is individually wrapped, so they can be savoured over several days.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>12 brownies offer generous portion</li>
+<li>Variety of flavours</li>
+<li>Beautiful gift box presentation</li>
+<li>Individually wrapped for freshness</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>£37-50 price point</li>
+<li>Very rich — not for those who prefer lighter sweets</li>
+<li>Must buy direct from badbrownie.co.uk</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://www.badbrownie.co.uk/collections/valentines-day-2026" target="_blank" rel="noopener">Buy from Bad Brownie →</a></p>
+
+<h3>Bad Brownie Explorer 6 Bite Box — £12</h3>
+
+<p>Not ready to commit to 12 brownies? The Explorer box offers six bites at £12 — same quality, more modest package. Works particularly well if you're pairing brownies with another gift.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>Budget-friendly at £12</li>
+<li>Good for testing preferences</li>
+<li>Same quality as larger box</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>Less impressive presentation than 12-bite box</li>
+<li>May feel insubstantial as sole gift</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://www.badbrownie.co.uk/collections/all" target="_blank" rel="noopener">Buy from Bad Brownie →</a></p>
+
+<h3>Fudge Kitchen Rich Chocolate Caramels — £9</h3>
+
+<p>Fudge Kitchen has been handmaking fudge and caramels in traditional copper pans since 1983. Their Rich Chocolate Caramels are soft, buttery, and truly taste of chocolate rather than just sugar.</p>
+
+<p>At £9, these work brilliantly as a thoughtful addition to another gift or as a standalone treat for colleagues, friends, or newer relationships.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>Affordable at £9</li>
+<li>Handmade quality</li>
+<li>Supports a long-established British brand</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>Simple packaging</li>
+<li>Smaller portion — best paired with another gift for established relationships</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://www.fudgekitchen.co.uk/collections/valentines-gifts" target="_blank" rel="noopener">Buy from Fudge Kitchen →</a></p>
+
+<h3>Fudge Kitchen Sea Salted Caramel Fudge — ~£7</h3>
+
+<p>Sea salt caramel done properly. The salt cuts through the sweetness without overwhelming it, creating that moreish quality where one piece easily becomes three. A solid recommendation for office Secret Valentines or when buying for multiple people.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>Very affordable at ~£7</li>
+<li>Classic flavour combination</li>
+<li>Good shelf life</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>Basic packaging</li>
+<li>Small portion — best as part of a larger gift</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://www.fudgekitchen.co.uk/collections/valentines-gifts" target="_blank" rel="noopener">Buy from Fudge Kitchen →</a></p>
+
+<h2>Best Drink & Food Combination Gifts</h2>
+
+<p>Pairing food with complementary drinks creates a complete experience rather than just a snack. These combinations work particularly well for couples planning a Valentine's evening in.</p>
+
+<h3>M&S Gin & Chocolate Gift Box — ~£40</h3>
+
+<p>M&S's Gin & Chocolate Gift Box pairs their Collection Old Tom Gin with artisan chocolates selected to complement the gin's botanicals. It offers a complete evening's entertainment rather than just a quick snack.</p>
+
+<p>The chocolates are sourced from quality makers, and the gin comes from established craft distillers. The combination feels curated rather than random items bundled together.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>Complete experience — drink plus food, ready to enjoy</li>
+<li>Available in M&S stores for last-minute gifting</li>
+<li>Suitable serving size for two</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>Not suitable for non-drinkers</li>
+<li>Must buy from M&S (not on Amazon)</li>
+<li>Assumes recipient likes gin</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://www.marksandspencer.com/the-gin-and-chocolate-gift-box/p/hpp60739191" target="_blank" rel="noopener">Buy from M&S →</a></p>
+
+<h3>Choc Affair Gin Collection Letterbox Gift — ~£15.50</h3>
+
+<p>Four chocolate bars, each infused with different gin botanicals: London Dry, Rhubarb, Pink Grapefruit, and Sloe. The letterbox-friendly packaging means you can send this as a surprise without needing someone home for delivery.</p>
+
+<p>The gin flavours come through clearly without being alcoholic or overwhelming. Tasting each and discussing the differences makes for a fun shared activity.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>Letterbox-friendly delivery</li>
+<li>Affordable at ~£15.50</li>
+<li>Four varieties offer a tasting experience</li>
+<li>Supports a small British chocolatier</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>Not suitable for those who dislike gin flavours</li>
+<li>No actual alcohol content (if that's what they're hoping for)</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://www.choc-affair.com/product/gin-collection-letterbox-gift/" target="_blank" rel="noopener">Buy from Choc Affair →</a></p>
+
+<h3>Hampers.com Cheese & Wine Boxes — From £34</h3>
+
+<p>Hampers.com offers several cheese and wine combinations, from a Classic Red Wine & Cheese Gift at £34 to their Gourmet selection at £45. These include artisan cheeses, crackers, chutneys, and a bottle of wine chosen to complement the cheese.</p>
+
+<p>The advantage over building your own hamper is the curation — someone who knows which wines pair with which cheeses has done the work for you.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>Complete cheese board experience with professionally paired wine</li>
+<li>Gift-ready presentation</li>
+<li>Range of price points</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>Higher price from £34</li>
+<li>Requires refrigeration on arrival</li>
+<li>Wine choice is fixed</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://www.hampers.com/collections/cheese-hampers" target="_blank" rel="noopener">Browse Hampers.com →</a></p>
+
+<h2>Best Food & Drink Subscription Boxes</h2>
+
+<p>Subscription boxes extend the gift beyond Valentine's Day itself, providing monthly treats and discoveries. These work particularly well when you want the gift to feel ongoing.</p>
+
+<h3>Pong Cheese Subscription — From £24/month</h3>
+
+<p>Monthly deliveries of 565g of artisan British cheese, with selections rotating seasonally. For cheese enthusiasts, this becomes a monthly discovery of new cheesemakers and varieties they wouldn't normally find in supermarkets.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>Ongoing gift that lasts well beyond Valentine's</li>
+<li>Supports British cheesemakers</li>
+<li>Flexible commitment — can cancel anytime</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>Monthly cost commitment</li>
+<li>Recipient must consume cheese regularly</li>
+<li>Requires consistent refrigeration</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://www.pongcheese.co.uk/shop/cheese-gift-boxes/" target="_blank" rel="noopener">See Pong Subscriptions →</a></p>
+
+<h3>Craft Gin Club — From £45/month (First box £26)</h3>
+
+<p>A full-size bottle of artisan gin monthly, along with tonics, snacks, and a magazine explaining the distillery's story. The first box costs £26, making it more accessible to try before committing to the full price.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>Full-size bottles, not samples</li>
+<li>Includes mixers and snacks</li>
+<li>First box discounted to £26</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>£45/month ongoing cost</li>
+<li>Only suitable for gin drinkers</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://www.craftginclub.co.uk/" target="_blank" rel="noopener">Join Craft Gin Club →</a></p>
+
+<h3>Beer52 — ~£27/month</h3>
+
+<p>Eight craft beers monthly from UK and international breweries, along with a magazine and snacks. More affordable than the gin subscription while still offering variety and discovery across different styles — IPAs, stouts, sours, and more.</p>
+
+<ul>
+<li><strong>Pros</strong>
+<ul>
+<li>More affordable at ~£27/month</li>
+<li>Eight beers offer solid variety</li>
+<li>Includes magazine and snacks</li>
+<li>Flexible — pause or cancel</li>
+</ul>
+</li>
+<li><strong>Cons</strong>
+<ul>
+<li>Only suitable for beer drinkers</li>
+<li>Monthly deliveries may accumulate</li>
+</ul>
+</li>
+</ul>
+
+<p><a href="https://www.beer52.com/" target="_blank" rel="noopener">Join Beer52 →</a></p>
+
+<h2>Quick Comparison: Best Edible Valentine's Gifts</h2>
+
+<table>
+<thead>
+<tr><th>Gift</th><th>Price</th><th>Best For</th><th>Where to Buy</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Hotel Chocolat Sleekster</strong></td><td>~£30</td><td>Luxury chocolate lovers</td><td>hotelchocolat.com</td></tr>
+<tr><td><strong>Pong Cheese Heart Box</strong></td><td>£32</td><td>Cheese enthusiasts</td><td>pongcheese.co.uk</td></tr>
+<tr><td><strong>Bad Brownie Valentine's</strong></td><td>~£37-50</td><td>Sweet tooth, brownie fans</td><td>badbrownie.co.uk</td></tr>
+<tr><td><strong>Charbonnel et Walker Heart</strong></td><td>~£27.50</td><td>Champagne lovers</td><td>charbonnel.co.uk</td></tr>
+<tr><td><strong>M&S Gin & Chocolate</strong></td><td>~£40</td><td>Couples' night in</td><td>M&S stores / online</td></tr>
+<tr><td><strong>Montezuma's Bars</strong></td><td>From ~£3</td><td>Budget / multiple recipients</td><td>Amazon UK</td></tr>
+<tr><td><strong>Fudge Kitchen Caramels</strong></td><td>£9</td><td>Office valentines, add-on gift</td><td>fudgekitchen.co.uk</td></tr>
+<tr><td><strong>Choc Affair Gin Letterbox</strong></td><td>~£15.50</td><td>Gin fans, surprise delivery</td><td>choc-affair.com</td></tr>
+</tbody>
+</table>
+
+<h2>How to Choose the Right Edible Valentine's Gift</h2>
+
+<h3>Match the Gift to Their Tastes</h3>
+
+<p><strong>For chocolate lovers:</strong> Hotel Chocolat or Charbonnel et Walker for luxury. Willie's Cacao for the connoisseur. Montezuma's for ethical chocolate with bold flavours.</p>
+
+<p><strong>For savoury preferences:</strong> Skip chocolate entirely. Pong Cheese selections or charcuterie hampers acknowledge that not everyone wants sweets on Valentine's Day.</p>
+
+<p><strong>For dietary restrictions:</strong> Check product websites carefully. Montezuma's and Hotel Chocolat offer vegan ranges. Most pure cheese gifts are naturally gluten-free. Always verify allergen information before ordering.</p>
+
+<h3>Match Price to Relationship Stage</h3>
+
+<p><strong>Newer relationships (under 6 months):</strong> Stick to £10-20. Montezuma's bars, Fudge Kitchen treats, or Chuckling Cheese hearts feel thoughtful without pressure.</p>
+
+<p><strong>Established relationships (6+ months):</strong> £25-40 shows investment without seeming excessive. Hotel Chocolat, Pong Cheese, or Bad Brownie hit this sweet spot.</p>
+
+<p><strong>Long-term partners:</strong> £40-50+ for combinations like M&S Gin & Chocolate or premium hampers. Subscriptions also work well here as ongoing gestures.</p>
+
+<h3>Practical Considerations</h3>
+
+<p><strong>Delivery timing:</strong> Most artisan gifts need 2-3 days. For last-minute (24-48 hours before Valentine's), choose brands available on Amazon UK or in M&S stores. Order by 10th-11th February for guaranteed Valentine's Day delivery.</p>
+
+<p><strong>Storage:</strong> Chocolate stores easily at room temperature. Cheese requires refrigeration immediately. Consider whether your recipient can receive and store it properly.</p>
+
+<p><strong>Shelf life:</strong> Chocolates last weeks or months. Cheese and brownies need consuming within days. Consider their household size.</p>
+
+<h2>Budget Breakdown</h2>
+
+<p><strong>£5-10:</strong> Individual chocolate bars (Montezuma's ~£3, Willie's Cacao ~£4), small fudge selections (Fudge Kitchen from £7). Best for office valentines, pairing with other gifts, or multiple recipients.</p>
+
+<p><strong>£10-20:</strong> Small gift boxes — Bad Brownie 6-bite box (£12), Chuckling Cheese hearts (~£15-20), Choc Affair letterbox gifts (~£15.50). Solid for newer relationships.</p>
+
+<p><strong>£20-30:</strong> Proper gift selections — Pong Explorer cheese box (~£23), Charbonnel et Walker truffle selection (~£24), Montezuma's Grand Collection (~£24). This tier offers real substance.</p>
+
+<p><strong>£30-50:</strong> Premium gifts — Hotel Chocolat Sleekster (~£30), Pong heart-shaped cheese (£32), M&S Gin & Chocolate (~£40), Bad Brownie Valentine's (~£37-50). Reserved for established relationships or special occasions.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best edible Valentine's gifts in the UK?</h3>
+<p>Hotel Chocolat's With Love Sleekster (~£30) for luxury chocolate, Pong Cheese's Heart-Shaped Box (£32) for cheese enthusiasts, and Bad Brownie's Valentine's Collection (~£37-50) for brownie fans. For budget options, Montezuma's bars (from ~£3) and Fudge Kitchen's Sea Salted Caramel (~£7) offer excellent quality at lower price points.</p>
+
+<h3>Where can I buy edible Valentine's gifts online in the UK?</h3>
+<p>Most artisan edible gifts are best purchased directly from brand websites: Hotel Chocolat, Charbonnel et Walker, Pong Cheese, and Bad Brownie. Amazon UK stocks some chocolate selections from brands like Montezuma's. M&S offers gift boxes in-store and online. Not On The High Street and Yumbles also feature unique food gifts.</p>
+
+<h3>How much should I spend on edible Valentine's gifts?</h3>
+<p>Budget £15-30 for quality edible gifts that feel special. Around £20-25 gets you premium chocolate from Charbonnel et Walker or a cheese gift box from Chuckling Cheese. For something more luxurious, £30-50 covers Hotel Chocolat's larger boxes or wine and cheese hampers. For token gestures or multiple recipients, £5-10 buys artisan chocolate bars or small fudge selections.</p>
+
+<h3>What edible gifts work for someone who doesn't like chocolate?</h3>
+<p>Consider savoury options like Pong Cheese's Explorer Box (~£23), letterbox charcuterie from The Real Cure, or Serious Pig snack selections. Sweet alternatives include Fudge Kitchen's caramel selections (from £7). Subscription boxes like Craft Gin Club or Beer52 offer ongoing variety. Wine and cheese hampers from Hampers.com provide a complete non-chocolate experience.</p>
+
+<h3>Can edible Valentine's gifts be delivered through a letterbox?</h3>
+<p>Yes. Look for Choc Affair's Gin Collection Letterbox Gift (~£15.50), The Real Cure's letterbox charcuterie, or Montezuma's chocolate bars. Most brands clearly mark letterbox-friendly options on their websites. This is ideal for surprising someone when you can't deliver in person.</p>
+
+<h3>Are edible Valentine's gifts suitable for dietary requirements?</h3>
+<p>Many brands offer options for dietary needs. Montezuma's and Hotel Chocolat have vegan chocolate ranges, while Willie's Cacao offers dairy-free options. Most pure cheese gifts are naturally gluten-free. Pong Cheese clearly labels allergen information. Always check product descriptions before ordering, and contact the brand directly if unsure.</p>
+
+<p><strong>Still deciding?</strong> <a href="/quiz">Take our 30-second Valentine's gift quiz</a> for personalised recommendations based on your partner's preferences, your budget, and your relationship stage.</p>
+
+<p>For more gift ideas beyond food, check out our guides to <a href="/blog/unique-valentines-gifts">unique Valentine's gifts</a>, <a href="/blog/valentines-gifts-for-him">gifts for him</a>, and <a href="/blog/valentines-gifts-under-25">gifts under £25</a>.</p>
+`,
   faqs: [
     {
-      question: "What is a good Valentine's gift under \u00a330?",
-      answer: "Quality chocolates (Hotel Chocolat, around \u00a312-16), pampering products (LUSH bath bombs, \u00a34-15), or experience vouchers (afternoon tea for two, \u00a329.99) all hit the sweet spot. The best option depends on your partner's personality. Someone who loves relaxing at home might prefer bath products. A couple looking for more time together benefits from an experience voucher.",
+      question: "What are the best edible Valentine's gifts in the UK?",
+      answer: "Hotel Chocolat's With Love Sleekster (~£30) for luxury chocolate, Pong Cheese's Heart-Shaped Box (£32) for cheese enthusiasts, and Bad Brownie's Valentine's Collection (~£37-50) for brownie fans. For budget options, Montezuma's bars (from ~£3) and Fudge Kitchen's Sea Salted Caramel (~£7) offer excellent quality at lower price points.",
     },
     {
-      question: "Is \u00a330 enough to spend on a Valentine's gift?",
-      answer: "Absolutely. The UK average is around \u00a352, but research consistently shows that thoughtfulness matters more than price. A well-chosen \u00a315 gift often lands better than a thoughtless \u00a350 one. The \u00a315-40 range is where most Valentine's purchases sit, and plenty of excellent options exist under \u00a330.",
+      question: "Where can I buy edible Valentine's gifts online in the UK?",
+      answer: "Most artisan edible gifts are best purchased directly from brand websites: Hotel Chocolat, Charbonnel et Walker, Pong Cheese, and Bad Brownie. Amazon UK stocks some chocolate selections from brands like Montezuma's. M&S offers gift boxes in-store and online. Not On The High Street and Yumbles also feature unique food gifts.",
     },
     {
-      question: "What are the best Valentine's chocolates under \u00a330 UK?",
-      answer: "Hotel Chocolat's With Love H-Box (around \u00a312-16) offers the best quality-to-price ratio. Thorntons Classic Collection (around \u00a38-12) provides more chocolate for less money. Lindt LINDOR truffles (around \u00a310-15) are a reliable middle ground. For something more premium, Charbonnel et Walker Pink Champagne Truffles (around \u00a315-25) feel properly luxurious.",
+      question: "How much should I spend on edible Valentine's gifts?",
+      answer: "Budget £15-30 for quality edible gifts that feel special. Around £20-25 gets you premium chocolate from Charbonnel et Walker or a cheese gift box from Chuckling Cheese. For something more luxurious, £30-50 covers Hotel Chocolat's larger boxes or wine and cheese hampers. For token gestures, £5-10 buys artisan chocolate bars or small fudge selections.",
     },
     {
-      question: "Are experience gifts better than physical gifts for Valentine's Day?",
-      answer: "Experience gifts have grown in popularity because they create shared memories rather than adding to household clutter. Afternoon tea, cinema trips, and pottery classes give couples time together rather than another object. That said, some people prefer having something physical to unwrap on the day. Know your partner.",
+      question: "What edible gifts work for someone who doesn't like chocolate?",
+      answer: "Consider savoury options like Pong Cheese's Explorer Box (~£23), letterbox charcuterie from The Real Cure, or Serious Pig snack selections. Sweet alternatives include Fudge Kitchen's caramel selections (from £7). Subscription boxes like Craft Gin Club or Beer52 offer ongoing variety.",
     },
     {
-      question: "What should I get for someone I just started dating?",
-      answer: "Keep it under \u00a320 and choose something charming rather than grand. Premium chocolates, a small treat box, or a low-key experience voucher all work well. Avoid anything that implies long-term commitment like jewellery or engraved items with both names. A thoughtful card with a heartfelt message often matters more than the gift itself at this stage.",
+      question: "Can edible Valentine's gifts be delivered through a letterbox?",
+      answer: "Yes. Look for Choc Affair's Gin Collection Letterbox Gift (~£15.50), The Real Cure's letterbox charcuterie, or Montezuma's chocolate bars. Most brands clearly mark letterbox-friendly options on their websites.",
     },
     {
-      question: "Where can I buy Valentine's gifts under \u00a330 with next-day delivery?",
-      answer: "Amazon UK (Prime) is the most reliable option for next-day delivery on most products. Boots offers click & collect that's often ready within hours. Buyagift experience vouchers deliver digitally, so they work even on Valentine's Day itself. LUSH and Hotel Chocolat both offer standard delivery through their websites, or visit their high street stores.",
+      question: "Are edible Valentine's gifts suitable for dietary requirements?",
+      answer: "Many brands offer options for dietary needs. Montezuma's and Hotel Chocolat have vegan chocolate ranges, while Willie's Cacao offers dairy-free options. Most pure cheese gifts are naturally gluten-free. Always check product descriptions before ordering.",
     },
   ],
 },
