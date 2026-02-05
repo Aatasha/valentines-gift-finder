@@ -111,7 +111,7 @@ export const blogPosts: BlogPost[] = [
           </ul>
         </li>
       </ul>
-      <p><a href="https://www.virginexperiencedays.co.uk/valentines-day" target="_blank" rel="noopener">Get it now →</a></p>
+      <p><a href="https://www.virginexperiencedays.co.uk/" target="_blank" rel="noopener">Get it now →</a></p>
 
       <h3>Spotify Premium or Audible Gift Subscription</h3>
       <p><strong>£10.99–£35.97</strong> (1–3 months) | Instant delivery</p>
@@ -1324,11 +1324,11 @@ export const blogPosts: BlogPost[] = [
   category: 'gift-guide',
   tags: ['experience gifts', 'couples experiences', 'spa days', 'valentines 2026', 'gift vouchers', 'adventure gifts'],
   readingTime: 14,
-  published: false,
+  published: true,
   content: `
     <p class="lead">There's a strong case that the best Valentine's gift isn't something you wrap at all. Research from Cornell University found that experiential gifts create more lasting happiness than material ones, and couples who share experiences report stronger relationship bonds. If your partner already has enough "stuff," an experience voucher solves multiple problems at once.</p>
 
-    <p>Valentine's Day 2026 falls on a Saturday, which makes weekend experiences -- spa days, hot air balloon rides, dinner cruises -- particularly appealing. You can gift now, book later, and actually use the experience on the day itself if you plan ahead.</p>
+    <p>Valentine's Day 2026 falls on a Saturday, which makes weekend experiences (spa days, hot air balloon rides, dinner cruises) particularly appealing. You can gift now, book later, and actually use the experience on the day itself if you plan ahead.</p>
 
     <p>This guide covers the major UK providers, what you can expect at different price points, and an honest look at the pros and cons. Because while experience gifts are excellent in theory, the booking process and expiry dates can sometimes frustrate in practice.</p>
 
@@ -1360,7 +1360,7 @@ export const blogPosts: BlogPost[] = [
       </li>
     </ul>
     <p><strong>Trustpilot:</strong> 56,966 reviews, generally positive.</p>
-    <p><a href="https://www.virginexperiencedays.co.uk/valentines-day" target="_blank" rel="noopener">Get it now &rarr;</a></p>
+    <p><a href="https://www.virginexperiencedays.co.uk/" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <h3>Red Letter Days</h3>
     <p><strong>6,000+ experiences</strong> | 12-month voucher validity</p>
@@ -1379,7 +1379,7 @@ export const blogPosts: BlogPost[] = [
         </ul>
       </li>
     </ul>
-    <p><a href="https://www.redletterdays.co.uk/valentines" target="_blank" rel="noopener">Get it now &rarr;</a></p>
+    <p><a href="https://www.redletterdays.co.uk/flying/helicopter/london" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <h3>Buyagift</h3>
     <p><strong>600+ spa venues</strong> | Moonpig-owned</p>
@@ -1469,45 +1469,51 @@ export const blogPosts: BlogPost[] = [
     <p><strong>From &pound;89 for two</strong></p>
     <p>A Bannatyne Spa Day for Two via Wowcher starts at around &pound;89 and includes a 30-minute treatment, lunch, and prosecco. Buyagift's Indulgent Spa Days collection covers 600+ venues at similar prices. At this level, expect 3-4 hours with facilities access (pool, sauna, steam room) and one short treatment each.</p>
     <p><strong>Worth knowing:</strong> Robe and towel hire is usually &pound;10 per person extra at most venues, or you can bring your own and save &pound;20.</p>
+    <p><a href="https://www.buyagift.co.uk/spa-and-beauty/spa-day/gifts-for-two" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <h3>Mid-Range Spa Days (&pound;100-200)</h3>
     <p><strong>&pound;150-180 for two with treatments</strong></p>
     <p>At this level, you're getting a proper day out: 5-6 hours with longer treatments and lunch included. Bannatyne with Three Treatments and Lunch for Two comes in around &pound;169, including a 60-minute treatment. Champneys Spa Day for Two (Mon-Thu) starts from &pound;79 per person via Spabreaks.com.</p>
     <p>Champneys' purpose-built spa resorts feel noticeably more premium than health club spas. The difference is worth experiencing if you haven't been.</p>
+    <p><a href="https://www.spabreaks.com/categories/champneys" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <h3>Luxury Spa Days (&pound;200+)</h3>
     <p><strong>From &pound;300+ per couple for overnight</strong></p>
-    <p>Champneys runs special Valentine's packages throughout February that can be added to all their spa days and breaks. Overnight spa breaks with dinner, breakfast, and treatments start around &pound;300+ per couple. For a properly indulgent Valentine's weekend, this is the tier to aim for.</p>
+    <p>At the &pound;200 mark, you can get a full Champneys spa day for two with treatments and lunch. Champneys runs special Valentine's packages throughout February that can be added to all their spa days and breaks. Step up to overnight spa breaks with dinner, breakfast, and treatments from around &pound;300+ per couple for a properly indulgent Valentine's weekend.</p>
+    <p><a href="https://www.champneys.com/spa-breaks/valentines-spa-breaks/" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <h2 id="dining-experiences">Dining Experiences</h2>
 
     <p>Food-focused experiences range from casual cooking classes to formal dinner cruises. Valentine's Day falling on a Saturday makes evening dining experiences particularly viable this year.</p>
 
     <h3>Thames Dinner Cruises (London)</h3>
-    <p><strong>From &pound;48pp</strong></p>
-    <p>A floating restaurant with views of the London skyline works particularly well for Valentine's Day. Standard dinner cruises start from &pound;48 per person for a 3-course meal over 2-3 hours. The Jazz Dinner Cruise is a step up at around &pound;94 per person (3 hours, live jazz, complimentary fizz). For something more interactive, Murder Mystery nights start from &pound;99 per person.</p>
+    <p><strong>From ~&pound;89pp</strong></p>
+    <p>A floating restaurant with views of the London skyline works particularly well for Valentine's Day. Dinner cruises start from around &pound;89 per person for a 3-course meal with live entertainment over 3 hours. The Jazz Dinner Cruise is a step up at around &pound;94 per person (3 hours, live jazz, complimentary fizz). For something more interactive, Murder Mystery nights start from &pound;99 per person.</p>
     <p><strong>Booking tip:</strong> Window tables for two sell out quickly. If you want a guaranteed romantic spot rather than a shared table, book early and consider VIP upgrades (champagne, canap&eacute;s, premium seating). Dress code is typically smart casual.</p>
+    <p><a href="https://www.thamesdinnercruise.co.uk/" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <h3>Afternoon Tea</h3>
     <p><strong>From &pound;18.50 (delivery) to &pound;90pp (luxury hotel)</strong></p>
     <p>Afternoon tea works well because it feels special without requiring an entire evening. Options span a huge range:</p>
     <ul>
-      <li><strong>Delivery hampers:</strong> From &pound;18.50 (Yumbles) to &pound;39 for premium options -- enjoy at home</li>
+      <li><strong>Delivery hampers:</strong> From &pound;18.50 (Yumbles) to &pound;39 for premium options. Enjoy at home</li>
       <li><strong>Oatlands Park Hotel:</strong> &pound;36.95pp (9th-15th February)</li>
       <li><strong>The Landmark London (Marylebone):</strong> &pound;75pp (&pound;85 with Taittinger, &pound;90 with Ros&eacute; Champagne)</li>
       <li><strong>Brigit's Bakery Bus Tour:</strong> 90-minute London sightseeing with afternoon tea on a vintage double-decker, running 13th-15th February</li>
     </ul>
     <p>The Brigit's Bakery option is worth highlighting. Afternoon tea while touring London landmarks on a vintage bus is truly unique and makes for great photos.</p>
+    <p><a href="https://b-bakery.com/london/bus-tours/valentines-afternoon-tea" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <h3>Cooking Classes for Couples</h3>
     <p><strong>From &pound;55pp</strong></p>
     <p>Learning to cook together creates both a memory and a skill you can use again. Options include:</p>
     <ul>
       <li><strong>Dumpling making at Chino Latino:</strong> &pound;55 per ticket</li>
-      <li><strong>Gordon Ramsay Academy Valentine's Class (Woking):</strong> Feb 14th, 6:30-8pm -- handmade pasta and wine tasting</li>
+      <li><strong>Gordon Ramsay Academy (London, 22 Bishopsgate):</strong> Pasta masterclass, steak class, and more on the 58th floor with stunning views. Also available in Woking</li>
       <li><strong>The Avenue Cookery School "Cooking with Cupid":</strong> 3 hours, 3 courses, bottomless wine. One ticket covers two people</li>
     </ul>
     <p><strong>Note:</strong> Popular Valentine's cooking classes sell out early. The Gordon Ramsay Academy session was already fully booked at time of writing. If cooking is your plan, don't wait.</p>
+    <p><a href="https://www.gordonramsayacademy.com/en/uk/locations/bishopsgate/cooking-classes" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <h2 id="adventure-experiences">Adventure Experiences</h2>
 
@@ -1523,6 +1529,7 @@ export const blogPosts: BlogPost[] = [
       <li><strong>Golden Moments:</strong> &pound;225pp weekday, &pound;445 for two with Prosecco</li>
     </ul>
     <p><strong>Reality check:</strong> Balloon flights are heavily weather-dependent. Expect potential postponements, and choose a voucher with good validity and flexible rebooking. This is an experience that rewards patience.</p>
+    <p><a href="https://www.virginballoonflights.co.uk/hot-air-balloon-ride-for-2" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <h3>Helicopter Tours</h3>
     <p><strong>From &pound;29pp to &pound;199pp</strong></p>
@@ -1533,6 +1540,7 @@ export const blogPosts: BlogPost[] = [
       <li><strong>Romantic champagne flights:</strong> Over Central London at premium prices</li>
     </ul>
     <p><strong>Photography tip:</strong> 1pm-3pm offers the best lighting if you're flying over London and want great photos.</p>
+    <p><a href="https://www.redletterdays.co.uk/valentines" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <h3>Supercar Driving</h3>
     <p><strong>From &pound;45pp to &pound;259 for packages</strong></p>
@@ -1544,6 +1552,7 @@ export const blogPosts: BlogPost[] = [
       <li><strong>WonderDays 3 supercars + helicopter ride for two:</strong> &pound;259 (down from &pound;297)</li>
     </ul>
     <p>Weekday bookings are typically cheaper than weekends. The WonderDays supercar and helicopter combination at &pound;259 is particularly good value for what you get.</p>
+    <p><a href="https://www.wonderdays.co.uk/experience/super-cars" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <h2 id="classes-workshops">Classes and Workshops</h2>
 
@@ -1558,6 +1567,7 @@ export const blogPosts: BlogPost[] = [
       <li><strong>Yorkshire studios:</strong> Gift vouchers from &pound;10-300, with plenty of couples options</li>
     </ul>
     <p>Expect to wait around 2 weeks for glazed items to be ready for collection. That means you get a second date built into the gift.</p>
+    <p><a href="https://classbento.co.uk/valentines-day-pottery-class-london" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <h3>Other Popular Workshops</h3>
     <p>Beyond pottery, several workshop types have gained popularity for couples:</p>
@@ -1566,9 +1576,10 @@ export const blogPosts: BlogPost[] = [
       <li><strong>Silver Ring Making:</strong> Design and forge matching rings. A properly romantic option that results in something you'll both wear</li>
       <li><strong>Gin Making, Fragrance Blending, Candle Making:</strong> All widely available from various providers across the UK</li>
     </ul>
+    <p><a href="https://www.buyagift.co.uk/valentines-day" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <h3>Wine and Vineyard Experiences</h3>
-    <p><strong>From &pound;27.50pp to &pound;800 per couple</strong></p>
+    <p><strong>From &pound;29 for two to &pound;800 per couple</strong></p>
     <p>English wine has improved dramatically in recent years, and vineyard tours make for a sophisticated day out.</p>
     <ul>
       <li><strong>British Vineyard Tours for Two:</strong> From &pound;29 (nationwide choice via Into The Blue)</li>
@@ -1576,6 +1587,7 @@ export const blogPosts: BlogPost[] = [
       <li><strong>Chapel Down VIP:</strong> &pound;800 per couple (private tour, 3-course lunch, 2-night stay at 5-star Sissinghurst Castle B&amp;B)</li>
     </ul>
     <p>The Chapel Down package is at the extreme end, but for a truly memorable Valentine's weekend, it covers everything: wine, food, accommodation, and a beautiful Kent setting.</p>
+    <p><a href="https://www.intotheblue.co.uk/experiences/british-vineyard-tours/" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
     <p>Not sure which experience type suits your partner? <a href="/quiz">Our gift finder quiz</a> can match you with specific recommendations in 30 seconds.</p>
 
@@ -1585,7 +1597,6 @@ export const blogPosts: BlogPost[] = [
 
     <h3>Under &pound;50</h3>
     <ul>
-      <li>Escape rooms from &pound;17pp</li>
       <li>British vineyard tour for two from &pound;29</li>
       <li>Supercar taster drive from &pound;45pp</li>
       <li>West End theatre from &pound;19.55</li>
@@ -1603,7 +1614,7 @@ export const blogPosts: BlogPost[] = [
     <ul>
       <li>Full spa day with treatments &pound;150-180 for two</li>
       <li>Hot air balloon ride &pound;180-235pp</li>
-      <li>Thames dinner cruise for two &pound;96-188</li>
+      <li>Thames dinner cruise for two &pound;178-200</li>
       <li>Pottery class for two with Prosecco &pound;150</li>
     </ul>
 
@@ -1681,10 +1692,10 @@ export const blogPosts: BlogPost[] = [
     <p>Here are our top picks by category:</p>
 
     <ul>
-      <li><strong>Best overall provider:</strong> <a href="https://www.virginexperiencedays.co.uk/valentines-day" target="_blank" rel="noopener">Virgin Experience Days</a> -- widest selection, Valentine's discounts, trusted brand</li>
-      <li><strong>Best for no-expiry flexibility:</strong> <a href="https://tinggly.com/valentines-day-experience-gifts" target="_blank" rel="noopener">Tinggly</a> -- vouchers never expire, eco-friendly bonus</li>
-      <li><strong>Best for spa experiences:</strong> <a href="https://www.buyagift.co.uk/valentines-day" target="_blank" rel="noopener">Buyagift</a> -- 600+ venues, Champneys partnership</li>
-      <li><strong>Best budget option:</strong> Vineyard tours from &pound;29 for two, or escape rooms from &pound;17pp</li>
+      <li><strong>Best overall provider:</strong> <a href="https://www.virginexperiencedays.co.uk/" target="_blank" rel="noopener">Virgin Experience Days</a>: widest selection, Valentine's discounts, trusted brand</li>
+      <li><strong>Best for no-expiry flexibility:</strong> <a href="https://tinggly.com/valentines-day-experience-gifts" target="_blank" rel="noopener">Tinggly</a>: vouchers never expire, eco-friendly bonus</li>
+      <li><strong>Best for spa experiences:</strong> <a href="https://www.buyagift.co.uk/valentines-day" target="_blank" rel="noopener">Buyagift</a>: 600+ venues, Champneys partnership</li>
+      <li><strong>Best budget option:</strong> Vineyard tours from &pound;29 for two, or supercar taster drives from &pound;45pp</li>
       <li><strong>Best for adventure seekers:</strong> <a href="https://www.wonderdays.co.uk/special/valentines-day-gift-experience" target="_blank" rel="noopener">WonderDays supercar + helicopter package</a> at &pound;259</li>
       <li><strong>Most romantic splurge:</strong> Private hot air balloon for two (from &pound;445) or Chapel Down VIP weekend (&pound;800)</li>
     </ul>
@@ -1696,7 +1707,7 @@ export const blogPosts: BlogPost[] = [
     <h2>Frequently Asked Questions</h2>
 
     <h3>Are experience gifts better than physical gifts for Valentine's Day?</h3>
-    <p>For many couples, yes. Research from Cornell University suggests experiences create more lasting happiness than material gifts, and shared activities strengthen relationship bonds. However, if your partner's love language is receiving physical gifts, they may prefer something tangible they can keep. Consider whether they value memories or mementos -- that's the deciding factor.</p>
+    <p>For many couples, yes. Research from Cornell University suggests experiences create more lasting happiness than material gifts, and shared activities strengthen relationship bonds. However, if your partner's love language is receiving physical gifts, they may prefer something tangible they can keep. Consider whether they value memories or mementos. That's the deciding factor.</p>
 
     <h3>What happens if the voucher expires before we use it?</h3>
     <p>Most providers offer extensions, though policies vary. Red Letter Days has hassle-free extensions, Golden Moments vouchers last 15 months with free exchanges, and Tinggly vouchers never expire at all. Set a calendar reminder a month before expiry to avoid losing out, and check the extension policy before buying.</p>
@@ -1705,13 +1716,13 @@ export const blogPosts: BlogPost[] = [
     <p>Yes, almost universally. Virgin Experience Days, Red Letter Days, Buyagift, WonderDays, and Golden Moments all allow exchanges. Tinggly even allows exchange for monetary value if the recipient would prefer something else entirely. This flexibility is one of the biggest advantages of experience vouchers over specific gifts.</p>
 
     <h3>What's the best experience gift for a first Valentine's together?</h3>
-    <p>Something relatively low-key: a cooking class, wine tasting, or afternoon tea. These create quality time and conversation without the intensity of a weekend away or potential awkwardness of an overnight spa stay. Budget-wise, &pound;50-100 hits the right note for a newer relationship -- thoughtful without being overwhelming.</p>
+    <p>Something relatively low-key: a cooking class, wine tasting, or afternoon tea. These create quality time and conversation without the intensity of a weekend away or potential awkwardness of an overnight spa stay. Budget-wise, &pound;50-100 hits the right note for a newer relationship. Thoughtful without being overwhelming.</p>
 
     <h3>Do I need to book the experience before giving the voucher?</h3>
     <p>No. The whole point of experience vouchers is that you gift first and they book later. This gives the recipient flexibility to choose a date and time that works for them, rather than you guessing their schedule. You can always include a note saying "let's book this for a specific weekend" if you'd prefer to plan together.</p>
 
     <h3>What experience gifts work best on a budget under &pound;50?</h3>
-    <p>Several excellent options sit under &pound;50: escape rooms from &pound;17pp, British vineyard tours for two from &pound;29, supercar taster drives from &pound;45pp, and West End theatre tickets from &pound;19.55. Indoor skydiving for two can also come in under &pound;50 with available discounts. These prove you don't need to spend &pound;200+ for a memorable shared experience.</p>
+    <p>Several excellent options sit under &pound;50: British vineyard tours for two from &pound;29, supercar taster drives from &pound;45pp, and West End theatre tickets from &pound;19.55. Indoor skydiving for two can also come in under &pound;50 with available discounts. These prove you don't need to spend &pound;200+ for a memorable shared experience.</p>
   `,
   faqs: [
     {
@@ -1736,7 +1747,7 @@ export const blogPosts: BlogPost[] = [
     },
     {
       question: "What experience gifts work best on a budget under £50?",
-      answer: "Several excellent options sit under £50: escape rooms from £17pp, British vineyard tours for two from £29, supercar taster drives from £45pp, and West End theatre tickets from £19.55. You don't need to spend £200+ for a memorable shared experience.",
+      answer: "Several excellent options sit under £50: British vineyard tours for two from £29, supercar taster drives from £45pp, and West End theatre tickets from £19.55. You don't need to spend £200+ for a memorable shared experience.",
     },
   ],
 },
@@ -3990,7 +4001,7 @@ export const blogPosts: BlogPost[] = [
   {
   slug: 'valentines-edible-gifts',
   title: "Best Edible Valentine's Gifts UK 2026: Chocolate, Cheese & Food Hampers",
-  description: "The best edible Valentine's gifts in the UK for 2026, from chocolate and cheese to brownie boxes and gin pairings. Every pick with real prices, £5-£50.",
+  description: "The best edible Valentine's gifts in the UK for 2026, from chocolate and cheese to brownie boxes and gin pairings. Every pick with real prices, £5 to £50.",
   publishedAt: '2026-02-04',
   author: "Valentine's Gift Finder",
   category: 'gift-guide',
@@ -3998,24 +4009,24 @@ export const blogPosts: BlogPost[] = [
   readingTime: 12,
   published: false,
   content: `
-<p class="lead">Most edible Valentine's gifts fall into one of two camps: a box of Cadbury Roses from the petrol station, or an overpriced hamper stuffed with things nobody actually eats. This guide covers the middle ground — food and drink gifts that are worth the money, taste good, and don't require a second mortgage.</p>
+<p class="lead">Most edible Valentine's gifts fall into one of two camps: a box of Cadbury Roses from the petrol station, or an overpriced hamper stuffed with things nobody actually eats. This guide covers the middle ground. Food and drink gifts that are worth the money, taste good, and don't require a second mortgage.</p>
 
 <p>Every product listed is available from UK retailers with current pricing. We've covered chocolate, cheese, brownies, fudge, drink pairings, and subscription boxes, organised by category so you can jump to whatever suits your partner's taste.</p>
 
 <p class="affiliate-notice"><em>This article contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you.</em></p>
 
-<p><strong>In a rush?</strong> <a href="#top-picks">Top 5 picks</a> | <a href="#chocolate">Chocolate</a> | <a href="#cheese">Cheese</a> | <a href="#sweet-treats">Brownies & fudge</a> | <a href="#drink-combos">Drink & food combos</a> | <a href="#subscriptions">Subscriptions</a> | <a href="#comparison">Comparison table</a> | <a href="/quiz">Take our 30-second gift quiz</a></p>
+<p><strong>In a rush?</strong> <a href="#top-picks">Top 5 picks</a> | <a href="#chocolate">Chocolate</a> | <a href="#cheese">Cheese</a> | <a href="#sweet-treats">Brownies & fudge</a> | <a href="#drink-combos">Drink & food combos</a> | <a href="#subscriptions">Subscriptions</a> | <a href="#comparison">Comparison table</a> | <a href="/quiz">Take our 30 second gift quiz</a></p>
 
 <h2 id="top-picks">Our Top 5 Picks</h2>
 
 <p>Short on time? These five cover different tastes and budgets:</p>
 
 <ol>
-<li><strong>Best Chocolate:</strong> Hotel Chocolat With Love Sleekster (~£30) — 27 heart-shaped chocolates, proper flavour range</li>
-<li><strong>Best for Cheese Lovers:</strong> Pong Cheese Heart-Shaped Box (£32) — 830g of British cheese, seasonally rotated</li>
-<li><strong>Best Brownies:</strong> Bad Brownie Valentine's Collection (~£37-50) — 12 dense, fudgy brownies in a gift box</li>
-<li><strong>Best Budget:</strong> Montezuma's Chocolate Bars (from ~£3) — Ethical chocolate with interesting flavours</li>
-<li><strong>Best Combo:</strong> M&S Gin & Chocolate Gift Box (~£40) — Old Tom gin with paired chocolates</li>
+<li><strong>Best Chocolate:</strong> Hotel Chocolat With Love Sleekster (~£30). 27 heart shaped chocolates, proper flavour range</li>
+<li><strong>Best for Cheese Lovers:</strong> Pong Cheese Heart Shaped Box (£32). 830g of British cheese, seasonally rotated</li>
+<li><strong>Best Brownies:</strong> Bad Brownie Valentine's Collection (~£37 to £50). 12 dense, fudgy brownies in a gift box</li>
+<li><strong>Best Budget:</strong> Montezuma's Chocolate Bars (from ~£3). Ethical chocolate with interesting flavours</li>
+<li><strong>Best Combo:</strong> M&S Gin & Chocolate Gift Box (~£40). Old Tom gin with paired chocolates</li>
 </ol>
 
 <p>Want the full breakdown? Keep reading for detailed reviews by category, or <a href="/quiz">take our gift quiz</a> if you'd rather answer a few questions and get matched.</p>
@@ -4024,23 +4035,23 @@ export const blogPosts: BlogPost[] = [
 
 <p>The obvious category, but the gap between a good chocolate gift and a forgettable one is wider than you'd think. These are the brands worth spending money on.</p>
 
-<h3>Hotel Chocolat With Love Sleekster — ~£30</h3>
+<h3>Hotel Chocolat With Love Sleekster (~£30)</h3>
 
-<p>27 heart-shaped chocolates in a flat box that looks the part the moment it's opened. The selection runs through their better recipes — Supermilk Praline, Salted Caramel, a few fruit-based ones — without any of the filler flavours you get in supermarket boxes.</p>
+<p>27 heart shaped chocolates in a flat box that looks the part the moment it's opened. The selection runs through their better recipes (Supermilk Praline, Salted Caramel, a few fruit based ones) without any of the filler flavours you get in supermarket boxes.</p>
 
-<p>Hotel Chocolat sits in a sweet spot: recognisable enough that the brand name carries weight, but the chocolate is noticeably better than mass-market options. The box arrives gift-ready, so no wrapping needed.</p>
+<p>Hotel Chocolat sits in a sweet spot: recognisable enough that the brand name carries weight, but the chocolate is noticeably better than mass market options. The box arrives gift ready, so no wrapping needed.</p>
 
 <ul>
 <li><strong>Pros</strong>
 <ul>
-<li>Beautiful presentation, generous 27-piece selection</li>
+<li>Beautiful presentation, generous 27 piece selection</li>
 <li>Includes Hotel Chocolat's best recipes</li>
-<li>Arrives in gift-ready packaging</li>
+<li>Arrives in gift ready packaging</li>
 </ul>
 </li>
 <li><strong>Cons</strong>
 <ul>
-<li>Not available on Amazon — buy from Hotel Chocolat or Moonpig</li>
+<li>Not available on Amazon. Buy from Hotel Chocolat or Moonpig</li>
 <li>Price point may be high for newer relationships</li>
 </ul>
 </li>
@@ -4048,9 +4059,9 @@ export const blogPosts: BlogPost[] = [
 
 <p><a href="https://www.hotelchocolat.com/uk/valentines-collection.html" target="_blank" rel="noopener">Buy from Hotel Chocolat →</a></p>
 
-<h3>Charbonnel et Walker Pink Marc de Champagne Heart — ~£27.50</h3>
+<h3>Charbonnel et Walker Pink Marc de Champagne Heart (~£27.50)</h3>
 
-<p>Charbonnel et Walker have been making chocolates since 1875 and hold a Royal Warrant, which is the sort of thing that sounds like marketing fluff until you actually try the truffles. Their Pink Marc de Champagne box contains 200g of champagne-infused truffles dusted with icing sugar, and the champagne flavour is genuine rather than artificial.</p>
+<p>Charbonnel et Walker have been making chocolates since 1875 and hold a Royal Warrant, which is the sort of thing that sounds like marketing fluff until you actually try the truffles. Their Pink Marc de Champagne box contains 200g of champagne infused truffles dusted with icing sugar, and the champagne flavour is genuine rather than artificial.</p>
 
 <p>The pink velvet heart box looks good enough that most people end up keeping it for jewellery or trinkets. If your partner drinks champagne or fizz, this is a natural choice. If they don't drink at all, skip to Montezuma's below.</p>
 
@@ -4065,7 +4076,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Cons</strong>
 <ul>
 <li>Single flavour throughout (not ideal if they prefer variety)</li>
-<li>Not suitable for non-drinkers</li>
+<li>Not suitable for nondrinkers</li>
 <li>Must buy direct from charbonnel.co.uk</li>
 </ul>
 </li>
@@ -4073,16 +4084,16 @@ export const blogPosts: BlogPost[] = [
 
 <p><a href="https://charbonnel.co.uk/collection/valentines" target="_blank" rel="noopener">Buy from Charbonnel et Walker →</a></p>
 
-<h3>Montezuma's Valentine's Chocolate Collection — From ~£3</h3>
+<h3>Montezuma's Valentine's Chocolate Collection (from ~£3)</h3>
 
-<p>If you're after something good for under a fiver — or want to buy for several people without going broke — Montezuma's is the answer. Their bars start around £3 and include flavours like Salted Caramel Truffle and Love Bug (strawberry and champagne). The chocolate is genuinely good for the price, not just "good for a budget option."</p>
+<p>If you're after something good for under a fiver, or want to buy for several people without going broke — Montezuma's is the answer. Their bars start around £3 and include flavours like Salted Caramel Truffle and Love Bug (strawberry and champagne). The chocolate is genuinely good for the price, not just "good for a budget option."</p>
 
 <p>The packaging is bright and colourful rather than traditionally romantic, which honestly works in its favour. It looks like you chose it because the chocolate is interesting, not because it had a heart on the front.</p>
 
 <ul>
 <li><strong>Pros</strong>
 <ul>
-<li>Budget-friendly from ~£3</li>
+<li>Budget friendly from ~£3</li>
 <li>Interesting flavours beyond basic milk/dark</li>
 <li>Ethically sourced</li>
 <li>Some availability on Amazon UK</li>
@@ -4098,16 +4109,16 @@ export const blogPosts: BlogPost[] = [
 
 <p><a href="https://www.amazon.co.uk/s?k=montezumas+chocolate+valentines&tag=aanthony08-21" target="_blank" rel="noopener">Find on Amazon UK →</a></p>
 
-<h3>Willie's Cacao Single Estate Bars — ~£3.45-£4.45</h3>
+<h3>Willie's Cacao Single Estate Bars (~£3.45 to £4.45)</h3>
 
-<p>Willie's Cacao is for the person who actually cares about where their chocolate comes from — the equivalent of someone who drinks single-origin coffee rather than instant. Each bar states the cacao percentage and origin, with tasting notes on the wrapper explaining what to look for.</p>
+<p>Willie's Cacao is for the person who actually cares about where their chocolate comes from, the equivalent of someone who drinks single origin coffee rather than instant. Each bar states the cacao percentage and origin, with tasting notes on the wrapper explaining what to look for.</p>
 
-<p>A word of caution: if your partner happily eats Galaxy and doesn't understand why anyone would pay more, this won't land. But if they're already into food, cooking, or wine, the single-estate angle gives you something to talk about over dinner.</p>
+<p>A word of caution: if your partner happily eats Galaxy and doesn't understand why anyone would pay more, this won't land. But if they're already into food, cooking, or wine, the single estate angle gives you something to talk about over dinner.</p>
 
 <ul>
 <li><strong>Pros</strong>
 <ul>
-<li>Single-estate cacao with clear origin info</li>
+<li>Single estate cacao with clear origin info</li>
 <li>Noticeably more complex than supermarket chocolate</li>
 <li>Good value at under £5 per bar</li>
 </ul>
@@ -4127,11 +4138,11 @@ export const blogPosts: BlogPost[] = [
 
 <p>Not everyone wants chocolate. If your partner would rather have a cheese board than a box of truffles, these are the options worth knowing about.</p>
 
-<h3>Pong Cheese Heart-Shaped Box — £32</h3>
+<h3>Pong Cheese Heart Shaped Box (£32)</h3>
 
-<p>830g of British cheese in a heart-shaped box. The selection rotates seasonally, so you're getting whatever's best right now rather than the same fixed lineup year-round. Each cheese comes with tasting notes and pairing suggestions, which is useful if you're not sure what to serve alongside it.</p>
+<p>830g of British cheese in a heart shaped box. The selection rotates seasonally, so you're getting whatever's best right now rather than the same fixed lineup all year. Each cheese comes with tasting notes and pairing suggestions, which is useful if you're not sure what to serve alongside it.</p>
 
-<p>At £32 for nearly a kilo of cheese, the value is solid. The heart-shaped box is undeniably cheesy (sorry) but it does the job for Valentine's without being too much.</p>
+<p>At £32 for nearly a kilo of cheese, the value is solid. The heart shaped box is undeniably cheesy (sorry) but it does the job for Valentine's without being too much.</p>
 
 <ul>
 <li><strong>Pros</strong>
@@ -4139,38 +4150,38 @@ export const blogPosts: BlogPost[] = [
 <li>Nearly a kilo of cheese for £32</li>
 <li>Seasonal rotation means you get what's good right now</li>
 <li>Includes pairing notes so you know what to serve with it</li>
-<li>Heart-shaped box does the Valentine's job</li>
+<li>Heart shaped box does the Valentine's job</li>
 </ul>
 </li>
 <li><strong>Cons</strong>
 <ul>
 <li>Needs refrigerating (can't deliver to an office easily)</li>
 <li>Needs eating within 2 weeks</li>
-<li>Not available on Amazon — buy from pongcheese.co.uk</li>
+<li>Not available on Amazon. Buy from pongcheese.co.uk</li>
 </ul>
 </li>
 </ul>
 
 <p><a href="https://www.pongcheese.co.uk/shop/valentine-s-day/" target="_blank" rel="noopener">Buy from Pong Cheese →</a></p>
 
-<h3>Pong Cheese Explorer Box — ~£23</h3>
+<h3>Pong Cheese Explorer Box (~£23)</h3>
 
-<p>If the heart-shaped presentation feels too themed or your budget is closer to £20, Pong's Explorer Box offers 565g of cheese in standard packaging. Same attention to quality and seasonal selection, just without the Valentine's-specific wrapping.</p>
+<p>Same cheese, minus the Valentine's packaging. 565g in a standard box for about £10 less. If the heart shape feels a bit much, or you'd rather spend the difference on a bottle of wine to go with it, this is the practical choice.</p>
 
-<p>Works well if you're planning a cheese and wine night together and want the focus on taste rather than themed packaging.</p>
+<p>Pair it with a decent red and some crackers and you've got a Valentine's evening in for about £35 total.</p>
 
 <ul>
 <li><strong>Pros</strong>
 <ul>
-<li>More affordable at ~£23</li>
-<li>Still substantial at 565g</li>
-<li>Same quality selection as heart box</li>
+<li>~£23, about £10 less than the heart box</li>
+<li>565g of the same quality cheese</li>
+<li>Less themed, which some people prefer</li>
 </ul>
 </li>
 <li><strong>Cons</strong>
 <ul>
-<li>Less romantic presentation</li>
-<li>Requires refrigeration</li>
+<li>No romantic presentation</li>
+<li>Needs refrigerating</li>
 <li>Must buy direct from Pong Cheese</li>
 </ul>
 </li>
@@ -4178,15 +4189,15 @@ export const blogPosts: BlogPost[] = [
 
 <p><a href="https://www.pongcheese.co.uk/shop/cheese-gift-boxes/" target="_blank" rel="noopener">Buy from Pong Cheese →</a></p>
 
-<h3>The Chuckling Cheese Company Love Cheese Gift Box — ~£15-20</h3>
+<h3>The Chuckling Cheese Company Love Cheese Gift Box (~£15 to £20)</h3>
 
-<p>Two heart-shaped cheddar truckles in a gift box. It sounds gimmicky until you realise the cheese quality holds up well. At £15-20, it works as a standalone gift for newer relationships or as part of a larger gift for established partners.</p>
+<p>Two heart shaped cheddar truckles in a gift box. It sounds gimmicky until you realise the cheese quality holds up well. At £15 to £20, it works as a standalone gift for newer relationships or as part of a larger gift for established partners.</p>
 
 <ul>
 <li><strong>Pros</strong>
 <ul>
-<li>Budget-friendly at £15-20</li>
-<li>Fun heart-shaped presentation</li>
+<li>Budget friendly at £15 to £20</li>
+<li>Fun heart shaped presentation</li>
 <li>Available on Not On The High Street</li>
 </ul>
 </li>
@@ -4200,29 +4211,29 @@ export const blogPosts: BlogPost[] = [
 
 <p><a href="https://www.chucklingcheese.co.uk/products/love-cheese-gift-box" target="_blank" rel="noopener">Buy from Chuckling Cheese →</a></p>
 
-<h2>Best Sweet Treat Valentine's Gifts</h2>
+<h2 id="sweet-treats">Best Brownie & Fudge Valentine's Gifts</h2>
 
-<p>Beyond traditional chocolate boxes, these indulgent selections offer variety and creativity. From artisan brownies to handmade fudge, these treats show thought while satisfying a sweet tooth.</p>
+<p>If your partner's the type who'd rather have brownies than a box of chocolates, or fudge over flowers, these are the ones worth buying.</p>
 
-<h3>Bad Brownie Valentine's Collection — ~£37-50</h3>
+<h3>Bad Brownie Valentine's Collection (~£37 to £50)</h3>
 
-<p>Bad Brownie has built a cult following for dense, fudgy brownies, and their Valentine's Collection brings together 12 bites in a gift box. Flavours rotate but typically include Salted Caramel, Cookies & Cream, and seasonal Valentine's specials.</p>
+<p>Bad Brownie has a cult following for good reason: their brownies are dense, fudgy, and unapologetically rich. The Valentine's box has 12 bites in flavours like Salted Caramel, Cookies & Cream, and seasonal specials. These are not cakey brownies. They're the sort where you eat one and then think about the next one for an hour.</p>
 
-<p>What makes these work as Valentine's gifts is the texture — these aren't cakey brownies but dense, fudgy blocks that feel properly indulgent. Each bite is individually wrapped, so they can be savoured over several days.</p>
+<p>Each bite is individually wrapped, so they'll last a few days rather than disappearing in one sitting (in theory, anyway).</p>
 
 <ul>
 <li><strong>Pros</strong>
 <ul>
-<li>12 brownies offer generous portion</li>
-<li>Variety of flavours</li>
-<li>Beautiful gift box presentation</li>
-<li>Individually wrapped for freshness</li>
+<li>12 brownies in a gift box</li>
+<li>Good flavour variety</li>
+<li>Individually wrapped, so they keep</li>
+<li>Arrives gift ready</li>
 </ul>
 </li>
 <li><strong>Cons</strong>
 <ul>
-<li>£37-50 price point</li>
-<li>Very rich — not for those who prefer lighter sweets</li>
+<li>£37 to £50 price point</li>
+<li>Very rich. Not for those who prefer lighter sweets</li>
 <li>Must buy direct from badbrownie.co.uk</li>
 </ul>
 </li>
@@ -4230,95 +4241,95 @@ export const blogPosts: BlogPost[] = [
 
 <p><a href="https://www.badbrownie.co.uk/collections/valentines-day-2026" target="_blank" rel="noopener">Buy from Bad Brownie →</a></p>
 
-<h3>Bad Brownie Explorer 6 Bite Box — £12</h3>
+<h3>Bad Brownie Explorer 6 Bite Box (£12)</h3>
 
-<p>Not ready to commit to 12 brownies? The Explorer box offers six bites at £12 — same quality, more modest package. Works particularly well if you're pairing brownies with another gift.</p>
+<p>Six bites at £12. Same brownies, smaller box. A good option if you're pairing it with something else (a bottle of wine, a card, some flowers) rather than sending brownies as the main event.</p>
 
 <ul>
 <li><strong>Pros</strong>
 <ul>
-<li>Budget-friendly at £12</li>
-<li>Good for testing preferences</li>
-<li>Same quality as larger box</li>
+<li>£12 makes it easy to combine with other gifts</li>
+<li>Same brownies as the bigger box</li>
+<li>Good way to test if they like the brand</li>
 </ul>
 </li>
 <li><strong>Cons</strong>
 <ul>
-<li>Less impressive presentation than 12-bite box</li>
-<li>May feel insubstantial as sole gift</li>
+<li>Smaller box is less impressive on its own</li>
+<li>Six brownies might feel light as a standalone gift</li>
 </ul>
 </li>
 </ul>
 
 <p><a href="https://www.badbrownie.co.uk/collections/all" target="_blank" rel="noopener">Buy from Bad Brownie →</a></p>
 
-<h3>Fudge Kitchen Rich Chocolate Caramels — £9</h3>
+<h3>Fudge Kitchen Rich Chocolate Caramels (£9)</h3>
 
-<p>Fudge Kitchen has been handmaking fudge and caramels in traditional copper pans since 1983. Their Rich Chocolate Caramels are soft, buttery, and truly taste of chocolate rather than just sugar.</p>
+<p>Fudge Kitchen have been making fudge and caramels in copper pans since 1983. Their Rich Chocolate Caramels are soft, buttery, and actually taste like chocolate, not the vaguely brown sugar flavour you get from most cheap caramels.</p>
 
-<p>At £9, these work brilliantly as a thoughtful addition to another gift or as a standalone treat for colleagues, friends, or newer relationships.</p>
+<p>At £9, these sit in the "add to another gift" category rather than being the main present. Good for colleagues, friends, newer relationships, or tucking into someone's Valentine's card.</p>
 
 <ul>
 <li><strong>Pros</strong>
 <ul>
-<li>Affordable at £9</li>
-<li>Handmade quality</li>
-<li>Supports a long-established British brand</li>
+<li>£9, easy to add to another gift</li>
+<li>Handmade in small batches</li>
+<li>Been going since 1983</li>
 </ul>
 </li>
 <li><strong>Cons</strong>
 <ul>
-<li>Simple packaging</li>
-<li>Smaller portion — best paired with another gift for established relationships</li>
+<li>Simple packaging. Doesn't look like a £30 gift</li>
+<li>Small portion, so pair it with something else for a partner</li>
 </ul>
 </li>
 </ul>
 
 <p><a href="https://www.fudgekitchen.co.uk/collections/valentines-gifts" target="_blank" rel="noopener">Buy from Fudge Kitchen →</a></p>
 
-<h3>Fudge Kitchen Sea Salted Caramel Fudge — ~£7</h3>
+<h3>Fudge Kitchen Sea Salted Caramel Fudge (~£7)</h3>
 
-<p>Sea salt caramel done properly. The salt cuts through the sweetness without overwhelming it, creating that moreish quality where one piece easily becomes three. A solid recommendation for office Secret Valentines or when buying for multiple people.</p>
+<p>Sea salted caramel is everywhere now, but Fudge Kitchen's version is one of the few that gets the balance right. Enough salt to cut through the sweetness without tasting like you're eating from the seasoning aisle. At ~£7, it's the sort of thing you can buy for everyone in the office without breaking the bank.</p>
 
 <ul>
 <li><strong>Pros</strong>
 <ul>
-<li>Very affordable at ~£7</li>
-<li>Classic flavour combination</li>
-<li>Good shelf life</li>
+<li>~£7, so you can buy several</li>
+<li>The balance of salt and sweet is actually right</li>
+<li>Keeps well</li>
 </ul>
 </li>
 <li><strong>Cons</strong>
 <ul>
-<li>Basic packaging</li>
-<li>Small portion — best as part of a larger gift</li>
+<li>Packaging is nothing special</li>
+<li>Small portion. An add on gift, not a main present</li>
 </ul>
 </li>
 </ul>
 
 <p><a href="https://www.fudgekitchen.co.uk/collections/valentines-gifts" target="_blank" rel="noopener">Buy from Fudge Kitchen →</a></p>
 
-<h2>Best Drink & Food Combination Gifts</h2>
+<h2 id="drink-combos">Best Drink & Food Combination Gifts</h2>
 
-<p>Pairing food with complementary drinks creates a complete experience rather than just a snack. These combinations work particularly well for couples planning a Valentine's evening in.</p>
+<p>A bottle on its own feels like you forgot to buy a present. A box of chocolates on its own can feel a bit safe. Combine the two and you've got an evening in sorted, which, for most couples, is what Valentine's Day actually looks like.</p>
 
-<h3>M&S Gin & Chocolate Gift Box — ~£40</h3>
+<h3>M&S Gin & Chocolate Gift Box (~£40)</h3>
 
-<p>M&S's Gin & Chocolate Gift Box pairs their Collection Old Tom Gin with artisan chocolates selected to complement the gin's botanicals. It offers a complete evening's entertainment rather than just a quick snack.</p>
+<p>M&S's Collection Old Tom Gin (700ml, 42% ABV) paired with chocolates chosen to work with the gin's botanicals. The advantage here is that someone has thought about which chocolates go with which spirit, so you're not just getting random items shoved in a box.</p>
 
-<p>The chocolates are sourced from quality makers, and the gin comes from established craft distillers. The combination feels curated rather than random items bundled together.</p>
+<p>The other advantage: you can pick this up from any M&S. If it's 6pm on February 13th and you've got nothing, this is your answer.</p>
 
 <ul>
 <li><strong>Pros</strong>
 <ul>
-<li>Complete experience — drink plus food, ready to enjoy</li>
-<li>Available in M&S stores for last-minute gifting</li>
-<li>Suitable serving size for two</li>
+<li>Gin plus paired chocolates, ready to go</li>
+<li>Available in M&S stores. Walk in and buy it</li>
+<li>Sized for two people to share</li>
 </ul>
 </li>
 <li><strong>Cons</strong>
 <ul>
-<li>Not suitable for non-drinkers</li>
+<li>Not suitable for nondrinkers</li>
 <li>Must buy from M&S (not on Amazon)</li>
 <li>Assumes recipient likes gin</li>
 </ul>
@@ -4327,91 +4338,91 @@ export const blogPosts: BlogPost[] = [
 
 <p><a href="https://www.marksandspencer.com/the-gin-and-chocolate-gift-box/p/hpp60739191" target="_blank" rel="noopener">Buy from M&S →</a></p>
 
-<h3>Choc Affair Gin Collection Letterbox Gift — ~£15.50</h3>
+<h3>Choc Affair Gin Collection Letterbox Gift (~£15.50)</h3>
 
-<p>Four chocolate bars, each infused with different gin botanicals: London Dry, Rhubarb, Pink Grapefruit, and Sloe. The letterbox-friendly packaging means you can send this as a surprise without needing someone home for delivery.</p>
+<p>Four chocolate bars infused with gin botanicals: London Dry, Rhubarb, Pink Grapefruit, and Sloe. The whole thing fits through a letterbox, so you can send it as a surprise without worrying about whether they'll be home.</p>
 
-<p>The gin flavours come through clearly without being alcoholic or overwhelming. Tasting each and discussing the differences makes for a fun shared activity.</p>
+<p>The gin flavour is there but it's not boozy. There's no actual alcohol in them. Tasting each one and ranking your favourites makes for a fun thing to do together, which is really what you're paying for at this price.</p>
 
 <ul>
 <li><strong>Pros</strong>
 <ul>
-<li>Letterbox-friendly delivery</li>
-<li>Affordable at ~£15.50</li>
-<li>Four varieties offer a tasting experience</li>
-<li>Supports a small British chocolatier</li>
+<li>Fits through a letterbox</li>
+<li>~£15.50, good for the price</li>
+<li>Four flavours to compare</li>
+<li>Small British chocolatier</li>
 </ul>
 </li>
 <li><strong>Cons</strong>
 <ul>
-<li>Not suitable for those who dislike gin flavours</li>
-<li>No actual alcohol content (if that's what they're hoping for)</li>
+<li>If they don't like gin flavours, this misses</li>
+<li>No actual alcohol in them (in case that matters)</li>
 </ul>
 </li>
 </ul>
 
 <p><a href="https://www.choc-affair.com/product/gin-collection-letterbox-gift/" target="_blank" rel="noopener">Buy from Choc Affair →</a></p>
 
-<h3>Hampers.com Cheese & Wine Boxes — From £34</h3>
+<h3>Hampers.com Cheese & Wine Boxes (from £34)</h3>
 
-<p>Hampers.com offers several cheese and wine combinations, from a Classic Red Wine & Cheese Gift at £34 to their Gourmet selection at £45. These include artisan cheeses, crackers, chutneys, and a bottle of wine chosen to complement the cheese.</p>
+<p>Several cheese and wine combinations ranging from a Classic Red Wine & Cheese Gift at £34 up to the Gourmet selection at £45. Each includes cheeses, crackers, chutneys, and a wine picked to go with the cheese, so you don't have to pretend you know what pairs well with Stilton.</p>
 
-<p>The advantage over building your own hamper is the curation — someone who knows which wines pair with which cheeses has done the work for you.</p>
+<p>You could build your own version for similar money at a supermarket, but the point of a hamper is that it arrives looking like a present rather than a Tesco shop.</p>
 
 <ul>
 <li><strong>Pros</strong>
 <ul>
-<li>Complete cheese board experience with professionally paired wine</li>
-<li>Gift-ready presentation</li>
-<li>Range of price points</li>
+<li>Wine and cheese already paired for you</li>
+<li>Arrives looking like a proper gift</li>
+<li>Several price options from £34 to £45+</li>
 </ul>
 </li>
 <li><strong>Cons</strong>
 <ul>
-<li>Higher price from £34</li>
-<li>Requires refrigeration on arrival</li>
-<li>Wine choice is fixed</li>
+<li>Starts at £34, which adds up</li>
+<li>Needs refrigerating when it arrives</li>
+<li>Can't swap the wine</li>
 </ul>
 </li>
 </ul>
 
 <p><a href="https://www.hampers.com/collections/cheese-hampers" target="_blank" rel="noopener">Browse Hampers.com →</a></p>
 
-<h2>Best Food & Drink Subscription Boxes</h2>
+<h2 id="subscriptions">Best Food & Drink Subscription Boxes</h2>
 
-<p>Subscription boxes extend the gift beyond Valentine's Day itself, providing monthly treats and discoveries. These work particularly well when you want the gift to feel ongoing.</p>
+<p>A subscription is the Valentine's gift that keeps showing up. Instead of one box on the 14th, your partner gets something every month. It's a clever move if you want the gift to feel bigger than it costs on the day itself.</p>
 
-<h3>Pong Cheese Subscription — From £24/month</h3>
+<h3>Pong Cheese Subscription (from £24/month)</h3>
 
-<p>Monthly deliveries of 565g of artisan British cheese, with selections rotating seasonally. For cheese enthusiasts, this becomes a monthly discovery of new cheesemakers and varieties they wouldn't normally find in supermarkets.</p>
+<p>565g of British cheese delivered monthly, with the selection changing each time. Your partner gets introduced to cheesemakers they'd never find in Tesco. You can cancel anytime, so there's no commitment to twelve months of Camembert if it turns out they're more of a Cheddar person.</p>
 
 <ul>
 <li><strong>Pros</strong>
 <ul>
-<li>Ongoing gift that lasts well beyond Valentine's</li>
-<li>Supports British cheesemakers</li>
-<li>Flexible commitment — can cancel anytime</li>
+<li>Gift that keeps arriving for months</li>
+<li>Different cheeses each time</li>
+<li>Cancel anytime</li>
 </ul>
 </li>
 <li><strong>Cons</strong>
 <ul>
-<li>Monthly cost commitment</li>
-<li>Recipient must consume cheese regularly</li>
-<li>Requires consistent refrigeration</li>
+<li>£24/month adds up</li>
+<li>Only works if they actually eat cheese regularly</li>
+<li>Needs refrigerating every month</li>
 </ul>
 </li>
 </ul>
 
 <p><a href="https://www.pongcheese.co.uk/shop/cheese-gift-boxes/" target="_blank" rel="noopener">See Pong Subscriptions →</a></p>
 
-<h3>Craft Gin Club — From £45/month (First box £26)</h3>
+<h3>Craft Gin Club (from £45/month, first box £26)</h3>
 
-<p>A full-size bottle of artisan gin monthly, along with tonics, snacks, and a magazine explaining the distillery's story. The first box costs £26, making it more accessible to try before committing to the full price.</p>
+<p>A full 70cl bottle of gin each month, plus tonics, snacks, and a magazine about the distillery. The first box is discounted to £26, so you're not committing £45 sight unseen. After that it's £45/month, which is steep but reasonable when you consider a decent bottle of gin costs £30+ on its own.</p>
 
 <ul>
 <li><strong>Pros</strong>
 <ul>
-<li>Full-size bottles, not samples</li>
+<li>Full size bottles, not samples</li>
 <li>Includes mixers and snacks</li>
 <li>First box discounted to £26</li>
 </ul>
@@ -4426,30 +4437,30 @@ export const blogPosts: BlogPost[] = [
 
 <p><a href="https://www.craftginclub.co.uk/" target="_blank" rel="noopener">Join Craft Gin Club →</a></p>
 
-<h3>Beer52 — ~£27/month</h3>
+<h3>Beer52 (~£27/month)</h3>
 
-<p>Eight craft beers monthly from UK and international breweries, along with a magazine and snacks. More affordable than the gin subscription while still offering variety and discovery across different styles — IPAs, stouts, sours, and more.</p>
+<p>Eight craft beers from UK and international breweries each month, plus a magazine and some snacks. At ~£27 that works out to about £3.40 per beer, which is decent for craft beer you wouldn't find in the supermarket. Styles range across IPAs, stouts, sours, and whatever else is interesting that month.</p>
 
 <ul>
 <li><strong>Pros</strong>
 <ul>
-<li>More affordable at ~£27/month</li>
-<li>Eight beers offer solid variety</li>
-<li>Includes magazine and snacks</li>
-<li>Flexible — pause or cancel</li>
+<li>~£27/month is reasonable for eight craft beers</li>
+<li>Good variety of styles each month</li>
+<li>Comes with magazine and snacks</li>
+<li>Can pause or cancel</li>
 </ul>
 </li>
 <li><strong>Cons</strong>
 <ul>
-<li>Only suitable for beer drinkers</li>
-<li>Monthly deliveries may accumulate</li>
+<li>Pointless if they don't drink beer</li>
+<li>If they don't keep up, boxes start piling up</li>
 </ul>
 </li>
 </ul>
 
 <p><a href="https://www.beer52.com/" target="_blank" rel="noopener">Join Beer52 →</a></p>
 
-<h2>Quick Comparison: Best Edible Valentine's Gifts</h2>
+<h2 id="comparison">Quick Comparison</h2>
 
 <table>
 <thead>
@@ -4458,99 +4469,99 @@ export const blogPosts: BlogPost[] = [
 <tbody>
 <tr><td><strong>Hotel Chocolat Sleekster</strong></td><td>~£30</td><td>Luxury chocolate lovers</td><td>hotelchocolat.com</td></tr>
 <tr><td><strong>Pong Cheese Heart Box</strong></td><td>£32</td><td>Cheese enthusiasts</td><td>pongcheese.co.uk</td></tr>
-<tr><td><strong>Bad Brownie Valentine's</strong></td><td>~£37-50</td><td>Sweet tooth, brownie fans</td><td>badbrownie.co.uk</td></tr>
+<tr><td><strong>Bad Brownie Valentine's</strong></td><td>~£37 to £50</td><td>Sweet tooth, brownie fans</td><td>badbrownie.co.uk</td></tr>
 <tr><td><strong>Charbonnel et Walker Heart</strong></td><td>~£27.50</td><td>Champagne lovers</td><td>charbonnel.co.uk</td></tr>
 <tr><td><strong>M&S Gin & Chocolate</strong></td><td>~£40</td><td>Couples' night in</td><td>M&S stores / online</td></tr>
 <tr><td><strong>Montezuma's Bars</strong></td><td>From ~£3</td><td>Budget / multiple recipients</td><td>Amazon UK</td></tr>
-<tr><td><strong>Fudge Kitchen Caramels</strong></td><td>£9</td><td>Office valentines, add-on gift</td><td>fudgekitchen.co.uk</td></tr>
+<tr><td><strong>Fudge Kitchen Caramels</strong></td><td>£9</td><td>Office valentines, add on gift</td><td>fudgekitchen.co.uk</td></tr>
 <tr><td><strong>Choc Affair Gin Letterbox</strong></td><td>~£15.50</td><td>Gin fans, surprise delivery</td><td>choc-affair.com</td></tr>
 </tbody>
 </table>
 
-<h2>How to Choose the Right Edible Valentine's Gift</h2>
+<h2>How to Pick the Right One</h2>
 
-<h3>Match the Gift to Their Tastes</h3>
+<h3>What do they actually like?</h3>
 
-<p><strong>For chocolate lovers:</strong> Hotel Chocolat or Charbonnel et Walker for luxury. Willie's Cacao for the connoisseur. Montezuma's for ethical chocolate with bold flavours.</p>
+<p><strong>Chocolate person:</strong> Hotel Chocolat or Charbonnel et Walker if you want the box to look impressive. Willie's Cacao if they're into food and would appreciate single origin stuff. Montezuma's if you want interesting flavours without spending £30.</p>
 
-<p><strong>For savoury preferences:</strong> Skip chocolate entirely. Pong Cheese selections or charcuterie hampers acknowledge that not everyone wants sweets on Valentine's Day.</p>
+<p><strong>Savoury person:</strong> Skip chocolate entirely. Pong Cheese or a cheese and wine hamper. Not everyone wants sweets on Valentine's Day, and getting them cheese instead shows you've actually thought about it.</p>
 
-<p><strong>For dietary restrictions:</strong> Check product websites carefully. Montezuma's and Hotel Chocolat offer vegan ranges. Most pure cheese gifts are naturally gluten-free. Always verify allergen information before ordering.</p>
+<p><strong>Dietary restrictions:</strong> Montezuma's and Hotel Chocolat both do vegan ranges. Most cheese gifts are naturally gluten free. Check the product pages before ordering. Allergen info is usually clear on the brand websites.</p>
 
-<h3>Match Price to Relationship Stage</h3>
+<h3>How much to spend by relationship stage</h3>
 
-<p><strong>Newer relationships (under 6 months):</strong> Stick to £10-20. Montezuma's bars, Fudge Kitchen treats, or Chuckling Cheese hearts feel thoughtful without pressure.</p>
+<p><strong>Early days (under 6 months):</strong> £10 to £20. Montezuma's bars, Fudge Kitchen fudge, or Chuckling Cheese hearts. Enough to show thought without creating pressure.</p>
 
-<p><strong>Established relationships (6+ months):</strong> £25-40 shows investment without seeming excessive. Hotel Chocolat, Pong Cheese, or Bad Brownie hit this sweet spot.</p>
+<p><strong>Established (6+ months):</strong> £25 to £40. Hotel Chocolat, Pong Cheese, or Bad Brownie. This is where the options get good.</p>
 
-<p><strong>Long-term partners:</strong> £40-50+ for combinations like M&S Gin & Chocolate or premium hampers. Subscriptions also work well here as ongoing gestures.</p>
+<p><strong>Long term:</strong> £40 to £50+ for combos like M&S Gin & Chocolate or hampers. Subscriptions work well here too. One payment, months of deliveries.</p>
 
-<h3>Practical Considerations</h3>
+<h3>Practical stuff to check</h3>
 
-<p><strong>Delivery timing:</strong> Most artisan gifts need 2-3 days. For last-minute (24-48 hours before Valentine's), choose brands available on Amazon UK or in M&S stores. Order by 10th-11th February for guaranteed Valentine's Day delivery.</p>
+<p><strong>Delivery:</strong> Order by 10th or 11th February for delivery by the 14th. For last minute options, M&S is your best bet (walk into a store) or anything available on Amazon with next day delivery.</p>
 
-<p><strong>Storage:</strong> Chocolate stores easily at room temperature. Cheese requires refrigeration immediately. Consider whether your recipient can receive and store it properly.</p>
+<p><strong>Storage:</strong> Chocolate sits on a shelf. Cheese needs a fridge immediately. If you're sending something to their office, chocolate is safer.</p>
 
-<p><strong>Shelf life:</strong> Chocolates last weeks or months. Cheese and brownies need consuming within days. Consider their household size.</p>
+<p><strong>Shelf life:</strong> Chocolate lasts weeks. Cheese and brownies need eating within days. Factor in whether they live alone or with a family who'll help demolish it.</p>
 
-<h2>Budget Breakdown</h2>
+<h2>By Budget</h2>
 
-<p><strong>£5-10:</strong> Individual chocolate bars (Montezuma's ~£3, Willie's Cacao ~£4), small fudge selections (Fudge Kitchen from £7). Best for office valentines, pairing with other gifts, or multiple recipients.</p>
+<p><strong>£5 to £10:</strong> Montezuma's bars (~£3), Willie's Cacao (~£4), Fudge Kitchen fudge (from £7). Good for office valentines, stocking fillers, or adding to a card.</p>
 
-<p><strong>£10-20:</strong> Small gift boxes — Bad Brownie 6-bite box (£12), Chuckling Cheese hearts (~£15-20), Choc Affair letterbox gifts (~£15.50). Solid for newer relationships.</p>
+<p><strong>£10 to £20:</strong> Bad Brownie 6 bite box (£12), Chuckling Cheese hearts (~£15 to £20), Choc Affair letterbox gift (~£15.50). Works for newer relationships or as part of a bigger gift.</p>
 
-<p><strong>£20-30:</strong> Proper gift selections — Pong Explorer cheese box (~£23), Charbonnel et Walker truffle selection (~£24), Montezuma's Grand Collection (~£24). This tier offers real substance.</p>
+<p><strong>£20 to £30:</strong> Pong Explorer cheese box (~£23), Charbonnel et Walker truffles (~£27.50). This is where you start getting something that feels like a proper present.</p>
 
-<p><strong>£30-50:</strong> Premium gifts — Hotel Chocolat Sleekster (~£30), Pong heart-shaped cheese (£32), M&S Gin & Chocolate (~£40), Bad Brownie Valentine's (~£37-50). Reserved for established relationships or special occasions.</p>
+<p><strong>£30 to £50:</strong> Hotel Chocolat Sleekster (~£30), Pong heart shaped cheese (£32), M&S Gin & Chocolate (~£40), Bad Brownie Valentine's (~£37 to £50). For partners and serious relationships.</p>
 
 <h2>Frequently Asked Questions</h2>
 
 <h3>What are the best edible Valentine's gifts in the UK?</h3>
-<p>Hotel Chocolat's With Love Sleekster (~£30) for luxury chocolate, Pong Cheese's Heart-Shaped Box (£32) for cheese enthusiasts, and Bad Brownie's Valentine's Collection (~£37-50) for brownie fans. For budget options, Montezuma's bars (from ~£3) and Fudge Kitchen's Sea Salted Caramel (~£7) offer excellent quality at lower price points.</p>
+<p>For chocolate: Hotel Chocolat With Love Sleekster (~£30) or Charbonnel et Walker truffles (~£27.50). For cheese: Pong Cheese Heart Shaped Box (£32). For brownies: Bad Brownie Valentine's Collection (~£37 to £50). On a budget, Montezuma's bars start from ~£3 and Fudge Kitchen fudge from ~£7.</p>
 
 <h3>Where can I buy edible Valentine's gifts online in the UK?</h3>
-<p>Most artisan edible gifts are best purchased directly from brand websites: Hotel Chocolat, Charbonnel et Walker, Pong Cheese, and Bad Brownie. Amazon UK stocks some chocolate selections from brands like Montezuma's. M&S offers gift boxes in-store and online. Not On The High Street and Yumbles also feature unique food gifts.</p>
+<p>Most of the brands listed sell direct from their own websites: Hotel Chocolat, Charbonnel et Walker, Pong Cheese, Bad Brownie. Amazon UK has some Montezuma's chocolate. M&S sells gift boxes in store and online. Not On The High Street has some options too.</p>
 
 <h3>How much should I spend on edible Valentine's gifts?</h3>
-<p>Budget £15-30 for quality edible gifts that feel special. Around £20-25 gets you premium chocolate from Charbonnel et Walker or a cheese gift box from Chuckling Cheese. For something more luxurious, £30-50 covers Hotel Chocolat's larger boxes or wine and cheese hampers. For token gestures or multiple recipients, £5-10 buys artisan chocolate bars or small fudge selections.</p>
+<p>£15 to £30 gets you something that feels like a real gift. Charbonnel et Walker truffles, a Pong cheese box, or a Bad Brownie 12 bite box. For something bigger, £30 to £50 covers Hotel Chocolat's Sleekster or a gin and chocolate hamper. If you just need something small, £5 to £10 buys chocolate bars or fudge that punches above its weight.</p>
 
 <h3>What edible gifts work for someone who doesn't like chocolate?</h3>
-<p>Consider savoury options like Pong Cheese's Explorer Box (~£23), letterbox charcuterie from The Real Cure, or Serious Pig snack selections. Sweet alternatives include Fudge Kitchen's caramel selections (from £7). Subscription boxes like Craft Gin Club or Beer52 offer ongoing variety. Wine and cheese hampers from Hampers.com provide a complete non-chocolate experience.</p>
+<p>Pong Cheese Explorer Box (~£23) is the obvious one. Cheese and wine hampers from Hampers.com start at £34. Fudge Kitchen caramels (from £7) work if they have a sweet tooth but just don't like chocolate specifically. Craft Gin Club or Beer52 subscriptions are another route if they're a drinker.</p>
 
 <h3>Can edible Valentine's gifts be delivered through a letterbox?</h3>
-<p>Yes. Look for Choc Affair's Gin Collection Letterbox Gift (~£15.50), The Real Cure's letterbox charcuterie, or Montezuma's chocolate bars. Most brands clearly mark letterbox-friendly options on their websites. This is ideal for surprising someone when you can't deliver in person.</p>
+<p>Yes. Choc Affair's Gin Collection Letterbox Gift (~£15.50) and Montezuma's chocolate bars both fit through a letterbox. Most brands label which products are letterbox friendly on their sites. Useful if you want it to arrive as a surprise.</p>
 
 <h3>Are edible Valentine's gifts suitable for dietary requirements?</h3>
-<p>Many brands offer options for dietary needs. Montezuma's and Hotel Chocolat have vegan chocolate ranges, while Willie's Cacao offers dairy-free options. Most pure cheese gifts are naturally gluten-free. Pong Cheese clearly labels allergen information. Always check product descriptions before ordering, and contact the brand directly if unsure.</p>
+<p>Montezuma's and Hotel Chocolat both do vegan ranges. Willie's Cacao has dairy free options. Most cheese gifts are naturally gluten free. Check the product pages. Allergen info is usually clearly listed. Contact the brand if you're not sure about a specific ingredient.</p>
 
-<p><strong>Still deciding?</strong> <a href="/quiz">Take our 30-second Valentine's gift quiz</a> for personalised recommendations based on your partner's preferences, your budget, and your relationship stage.</p>
+<p><strong>Not sure what to get?</strong> <a href="/quiz">Take our gift quiz</a>. A few questions about their tastes and your budget, and we'll suggest specific products.</p>
 
-<p>For more gift ideas beyond food, check out our guides to <a href="/blog/unique-valentines-gifts">unique Valentine's gifts</a>, <a href="/blog/valentines-gifts-for-him">gifts for him</a>, and <a href="/blog/valentines-gifts-under-25">gifts under £25</a>.</p>
+<p><em>Related guides: <a href="/blog/unique-valentines-gifts">Unique Valentine's gifts</a> | <a href="/blog/valentines-gifts-for-him">Gifts for him</a> | <a href="/blog/valentines-gifts-under-25">Gifts under £25</a></em></p>
 `,
   faqs: [
     {
       question: "What are the best edible Valentine's gifts in the UK?",
-      answer: "Hotel Chocolat's With Love Sleekster (~£30) for luxury chocolate, Pong Cheese's Heart-Shaped Box (£32) for cheese enthusiasts, and Bad Brownie's Valentine's Collection (~£37-50) for brownie fans. For budget options, Montezuma's bars (from ~£3) and Fudge Kitchen's Sea Salted Caramel (~£7) offer excellent quality at lower price points.",
+      answer: "For chocolate: Hotel Chocolat With Love Sleekster (~£30) or Charbonnel et Walker truffles (~£27.50). For cheese: Pong Cheese Heart Shaped Box (£32). For brownies: Bad Brownie Valentine's Collection (~£37 to £50). On a budget, Montezuma's bars start from ~£3 and Fudge Kitchen fudge from ~£7.",
     },
     {
       question: "Where can I buy edible Valentine's gifts online in the UK?",
-      answer: "Most artisan edible gifts are best purchased directly from brand websites: Hotel Chocolat, Charbonnel et Walker, Pong Cheese, and Bad Brownie. Amazon UK stocks some chocolate selections from brands like Montezuma's. M&S offers gift boxes in-store and online. Not On The High Street and Yumbles also feature unique food gifts.",
+      answer: "Most brands sell direct from their own websites: Hotel Chocolat, Charbonnel et Walker, Pong Cheese, Bad Brownie. Amazon UK has some Montezuma's chocolate. M&S sells gift boxes in store and online. Not On The High Street has some options too.",
     },
     {
       question: "How much should I spend on edible Valentine's gifts?",
-      answer: "Budget £15-30 for quality edible gifts that feel special. Around £20-25 gets you premium chocolate from Charbonnel et Walker or a cheese gift box from Chuckling Cheese. For something more luxurious, £30-50 covers Hotel Chocolat's larger boxes or wine and cheese hampers. For token gestures, £5-10 buys artisan chocolate bars or small fudge selections.",
+      answer: "£15 to £30 gets you something that feels like a real gift. Charbonnel et Walker truffles, a Pong cheese box, or Bad Brownie brownies. For something bigger, £30 to £50 covers Hotel Chocolat or gin and chocolate hampers. £5 to £10 buys chocolate bars or fudge that punches above its weight.",
     },
     {
       question: "What edible gifts work for someone who doesn't like chocolate?",
-      answer: "Consider savoury options like Pong Cheese's Explorer Box (~£23), letterbox charcuterie from The Real Cure, or Serious Pig snack selections. Sweet alternatives include Fudge Kitchen's caramel selections (from £7). Subscription boxes like Craft Gin Club or Beer52 offer ongoing variety.",
+      answer: "Pong Cheese Explorer Box (~£23), cheese and wine hampers from Hampers.com (from £34), or Fudge Kitchen caramels (from £7) if they have a sweet tooth but not for chocolate. Craft Gin Club or Beer52 subscriptions work if they're a drinker.",
     },
     {
       question: "Can edible Valentine's gifts be delivered through a letterbox?",
-      answer: "Yes. Look for Choc Affair's Gin Collection Letterbox Gift (~£15.50), The Real Cure's letterbox charcuterie, or Montezuma's chocolate bars. Most brands clearly mark letterbox-friendly options on their websites.",
+      answer: "Yes. Choc Affair's Gin Collection Letterbox Gift (~£15.50) and Montezuma's chocolate bars both fit through a letterbox. Most brands label which products are letterbox friendly on their sites.",
     },
     {
       question: "Are edible Valentine's gifts suitable for dietary requirements?",
-      answer: "Many brands offer options for dietary needs. Montezuma's and Hotel Chocolat have vegan chocolate ranges, while Willie's Cacao offers dairy-free options. Most pure cheese gifts are naturally gluten-free. Always check product descriptions before ordering.",
+      answer: "Montezuma's and Hotel Chocolat both do vegan ranges. Willie's Cacao has dairy free options. Most cheese gifts are naturally gluten free. Check the product pages for allergen info and contact the brand if you're not sure.",
     },
   ],
 },
