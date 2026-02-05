@@ -130,7 +130,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       <p><a href="https://www.spotify.com/uk/premium/" target="_blank" rel="noopener">Get it now →</a></p>
 
-      <p>Looking for more experience-based presents? <a href="/category/experiences">Browse our full collection of experience gifts for Valentine's Day</a>.</p>
+      <p>Looking for more experience-based presents? Read our <a href="/blog/valentines-experience-gifts">Valentine's experience gifts guide</a> for spa days, dining, and adventure activities across the UK.</p>
 
       <h2>Best Next-Day Delivery Gifts for Her</h2>
 
@@ -391,7 +391,7 @@ export const blogPosts: BlogPost[] = [
 
       <h3>2. Consider the Relationship Stage</h3>
       <ul>
-        <li><strong>New relationship (under 6 months):</strong> Keep it under £30. Charming and sweet, not grand or intense. Food, small treats, and experience vouchers work well.</li>
+        <li><strong>New relationship (under 6 months):</strong> Keep it under £30. Charming and sweet, not grand or intense. Food, small treats, and experience vouchers work well. Our <a href="/blog/valentines-gifts-new-relationships">new relationship gift guide</a> covers this in detail.</li>
         <li><strong>Established relationship (1–5 years):</strong> The £30–£60 range lets you get something properly good without overcommitting. Think quality over quantity.</li>
         <li><strong>Long-term partner:</strong> They'd probably rather have something thoughtful than expensive. A shared experience, a personal touch (photo mug, personalised card), or a premium version of something they use daily.</li>
       </ul>
@@ -593,7 +593,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Best Under-£25 Gifts for Him</h2>
 
-      <p>Valentine's gifts for men under £25 is one of the hardest categories. Most guides default to socks and beer. These are gifts men actually rate.</p>
+      <p>Valentine's gifts for men under £25 is one of the hardest categories. Most guides default to socks and beer. These are gifts men actually rate. For higher budgets, our <a href="/blog/valentines-gifts-for-him">gifts for him guide</a> covers options up to £100+.</p>
 
       <h3>Loop Quiet Ear Plugs</h3>
       <p><strong>~£20</strong> | Next-day via Amazon</p>
@@ -803,7 +803,7 @@ export const blogPosts: BlogPost[] = [
   content: `
       <p class="lead">There's nothing wrong with flowers and chocolate. They're classics for a reason. But sometimes you want to give something that feels a bit more personal, a bit more memorable, or just a bit different from what they received last year. If you're looking for Valentine's gift ideas that go beyond the traditional, this guide covers experiences, activities, personalised keepsakes, and subscription boxes that show you've put real thought into it.</p>
 
-      <p>Valentine's Day 2026 falls on a Saturday, which opens up possibilities for experience gifts that would be awkward to redeem on a working weekday. Research consistently shows experiential gifts create more lasting happiness than physical objects. A cooking class or spa day together tends to be remembered longer than another scarf or candle.</p>
+      <p>Valentine's Day 2026 falls on a Saturday, which opens up possibilities for experience gifts that would be awkward to redeem on a working weekday. Research consistently shows experiential gifts create more lasting happiness than physical objects. A cooking class or spa day together tends to be remembered longer than another scarf or candle. Our <a href="/blog/valentines-experience-gifts">Valentine's experience gifts guide</a> covers UK providers in detail.</p>
 
       <p>Every gift below is available from UK retailers, with prices checked in January 2026 (though they may fluctuate). We've prioritised items available on Amazon UK where possible for reliable delivery.</p>
 
@@ -1261,7 +1261,7 @@ export const blogPosts: BlogPost[] = [
       <p>Research suggests experiences tend to create more lasting happiness than material purchases. People remember what they did together more vividly than what they received. That said, the best gift depends on your partner. If in doubt, an experience you can do together (a cooking class, a day out, an activity kit) splits the difference nicely. With Valentine's Day 2026 falling on a Saturday, experience gifts are especially practical this year.</p>
 
       <h3>What's a good unique gift for someone I've just started dating?</h3>
-      <p>Keep it under £30 and avoid anything too intense. Personalised items with both your names or expensive jewellery can feel overwhelming early on. Better options: a small LEGO Botanicals set, quality chocolate, a Cookaway meal kit voucher, or something playful like scratch-card date ideas from Etsy. A thoughtful card matters more than the gift itself at this stage.</p>
+      <p>Keep it under £30 and avoid anything too intense. Personalised items with both your names or expensive jewellery can feel overwhelming early on. Better options: a small LEGO Botanicals set, quality chocolate, a Cookaway meal kit voucher, or something playful like scratch-card date ideas from Etsy. A thoughtful card matters more than the gift itself at this stage. Our <a href="/blog/valentines-gifts-new-relationships">new relationship gift guide</a> has more on spending etiquette and what to avoid.</p>
 
       <h3>How much should I spend on a unique Valentine's gift?</h3>
       <p>The average UK Valentine's spend is around £56. More important than the amount is whether the gift shows you've thought about what they'd actually enjoy. A £15 gift that reflects their interests outperforms a £150 generic purchase. For new relationships, £20-30 is plenty. Established relationships: £30-75. Long-term partners: spend what feels right for your relationship and budget.</p>
@@ -1270,7 +1270,7 @@ export const blogPosts: BlogPost[] = [
       <p>Personalised items need production time. For engraved or custom-printed items, aim for at least 10-14 days before February 14th. Star maps and photo prints typically need 5-7 working days. If you've left it late, experience vouchers and subscription boxes can be purchased last-minute with instant or next-day delivery.</p>
 
       <h3>What's the best Valentine's gift for someone who has everything?</h3>
-      <p>Experience gifts and subscription boxes work best for people who are hard to buy for. They don't add to clutter, and the recipient gets to choose what they actually want (in the case of experience vouchers) or discover something new (with subscription boxes). A cooking class, spa day, or wine subscription are all gifts that create an ongoing experience rather than gathering dust.</p>
+      <p>Experience gifts and subscription boxes work best for people who are hard to buy for, or in a <a href="/blog/valentines-gifts-long-distance">long distance relationship</a> where something to share matters most. They don't add to clutter, and the recipient gets to choose what they actually want (in the case of experience vouchers) or discover something new (with subscription boxes). A cooking class, spa day, or wine subscription are all gifts that create an ongoing experience rather than gathering dust.</p>
 
       <h2>Final Recommendations</h2>
 
@@ -2099,7 +2099,7 @@ export const blogPosts: BlogPost[] = [
 
       <p><a href="https://www.moonpig.com/uk/flowers/" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
-      <p>Looking for gifts beyond flowers? <a href="/category/romantic">Browse our full romantic gifts collection</a>, or check out our guide to <a href="/blog/last-minute-valentines-gifts">last-minute Valentine's gifts that still feel thoughtful</a>.</p>
+      <p>Looking for gifts beyond flowers? Our <a href="/blog/valentines-edible-gifts">edible gifts guide</a> covers chocolate, cheese, and food hampers, or see <a href="/blog/unique-valentines-gifts">unique Valentine's gifts</a> for experiences, LEGO, and personalised options. Running out of time? Check our <a href="/blog/last-minute-valentines-gifts">last-minute gifts guide</a>.</p>
 
       <h2 id="letterbox-flowers">Letterbox Flowers: The Convenient Option</h2>
 
@@ -2824,7 +2824,7 @@ export const blogPosts: BlogPost[] = [
       <p>It depends on how long you've been together. New relationships (under six months): £25-40. Going bigger can feel intense and create pressure. Established relationships (one to five years): £50-100 covers most thoughtful gifts. Long-term partners: the amount matters less than the thought, though £75-150 is typical for something substantial. Whatever you spend, a heartfelt card alongside it makes the biggest difference.</p>
 
       <h3>What are good Valentine's gifts for a man who has everything?</h3>
-      <p>Experience gifts. Men who "have everything" usually buy themselves anything they want, making physical gifts tricky. A shared experience creates a memory rather than adding to his possessions. Virgin Experience Days or Buyagift vouchers let him choose what actually interests him. Alternatively, consumables (quality whisky, craft beer, gourmet food hampers) work because they don't accumulate clutter.</p>
+      <p>Experience gifts. Men who "have everything" usually buy themselves anything they want, making physical gifts tricky. A shared experience creates a memory rather than adding to his possessions. Virgin Experience Days or Buyagift vouchers let him choose what actually interests him. Alternatively, consumables (quality whisky, craft beer, <a href="/blog/valentines-edible-gifts">gourmet food hampers</a>) work because they don't accumulate clutter. For experience ideas, see our <a href="/blog/valentines-experience-gifts">couples experience gifts guide</a>.</p>
 
       <h3>Do men like receiving Valentine's gifts?</h3>
       <p>Yes, though many won't admit it. Research consistently shows that men appreciate thoughtful gifts but feel awkward expressing that desire. The key word is "thoughtful." Generic gifts (socks, generic aftershave sets, novelty mugs) don't land well. Gifts that show you've noticed his interests or remembered something he mentioned wanting land very well indeed.</p>
@@ -2833,7 +2833,7 @@ export const blogPosts: BlogPost[] = [
       <p>If you're unsure of his specific tastes, an experience voucher (Virgin Experience Days or Buyagift) is the safest choice. He picks what he actually wants from thousands of options. For physical gifts, quality whisky (Glenfiddich 15 Year Old is a reliable pick) or a well-reviewed grooming set are options that most men appreciate. Avoid anything where personal taste could backfire, like fragrance or clothing.</p>
 
       <h3>What to get a guy you've just started dating for Valentine's Day?</h3>
-      <p>Keep it in the £25-40 range and aim for charming over grand. A bottle of his favourite spirit, quality chocolate, or tickets to something you can do together all hit the right note. Avoid anything engraved with both your names, expensive jewellery, or gifts that imply a level of commitment you haven't reached yet. A thoughtful card with an honest message matters more than the gift at this stage.</p>
+      <p>Keep it in the £25-40 range and aim for charming over grand. A bottle of his favourite spirit, quality chocolate, or tickets to something you can do together all hit the right note. Avoid anything engraved with both your names, expensive jewellery, or gifts that imply a level of commitment you haven't reached yet. A thoughtful card with an honest message matters more than the gift at this stage. See our <a href="/blog/valentines-gifts-new-relationships">new relationship gift guide</a> for more.</p>
 
       <h2>Final Recommendations</h2>
 
@@ -3146,7 +3146,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2 id="shared-experiences">Shared Experience Gifts</h2>
 
-      <p>The fundamental challenge of a long distance relationship isn't just physical separation. It's the difficulty of creating shared experiences and new memories together. Experience gifts address this directly, and the best ones give you both something to talk about and recreate long after Valentine's Day.</p>
+      <p>The fundamental challenge of a long distance relationship isn't just physical separation. It's the difficulty of creating shared experiences and new memories together. Experience gifts address this directly, and the best ones give you both something to talk about and recreate long after Valentine's Day. For in-person experience ideas when you're next together, see our <a href="/blog/valentines-experience-gifts">couples experience gifts guide</a>.</p>
 
       <h3>Virtual Cooking Classes</h3>
       <p><strong>£12-£149</strong> | Book online, attend from anywhere</p>
@@ -3658,7 +3658,7 @@ export const blogPosts: BlogPost[] = [
 
     <h3>Bloom & Wild Letterbox Flowers</h3>
     <p><strong>From £25</strong> | Next-day letterbox delivery</p>
-    <p>Flowers are a classic for a reason, and letterbox flowers solve the biggest logistical headache: nobody needs to be home. Bloom & Wild's stems arrive as buds in a flat, beautifully designed box and bloom over the following days. For a new relationship, we'd suggest pink or mixed arrangements rather than a dozen red roses, which can feel like a lot in the early stages. They include a card option for a personal message.</p>
+    <p>Flowers are a classic for a reason, and letterbox flowers solve the biggest logistical headache: nobody needs to be home. Bloom & Wild's stems arrive as buds in a flat, beautifully designed box and bloom over the following days. For a new relationship, we'd suggest pink or mixed arrangements rather than a dozen red roses, which can feel like a lot in the early stages (our <a href="/blog/valentines-flowers-guide">flowers guide</a> covers which colours work for different stages). They include a card option for a personal message.</p>
     <ul>
       <li><strong>Pros</strong>
         <ul>
@@ -3781,7 +3781,7 @@ export const blogPosts: BlogPost[] = [
     </ul>
     <p><a href="https://classbento.co.uk/gift-experiences-for-couples" target="_blank" rel="noopener">Get it now &rarr;</a></p>
 
-    <p>For more experience-based options, <a href="/category/experiences">browse our full experience gifts collection</a>.</p>
+    <p>For more experience-based options, see our <a href="/blog/valentines-experience-gifts">Valentine's experience gifts guide</a> covering spa days, cooking classes, and adventure activities.</p>
 
     <h2 id="funny-lighthearted">Funny and Lighthearted Options (For Couples Who Do Banter)</h2>
 
@@ -4388,7 +4388,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 id="subscriptions">Best Food & Drink Subscription Boxes</h2>
 
-<p>A subscription is the Valentine's gift that keeps showing up. Instead of one box on the 14th, your partner gets something every month. It's a clever move if you want the gift to feel bigger than it costs on the day itself.</p>
+<p>A subscription is the Valentine's gift that keeps showing up. Instead of one box on the 14th, your partner gets something every month. It's a clever move if you want the gift to feel bigger than it costs on the day itself. Subscriptions also work well for <a href="/blog/valentines-gifts-long-distance">long distance relationships</a>, keeping your partner thinking of you month after month.</p>
 
 <h3>Pong Cheese Subscription (from £24/month)</h3>
 
@@ -4488,7 +4488,7 @@ export const blogPosts: BlogPost[] = [
 
 <h3>How much to spend by relationship stage</h3>
 
-<p><strong>Early days (under 6 months):</strong> £10 to £20. Montezuma's bars, Fudge Kitchen fudge, or Chuckling Cheese hearts. Enough to show thought without creating pressure.</p>
+<p><strong>Early days (under 6 months):</strong> £10 to £20. Montezuma's bars, Fudge Kitchen fudge, or Chuckling Cheese hearts. Enough to show thought without creating pressure. Our <a href="/blog/valentines-gifts-new-relationships">new relationship gift guide</a> has more on getting the balance right.</p>
 
 <p><strong>Established (6+ months):</strong> £25 to £40. Hotel Chocolat, Pong Cheese, or Bad Brownie. This is where the options get good.</p>
 
