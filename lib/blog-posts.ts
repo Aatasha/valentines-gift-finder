@@ -4007,7 +4007,7 @@ export const blogPosts: BlogPost[] = [
   category: 'gift-guide',
   tags: ['edible gifts', 'chocolate', 'cheese', 'food hampers', 'UK gifts', 'valentine food gifts'],
   readingTime: 12,
-  published: false,
+  published: true,
   content: `
 <p class="lead">Most edible Valentine's gifts fall into one of two camps: a box of Cadbury Roses from the petrol station, or an overpriced hamper stuffed with things nobody actually eats. This guide covers the middle ground. Food and drink gifts that are worth the money, taste good, and don't require a second mortgage.</p>
 
@@ -4051,17 +4051,17 @@ export const blogPosts: BlogPost[] = [
 </li>
 <li><strong>Cons</strong>
 <ul>
-<li>Not available on Amazon. Buy from Hotel Chocolat or Moonpig</li>
+<li>Also available direct from hotelchocolat.com</li>
 <li>Price point may be high for newer relationships</li>
 </ul>
 </li>
 </ul>
 
-<p><a href="https://www.hotelchocolat.com/uk/valentines-collection.html" target="_blank" rel="noopener">Buy from Hotel Chocolat →</a></p>
+<p><a href="https://www.amazon.co.uk/Hotel-Chocolat-Love-Sleekster-count/dp/B0BLHFDCSS?tag=aanthony08-21" target="_blank" rel="noopener">Get it now →</a></p>
 
 <h3>Charbonnel et Walker Pink Marc de Champagne Heart (~£27.50)</h3>
 
-<p>Charbonnel et Walker have been making chocolates since 1875 and hold a Royal Warrant, which is the sort of thing that sounds like marketing fluff until you actually try the truffles. Their Pink Marc de Champagne box contains 200g of champagne infused truffles dusted with icing sugar, and the champagne flavour is genuine rather than artificial.</p>
+<p>Charbonnel et Walker have been making chocolates since 1875 and hold a Royal Warrant, which is the sort of thing that sounds like marketing fluff until you actually try the truffles. Their Pink Marc de Champagne box contains 200g of champagne infused truffles dusted with icing sugar, and the champagne flavour is real rather than artificial.</p>
 
 <p>The pink velvet heart box looks good enough that most people end up keeping it for jewellery or trinkets. If your partner drinks champagne or fizz, this is a natural choice. If they don't drink at all, skip to Montezuma's below.</p>
 
@@ -4082,11 +4082,11 @@ export const blogPosts: BlogPost[] = [
 </li>
 </ul>
 
-<p><a href="https://charbonnel.co.uk/collection/valentines" target="_blank" rel="noopener">Buy from Charbonnel et Walker →</a></p>
+<p><a href="https://charbonnel.co.uk/collection/valentines" target="_blank" rel="noopener">Get it now →</a></p>
 
 <h3>Montezuma's Valentine's Chocolate Collection (from ~£3)</h3>
 
-<p>If you're after something good for under a fiver, or want to buy for several people without going broke — Montezuma's is the answer. Their bars start around £3 and include flavours like Salted Caramel Truffle and Love Bug (strawberry and champagne). The chocolate is genuinely good for the price, not just "good for a budget option."</p>
+<p>If you're after something good for under a fiver, or want to buy for several people without going broke — Montezuma's is the answer. Their bars start around £3 and include flavours like Salted Caramel Truffle and Love Bug (strawberry and champagne). The chocolate is truly good for the price, not just "good for a budget option."</p>
 
 <p>The packaging is bright and colourful rather than traditionally romantic, which honestly works in its favour. It looks like you chose it because the chocolate is interesting, not because it had a heart on the front.</p>
 
@@ -4096,7 +4096,7 @@ export const blogPosts: BlogPost[] = [
 <li>Budget friendly from ~£3</li>
 <li>Interesting flavours beyond basic milk/dark</li>
 <li>Ethically sourced</li>
-<li>Some availability on Amazon UK</li>
+<li>Available from montezumas.co.uk with UK delivery</li>
 </ul>
 </li>
 <li><strong>Cons</strong>
@@ -4107,20 +4107,20 @@ export const blogPosts: BlogPost[] = [
 </li>
 </ul>
 
-<p><a href="https://www.amazon.co.uk/s?k=montezumas+chocolate+valentines&tag=aanthony08-21" target="_blank" rel="noopener">Find on Amazon UK →</a></p>
+<p><a href="https://www.montezumas.co.uk/collections/valentines-chocolate" target="_blank" rel="noopener">Get it now →</a></p>
 
-<h3>Willie's Cacao Single Estate Bars (~£3.45 to £4.45)</h3>
+<h3>Willie's Cacao Gift Collections (from ~£22)</h3>
 
-<p>Willie's Cacao is for the person who actually cares about where their chocolate comes from, the equivalent of someone who drinks single origin coffee rather than instant. Each bar states the cacao percentage and origin, with tasting notes on the wrapper explaining what to look for.</p>
+<p>Willie's Cacao is for the person who actually cares about where their chocolate comes from, the equivalent of someone who drinks single origin coffee rather than instant. Their gift collections bring together bars from different single estate origins, with tasting notes explaining what to look for in each one.</p>
 
-<p>A word of caution: if your partner happily eats Galaxy and doesn't understand why anyone would pay more, this won't land. But if they're already into food, cooking, or wine, the single estate angle gives you something to talk about over dinner.</p>
+<p>A word of caution: if your partner happily eats Galaxy and doesn't understand why anyone would pay more, this won't land. But if they're already into food, cooking, or wine, the single estate angle gives you something to talk about over dinner. Gift collections start around £22 for a tasting selection, with larger boxes in the £30 to £35 range.</p>
 
 <ul>
 <li><strong>Pros</strong>
 <ul>
 <li>Single estate cacao with clear origin info</li>
 <li>Noticeably more complex than supermarket chocolate</li>
-<li>Good value at under £5 per bar</li>
+<li>Gift collections well presented from ~£22</li>
 </ul>
 </li>
 <li><strong>Cons</strong>
@@ -4132,7 +4132,7 @@ export const blogPosts: BlogPost[] = [
 </li>
 </ul>
 
-<p><a href="https://www.williescacao.com/product-tag/valentines-day/" target="_blank" rel="noopener">Buy from Willie's Cacao →</a></p>
+<p><a href="https://www.williescacao.com/buy-chocolate-online/chocolate-gifts/" target="_blank" rel="noopener">Get it now →</a></p>
 
 <h2 id="cheese">Best Cheese Valentine's Gifts</h2>
 
@@ -4155,14 +4155,13 @@ export const blogPosts: BlogPost[] = [
 </li>
 <li><strong>Cons</strong>
 <ul>
-<li>Needs refrigerating (can't deliver to an office easily)</li>
 <li>Needs eating within 2 weeks</li>
 <li>Not available on Amazon. Buy from pongcheese.co.uk</li>
 </ul>
 </li>
 </ul>
 
-<p><a href="https://www.pongcheese.co.uk/shop/valentine-s-day/" target="_blank" rel="noopener">Buy from Pong Cheese →</a></p>
+<p><a href="https://www.pongcheese.co.uk/shop/valentine-s-day/" target="_blank" rel="noopener">Get it now →</a></p>
 
 <h3>Pong Cheese Explorer Box (~£23)</h3>
 
@@ -4187,7 +4186,7 @@ export const blogPosts: BlogPost[] = [
 </li>
 </ul>
 
-<p><a href="https://www.pongcheese.co.uk/shop/cheese-gift-boxes/" target="_blank" rel="noopener">Buy from Pong Cheese →</a></p>
+<p><a href="https://www.pongcheese.co.uk/shop/cheese-gift-boxes/" target="_blank" rel="noopener">Get it now →</a></p>
 
 <h3>The Chuckling Cheese Company Love Cheese Gift Box (~£15 to £20)</h3>
 
@@ -4198,7 +4197,6 @@ export const blogPosts: BlogPost[] = [
 <ul>
 <li>Budget friendly at £15 to £20</li>
 <li>Fun heart shaped presentation</li>
-<li>Available on Not On The High Street</li>
 </ul>
 </li>
 <li><strong>Cons</strong>
@@ -4209,7 +4207,7 @@ export const blogPosts: BlogPost[] = [
 </li>
 </ul>
 
-<p><a href="https://www.chucklingcheese.co.uk/products/love-cheese-gift-box" target="_blank" rel="noopener">Buy from Chuckling Cheese →</a></p>
+<p><a href="https://www.chucklingcheese.co.uk/products/love-cheese-gift-box" target="_blank" rel="noopener">Get it now →</a></p>
 
 <h2 id="sweet-treats">Best Brownie & Fudge Valentine's Gifts</h2>
 
@@ -4217,7 +4215,7 @@ export const blogPosts: BlogPost[] = [
 
 <h3>Bad Brownie Valentine's Collection (~£37 to £50)</h3>
 
-<p>Bad Brownie has a cult following for good reason: their brownies are dense, fudgy, and unapologetically rich. The Valentine's box has 12 bites in flavours like Salted Caramel, Cookies & Cream, and seasonal specials. These are not cakey brownies. They're the sort where you eat one and then think about the next one for an hour.</p>
+<p>Bad Brownie has a cult following for good reason: their brownies are dense and fudgy, with reviewers consistently describing them as unapologetically rich. The Valentine's box has 12 bites in flavours like Salted Caramel, Cookies & Cream, and seasonal specials. These are not cakey brownies. They're the sort where you eat one and then think about the next one for an hour. Their 12 bite boxes start from around £24, with the Valentine's edition at £37 to £50.</p>
 
 <p>Each bite is individually wrapped, so they'll last a few days rather than disappearing in one sitting (in theory, anyway).</p>
 
@@ -4233,13 +4231,13 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Cons</strong>
 <ul>
 <li>£37 to £50 price point</li>
-<li>Very rich. Not for those who prefer lighter sweets</li>
+<li>Described by reviewers as very rich. Not for those who prefer lighter sweets</li>
 <li>Must buy direct from badbrownie.co.uk</li>
 </ul>
 </li>
 </ul>
 
-<p><a href="https://www.badbrownie.co.uk/collections/valentines-day-2026" target="_blank" rel="noopener">Buy from Bad Brownie →</a></p>
+<p><a href="https://www.badbrownie.co.uk/collections/valentines-day-2026" target="_blank" rel="noopener">Get it now →</a></p>
 
 <h3>Bad Brownie Explorer 6 Bite Box (£12)</h3>
 
@@ -4261,7 +4259,7 @@ export const blogPosts: BlogPost[] = [
 </li>
 </ul>
 
-<p><a href="https://www.badbrownie.co.uk/collections/all" target="_blank" rel="noopener">Buy from Bad Brownie →</a></p>
+<p><a href="https://www.badbrownie.co.uk/products/the-explorer-6-bite-brownie-box" target="_blank" rel="noopener">Get it now →</a></p>
 
 <h3>Fudge Kitchen Rich Chocolate Caramels (£9)</h3>
 
@@ -4285,7 +4283,7 @@ export const blogPosts: BlogPost[] = [
 </li>
 </ul>
 
-<p><a href="https://www.fudgekitchen.co.uk/collections/valentines-gifts" target="_blank" rel="noopener">Buy from Fudge Kitchen →</a></p>
+<p><a href="https://www.fudgekitchen.co.uk/products/chocolate-caramels" target="_blank" rel="noopener">Get it now →</a></p>
 
 <h3>Fudge Kitchen Sea Salted Caramel Fudge (~£7)</h3>
 
@@ -4307,7 +4305,7 @@ export const blogPosts: BlogPost[] = [
 </li>
 </ul>
 
-<p><a href="https://www.fudgekitchen.co.uk/collections/valentines-gifts" target="_blank" rel="noopener">Buy from Fudge Kitchen →</a></p>
+<p><a href="https://www.fudgekitchen.co.uk/products/sea-salted-caramel-fudge-pack" target="_blank" rel="noopener">Get it now →</a></p>
 
 <h2 id="drink-combos">Best Drink & Food Combination Gifts</h2>
 
@@ -4336,7 +4334,7 @@ export const blogPosts: BlogPost[] = [
 </li>
 </ul>
 
-<p><a href="https://www.marksandspencer.com/the-gin-and-chocolate-gift-box/p/hpp60739191" target="_blank" rel="noopener">Buy from M&S →</a></p>
+<p><a href="https://www.marksandspencer.com/the-gin-and-chocolate-gift-box/p/hpp60739191" target="_blank" rel="noopener">Get it now →</a></p>
 
 <h3>Choc Affair Gin Collection Letterbox Gift (~£15.50)</h3>
 
@@ -4361,7 +4359,7 @@ export const blogPosts: BlogPost[] = [
 </li>
 </ul>
 
-<p><a href="https://www.choc-affair.com/product/gin-collection-letterbox-gift/" target="_blank" rel="noopener">Buy from Choc Affair →</a></p>
+<p><a href="https://www.choc-affair.com/product/gin-collection-letterbox-gift/" target="_blank" rel="noopener">Get it now →</a></p>
 
 <h3>Hampers.com Cheese & Wine Boxes (from £34)</h3>
 
@@ -4386,7 +4384,7 @@ export const blogPosts: BlogPost[] = [
 </li>
 </ul>
 
-<p><a href="https://www.hampers.com/collections/cheese-hampers" target="_blank" rel="noopener">Browse Hampers.com →</a></p>
+<p><a href="https://www.hampers.com/collections/cheese-hampers" target="_blank" rel="noopener">Get it now →</a></p>
 
 <h2 id="subscriptions">Best Food & Drink Subscription Boxes</h2>
 
@@ -4413,11 +4411,11 @@ export const blogPosts: BlogPost[] = [
 </li>
 </ul>
 
-<p><a href="https://www.pongcheese.co.uk/shop/cheese-gift-boxes/" target="_blank" rel="noopener">See Pong Subscriptions →</a></p>
+<p><a href="https://www.pongcheese.co.uk/shop/cheese-gift-boxes/" target="_blank" rel="noopener">Get it now →</a></p>
 
 <h3>Craft Gin Club (from £45/month, first box £26)</h3>
 
-<p>A full 70cl bottle of gin each month, plus tonics, snacks, and a magazine about the distillery. The first box is discounted to £26, so you're not committing £45 sight unseen. After that it's £45/month, which is steep but reasonable when you consider a decent bottle of gin costs £30+ on its own.</p>
+<p>A full 70cl bottle of craft spirit each month, plus tonics, snacks, and a magazine about the distillery. While gin is their flagship, they now also offer rum boxes and alcohol-free options. The first box is discounted to £26, so you're not committing £45 sight unseen. After that it's £45/month, which is steep but reasonable when you consider a decent bottle of gin costs £30+ on its own.</p>
 
 <ul>
 <li><strong>Pros</strong>
@@ -4430,12 +4428,12 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Cons</strong>
 <ul>
 <li>£45/month ongoing cost</li>
-<li>Only suitable for gin drinkers</li>
+<li>Primarily aimed at gin drinkers (though rum and alcohol-free boxes also available)</li>
 </ul>
 </li>
 </ul>
 
-<p><a href="https://www.craftginclub.co.uk/" target="_blank" rel="noopener">Join Craft Gin Club →</a></p>
+<p><a href="https://www.craftginclub.co.uk/" target="_blank" rel="noopener">Get it now →</a></p>
 
 <h3>Beer52 (~£27/month)</h3>
 
@@ -4458,7 +4456,7 @@ export const blogPosts: BlogPost[] = [
 </li>
 </ul>
 
-<p><a href="https://www.beer52.com/" target="_blank" rel="noopener">Join Beer52 →</a></p>
+<p><a href="https://www.beer52.com/" target="_blank" rel="noopener">Get it now →</a></p>
 
 <h2 id="comparison">Quick Comparison</h2>
 
@@ -4467,12 +4465,12 @@ export const blogPosts: BlogPost[] = [
 <tr><th>Gift</th><th>Price</th><th>Best For</th><th>Where to Buy</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Hotel Chocolat Sleekster</strong></td><td>~£30</td><td>Luxury chocolate lovers</td><td>hotelchocolat.com</td></tr>
+<tr><td><strong>Hotel Chocolat Sleekster</strong></td><td>~£30</td><td>Luxury chocolate lovers</td><td>Amazon UK</td></tr>
 <tr><td><strong>Pong Cheese Heart Box</strong></td><td>£32</td><td>Cheese enthusiasts</td><td>pongcheese.co.uk</td></tr>
 <tr><td><strong>Bad Brownie Valentine's</strong></td><td>~£37 to £50</td><td>Sweet tooth, brownie fans</td><td>badbrownie.co.uk</td></tr>
 <tr><td><strong>Charbonnel et Walker Heart</strong></td><td>~£27.50</td><td>Champagne lovers</td><td>charbonnel.co.uk</td></tr>
 <tr><td><strong>M&S Gin & Chocolate</strong></td><td>~£40</td><td>Couples' night in</td><td>M&S stores / online</td></tr>
-<tr><td><strong>Montezuma's Bars</strong></td><td>From ~£3</td><td>Budget / multiple recipients</td><td>Amazon UK</td></tr>
+<tr><td><strong>Montezuma's Bars</strong></td><td>From ~£3</td><td>Budget / multiple recipients</td><td>montezumas.co.uk</td></tr>
 <tr><td><strong>Fudge Kitchen Caramels</strong></td><td>£9</td><td>Office valentines, add on gift</td><td>fudgekitchen.co.uk</td></tr>
 <tr><td><strong>Choc Affair Gin Letterbox</strong></td><td>~£15.50</td><td>Gin fans, surprise delivery</td><td>choc-affair.com</td></tr>
 </tbody>
@@ -4506,11 +4504,11 @@ export const blogPosts: BlogPost[] = [
 
 <h2>By Budget</h2>
 
-<p><strong>£5 to £10:</strong> Montezuma's bars (~£3), Willie's Cacao (~£4), Fudge Kitchen fudge (from £7). Good for office valentines, stocking fillers, or adding to a card.</p>
+<p><strong>£5 to £10:</strong> Montezuma's bars (~£3), Fudge Kitchen fudge (from £7). Good for office valentines, stocking fillers, or adding to a card.</p>
 
 <p><strong>£10 to £20:</strong> Bad Brownie 6 bite box (£12), Chuckling Cheese hearts (~£15 to £20), Choc Affair letterbox gift (~£15.50). Works for newer relationships or as part of a bigger gift.</p>
 
-<p><strong>£20 to £30:</strong> Pong Explorer cheese box (~£23), Charbonnel et Walker truffles (~£27.50). This is where you start getting something that feels like a proper present.</p>
+<p><strong>£20 to £30:</strong> Willie's Cacao gift collections (from ~£22), Pong Explorer cheese box (~£23), Charbonnel et Walker truffles (~£27.50). This is where you start getting something that feels like a proper present.</p>
 
 <p><strong>£30 to £50:</strong> Hotel Chocolat Sleekster (~£30), Pong heart shaped cheese (£32), M&S Gin & Chocolate (~£40), Bad Brownie Valentine's (~£37 to £50). For partners and serious relationships.</p>
 
