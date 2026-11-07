@@ -39,8 +39,14 @@ export function Footer() {
             </Link>
           </div>
 
-          {/* Legal links */}
-          <div className="mt-4 flex justify-center gap-6">
+          {/* Trust and legal links */}
+          <div className="mt-4 flex flex-wrap justify-center gap-x-6 gap-y-2">
+            <Link href="/about" className="text-xs text-[var(--cream)]/50 hover:text-[var(--gold)] transition-colors">
+              About Us
+            </Link>
+            <Link href="/how-we-pick" className="text-xs text-[var(--cream)]/50 hover:text-[var(--gold)] transition-colors">
+              How We Pick
+            </Link>
             <Link href="/privacy" className="text-xs text-[var(--cream)]/50 hover:text-[var(--gold)] transition-colors">
               Privacy Policy
             </Link>

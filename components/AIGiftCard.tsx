@@ -1,7 +1,7 @@
 'use client';
 
 import { type ReactNode } from 'react';
-import { getRetailerSearchUrl, getBestRetailerForGift, RETAILER_NAMES } from '@/lib/retailers';
+import { getRetailerSearchUrl, getBestRetailerForGift, getLinkRel, RETAILER_NAMES } from '@/lib/retailers';
 import { trackAffiliateClick } from '@/lib/analytics';
 
 interface AIGiftCardProps {
@@ -229,7 +229,7 @@ export function AIGiftCard({ gift, featured = false }: AIGiftCardProps) {
         <a
           href={primaryUrl}
           target="_blank"
-          rel="noopener noreferrer"
+          rel={getLinkRel(primaryUrl)}
           onClick={() => trackAffiliateClick({
             retailer: primaryRetailerName,
             giftName: gift.name,
@@ -248,7 +248,7 @@ export function AIGiftCard({ gift, featured = false }: AIGiftCardProps) {
           <a
             href={fallbackUrl}
             target="_blank"
-            rel="noopener noreferrer"
+            rel={getLinkRel(fallbackUrl)}
             onClick={() => trackAffiliateClick({
               retailer: 'Amazon',
               giftName: gift.name,

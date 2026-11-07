@@ -3,7 +3,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { getGiftById, getAllGifts, getPriceLabel, getRandomGifts } from '@/lib/gifts';
 import { BrowseGiftCard } from '@/components/BrowseGiftCard';
-import { getRetailerSearchUrl } from '@/lib/retailers';
+import { AffiliateNote } from '@/components/AffiliateNote';
+import { getRetailerSearchUrl, getLinkRel } from '@/lib/retailers';
 
 interface GiftPageProps {
   params: Promise<{ id: string }>;
@@ -29,8 +30,10 @@ export async function generateMetadata({ params }: GiftPageProps): Promise<Metad
   }
 
   return {
-    title: `${gift.name} | Valentine's Gift Finder`,
+    title: gift.name,
     description: `${gift.description}. ${getPriceLabel(gift.priceRange)}. Perfect for ${gift.recipientType.join(' or ')}.`,
+    // Thin pages for now: keep them out of the index until they become full product pages
+    robots: { index: false, follow: true },
   };
 }
 
@@ -135,7 +138,7 @@ export default async function GiftPage({ params }: GiftPageProps) {
                 <a
                   href={getRetailerSearchUrl('amazon', gift) || '#'}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel={getLinkRel(getRetailerSearchUrl('amazon', gift) || '')}
                   className="inline-flex items-center gap-2 rounded-lg bg-[var(--burgundy)] px-6 py-3 text-lg font-medium text-white transition-colors hover:bg-[var(--burgundy-dark)]"
                 >
                   <svg className="h-4 w-4" viewBox="0 0 20 20" fill="none">
@@ -147,6 +150,7 @@ export default async function GiftPage({ params }: GiftPageProps) {
                     <circle cx="20" cy="8" r="2" stroke="currentColor" strokeWidth="1" fill="none"/>
                   </svg>
                 </a>
+                <AffiliateNote className="mt-3 text-[var(--charcoal-light)]" />
               </div>
             </div>
           </div>

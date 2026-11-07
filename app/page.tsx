@@ -1,7 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { SearchBar } from '@/components/SearchBar';
 import { CategoryGrid } from '@/components/CategoryGrid';
 import { ValentineCountdown } from '@/components/ValentineCountdown';
+
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+};
 
 // JSON-LD structured data for SEO
 const jsonLd = {

@@ -2,6 +2,9 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllBlogPosts, getBlogPostBySlug, getRelatedPosts } from '@/lib/blog-posts';
+import { markAffiliateLinks } from '@/lib/retailers';
+import { SITE_NAME, SITE_ORGANIZATION, SITE_URL } from '@/lib/site';
+import { OutboundClickTracker } from '@/components/OutboundClickTracker';
 
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
@@ -32,7 +35,6 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
       type: 'article',
       publishedTime: post.publishedAt,
       modifiedTime: post.updatedAt || post.publishedAt,
-      authors: [post.author],
       tags: post.tags,
     },
     twitter: {
@@ -61,15 +63,10 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     description: post.description,
     datePublished: post.publishedAt,
     dateModified: post.updatedAt || post.publishedAt,
-    author: {
-      '@type': 'Organization',
-      name: post.author,
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: "Valentine's Gift Finder",
-      url: 'https://valentinesgiftfinder.com',
-    },
+    mainEntityOfPage: `${SITE_URL}/blog/${slug}`,
+    image: `${SITE_URL}/blog/${slug}/opengraph-image`,
+    author: SITE_ORGANIZATION,
+    publisher: SITE_ORGANIZATION,
   };
 
   // FAQ schema for SEO (Google featured snippets)
@@ -216,14 +213,28 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               {post.description}
             </p>
 
-            <div className="mt-6 flex items-center gap-4 text-sm text-[var(--cream)]/50">
-              <time dateTime={post.publishedAt}>
-                {new Date(post.publishedAt).toLocaleDateString('en-GB', {
-                  day: 'numeric',
-                  month: 'long',
-                  year: 'numeric',
-                })}
-              </time>
+            <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-[var(--cream)]/50">
+              <span>
+                By{' '}
+                <Link href="/about" className="text-[var(--cream)]/80 hover:text-[var(--gold)]">
+                  {SITE_NAME}
+                </Link>
+              </span>
+              <span>·</span>
+              <span>
+                {post.updatedAt ? 'Updated ' : 'Published '}
+                <time dateTime={post.updatedAt || post.publishedAt}>
+                  {new Date(post.updatedAt || post.publishedAt).toLocaleDateString('en-GB', {
+                    day: 'numeric',
+                    month: 'long',
+                    year: 'numeric',
+                  })}
+                </time>
+              </span>
+              <span>·</span>
+              <Link href="/how-we-pick" className="hover:text-[var(--gold)]">
+                How we pick
+              </Link>
               <span>·</span>
               <span>{post.readingTime} min read</span>
             </div>
@@ -261,8 +272,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               [&_.product-card_p:last-of-type]:mb-0
               [&_.cta-link]:inline-block [&_.cta-link]:bg-[var(--gold)]/10 [&_.cta-link]:border [&_.cta-link]:border-[var(--gold)]/30 [&_.cta-link]:rounded-lg [&_.cta-link]:px-4 [&_.cta-link]:py-2 [&_.cta-link]:mt-2 [&_.cta-link]:text-[var(--gold)] [&_.cta-link]:font-medium [&_.cta-link]:no-underline hover:[&_.cta-link]:bg-[var(--gold)]/20
               [&_p>a:only-child]:inline-block [&_p>a:only-child]:bg-[var(--gold)]/10 [&_p>a:only-child]:border [&_p>a:only-child]:border-[var(--gold)]/30 [&_p>a:only-child]:rounded-lg [&_p>a:only-child]:px-5 [&_p>a:only-child]:py-3 [&_p>a:only-child]:mt-2 [&_p>a:only-child]:font-medium [&_p>a:only-child]:no-underline hover:[&_p>a:only-child]:bg-[var(--gold)]/20"
-            dangerouslySetInnerHTML={{ __html: post.content }}
+            dangerouslySetInnerHTML={{ __html: markAffiliateLinks(post.content) }}
           />
+          <OutboundClickTracker />
         </article>
 
         {/* CTA Box */}

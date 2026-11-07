@@ -4,7 +4,7 @@ import { type ReactNode } from 'react';
 import Link from 'next/link';
 import type { Gift } from '@/lib/types';
 import { getPriceLabel } from '@/lib/gifts';
-import { getRetailerSearchUrl } from '@/lib/retailers';
+import { getRetailerSearchUrl, getLinkRel } from '@/lib/retailers';
 import { trackAffiliateClick } from '@/lib/analytics';
 
 interface BrowseGiftCardProps {
@@ -150,7 +150,7 @@ export function BrowseGiftCard({ gift }: BrowseGiftCardProps) {
         <a
           href={searchUrl || '#'}
           target="_blank"
-          rel="noopener noreferrer"
+          rel={getLinkRel(searchUrl || '')}
           onClick={() => trackAffiliateClick({
             retailer: 'Amazon',
             giftName: gift.name,

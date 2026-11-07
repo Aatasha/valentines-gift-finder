@@ -12,6 +12,29 @@ export const AFFILIATE_TAGS = {
   amazon: 'aanthony08-21',
 } as const;
 
+// Google requires paid/affiliate links to be marked "sponsored"; ordinary outbound links are not.
+// No "noreferrer": Amazon must be able to see which site a click came from, and merchants
+// seeing our referrals helps when we apply to their affiliate programmes.
+export const AFFILIATE_LINK_REL = 'sponsored nofollow noopener';
+const PLAIN_LINK_REL = 'noopener';
+
+export function isAffiliateUrl(url: string): boolean {
+  return url.includes(`tag=${AFFILIATE_TAGS.amazon}`);
+}
+
+export function getLinkRel(url: string): string {
+  return isAffiliateUrl(url) ? AFFILIATE_LINK_REL : PLAIN_LINK_REL;
+}
+
+// Rewrite the rel attribute on affiliate anchors inside our own (trusted) blog HTML
+export function markAffiliateLinks(html: string): string {
+  return html.replace(/<a\s[^>]*>/g, (tag) => {
+    const href = tag.match(/href="([^"]*)"/)?.[1];
+    if (!href || !isAffiliateUrl(href)) return tag;
+    return tag.replace(/\srel="[^"]*"/, '').replace(/^<a\s/, `<a rel="${AFFILIATE_LINK_REL}" `);
+  });
+}
+
 // Clean and optimize search terms for better retailer results
 export function cleanSearchTerm(rawTerm: string): string {
   let term = rawTerm;

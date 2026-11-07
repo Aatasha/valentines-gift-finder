@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react';
 
-// Valentine's Day 2026
-const VALENTINES_DAY = new Date('2026-02-14T00:00:00');
+// Only show the countdown in the run-up to Valentine's Day
+const SHOW_WITHIN_DAYS = 120;
 
 interface CountdownState {
   days: number;
@@ -13,15 +13,22 @@ interface CountdownState {
   isPast: boolean;
 }
 
+// Next 14 February at midnight local time (rolls to next year once it has started)
+function getNextValentinesDay(now: Date): Date {
+  const thisYear = new Date(now.getFullYear(), 1, 14);
+  return now < thisYear ? thisYear : new Date(now.getFullYear() + 1, 1, 14);
+}
+
 function calculateTime(): CountdownState {
   const now = new Date();
-  const diff = VALENTINES_DAY.getTime() - now.getTime();
+  const diff = getNextValentinesDay(now).getTime() - now.getTime();
+  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
 
-  if (diff < 0) {
+  // Treat "too far away" like "past" so the countdown stays hidden off-season
+  if (diff < 0 || days > SHOW_WITHIN_DAYS) {
     return { days: 0, hours: 0, minutes: 0, seconds: 0, isPast: true };
   }
 
-  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
   const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((diff % (1000 * 60)) / 1000);

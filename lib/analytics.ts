@@ -28,7 +28,7 @@ export function trackPageView(url: string) {
 export function trackAffiliateClick(params: {
   retailer: string;
   giftName: string;
-  source: 'quiz' | 'search' | 'browse' | 'category';
+  source: 'quiz' | 'search' | 'browse' | 'category' | 'blog';
 }) {
   if (!canTrack()) return;
 
@@ -53,6 +53,17 @@ export function trackQuizComplete(params: {
     budget: params.budget,
     personality: params.personality,
     results_count: params.resultsCount,
+  });
+}
+
+// Track clicks to merchants we don't (yet) earn from - shows which programmes are worth joining
+export function trackOutboundClick(params: { domain: string; linkText: string; source: 'blog' }) {
+  if (!canTrack()) return;
+
+  window.gtag('event', 'outbound_click', {
+    link_domain: params.domain,
+    link_text: params.linkText,
+    source: params.source,
   });
 }
 

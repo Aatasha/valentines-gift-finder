@@ -6,9 +6,13 @@ export const metadata: Metadata = {
   title: "Valentine's Gift Ideas Blog | Tips, Guides & Inspiration",
   description:
     "Expert gift guides, creative ideas, and tips to help you find the perfect Valentine's gift. Updated weekly with fresh inspiration.",
+  alternates: {
+    canonical: 'https://valentinesgiftfinder.com/blog',
+  },
   openGraph: {
     title: "Valentine's Gift Ideas Blog",
     description: "Expert gift guides and creative Valentine's gift ideas",
+    images: ['/og-image.png'],
   },
 };
 

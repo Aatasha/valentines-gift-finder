@@ -4,6 +4,7 @@ import { useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import { AIGiftCard } from '@/components/AIGiftCard';
 import { ValentineCountdown } from '@/components/ValentineCountdown';
+import { AffiliateNote } from '@/components/AffiliateNote';
 import { trackQuizComplete } from '@/lib/analytics';
 
 interface QuizAnswer {
@@ -631,6 +632,7 @@ export default function QuizPage() {
               <div className="mt-2">
                 <ValentineCountdown />
               </div>
+              {results.length > 0 && <AffiliateNote className="mt-3 text-[var(--cream)]/60" />}
             </header>
 
             {results.length > 0 && (

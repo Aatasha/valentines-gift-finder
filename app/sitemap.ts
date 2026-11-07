@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 import { categories } from "@/lib/categories";
-import { getAllGifts } from "@/lib/gifts";
+import { getAllBlogPosts } from "@/lib/blog-posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://valentinesgiftfinder.com";
@@ -21,10 +21,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/search`,
+      url: `${baseUrl}/about`,
       lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
+    {
+      url: `${baseUrl}/how-we-pick`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.5,
     },
   ];
 
@@ -36,14 +42,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // Gift detail pages
-  const gifts = getAllGifts();
-  const giftPages: MetadataRoute.Sitemap = gifts.map((gift) => ({
-    url: `${baseUrl}/gifts/${gift.id}`,
-    lastModified: now,
-    changeFrequency: "weekly" as const,
-    priority: 0.6,
-  }));
+  // Gift detail pages are noindexed until they become full product pages, so they stay out
 
-  return [...staticPages, ...categoryPages, ...giftPages];
+  // Blog pages (only published posts)
+  const blogPosts = getAllBlogPosts();
+  const blogPages: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+    ...blogPosts.map((post) => ({
+      url: `${baseUrl}/blog/${post.slug}`,
+      lastModified: new Date(post.updatedAt || post.publishedAt),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    })),
+  ];
+
+  return [...staticPages, ...categoryPages, ...blogPages];
 }

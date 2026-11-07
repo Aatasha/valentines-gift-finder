@@ -5,6 +5,7 @@ import { getCategoryBySlug, getAllCategories } from '@/lib/categories';
 import { filterGiftsByCategory } from '@/lib/gifts';
 import { BrowseGiftCard } from '@/components/BrowseGiftCard';
 import { CategoryAISuggestions } from '@/components/CategoryAISuggestions';
+import { AffiliateNote } from '@/components/AffiliateNote';
 
 interface CategoryPageProps {
   params: Promise<{ slug: string }>;
@@ -30,8 +31,11 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   }
 
   return {
-    title: `${category.name} Valentine's Gifts | Valentine's Gift Finder`,
+    title: `${category.name} Valentine's Gifts`,
     description: `${category.description}. Find the perfect ${category.name.toLowerCase()} Valentine's gift for your partner.`,
+    alternates: {
+      canonical: `https://valentinesgiftfinder.com/category/${slug}`,
+    },
   };
 }
 
@@ -83,6 +87,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           <p className="mt-1 text-sm text-[var(--cream)]/60">
             {gifts.length} {gifts.length === 1 ? 'gift' : 'gifts'} found
           </p>
+          <AffiliateNote className="mt-2 text-[var(--cream)]/60" />
         </header>
 
         {/* AI-Powered Suggestions */}

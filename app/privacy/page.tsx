@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Valentine's Gift Finder",
+  title: "Privacy Policy",
   description: "Privacy Policy for Valentine's Gift Finder - how we collect, use, and protect your data.",
 };
 
@@ -33,7 +33,7 @@ export default function PrivacyPolicy() {
             <p>
               Valentine&apos;s Gift Finder (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy.
               This Privacy Policy explains how we collect, use, disclose, and safeguard your information
-              when you visit our website valentines-gift-finder.vercel.app (the &quot;Site&quot;).
+              when you visit our website valentinesgiftfinder.com (the &quot;Site&quot;).
             </p>
             <p>
               Please read this privacy policy carefully. If you do not agree with the terms of this

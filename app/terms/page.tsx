@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Valentine's Gift Finder",
+  title: "Terms of Service",
   description: "Terms of Service for Valentine's Gift Finder - rules and guidelines for using our website.",
 };
 
