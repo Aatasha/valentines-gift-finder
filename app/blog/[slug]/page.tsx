@@ -184,6 +184,31 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         article tbody tr:hover {
           background: rgba(253, 248, 245, 0.03) !important;
         }
+        article .answer-summary {
+          font-size: 1.25rem !important;
+          color: rgba(253, 248, 245, 0.92) !important;
+          background: rgba(253, 248, 245, 0.05) !important;
+          border-left: 3px solid rgba(212, 175, 55, 0.6) !important;
+          border-radius: 0 0.5rem 0.5rem 0 !important;
+          padding: 1rem 1.25rem !important;
+          margin-bottom: 2rem !important;
+        }
+        article .table-scroll {
+          overflow-x: auto !important;
+          margin: 2rem 0 !important;
+        }
+        article .table-scroll table {
+          margin: 0 !important;
+        }
+        article .table-scroll th {
+          white-space: normal !important;
+        }
+        article .quick-picks td:nth-child(2) {
+          white-space: nowrap !important;
+        }
+        article td a {
+          color: var(--gold) !important;
+        }
       `}} />
 
       <div className="min-h-screen bg-[var(--background)]">
